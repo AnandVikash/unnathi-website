@@ -1,0 +1,10 @@
+.titleContainer span {
+  font-size: 28px;
+  font-weight: 700;
+}
+.backgroundColor {
+  background-color: #005bea;
+  padding: 10px 0px 10px 10px;
+  border-radius: 8px;
+  color: white;
+}

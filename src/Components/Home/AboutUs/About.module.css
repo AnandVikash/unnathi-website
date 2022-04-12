@@ -1,0 +1,49 @@
+.aboutMainContainer {
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+.aboutContainer {
+  display: flex;
+  height: 100vh;
+}
+.aboutContainer div {
+  width: 50%;
+  flex-basis: 50%;
+}
+.imgContainer {
+  position: relative;
+  border: 2px solid red;
+}
+.imgContainer img {
+  display: block;
+  height: 80%;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.blueBackGround {
+  position: absolute;
+  background-color: aqua;
+  left: 33%;
+  top: 20%;
+  width: 40%;
+  height: 60%;
+  z-index: -2;
+  border-radius: 10px;
+}
+.cementBackGround {
+  position: absolute;
+  background-color: red;
+  left: 43%;
+  top: 40%;
+  width: 40%;
+  height: 55%;
+  z-index: -1;
+  border-radius: 10px;
+}
+.aboutTextContainer {
+}
+.content {
+  padding: 40px;
+}
