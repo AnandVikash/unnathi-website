@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../../Assets/Home/AboutUs/group-image.jpg";
 import styles from "./About.module.css";
-import Title from "../../ElementsUi/Title/Title";
+import BgTitle from "../../ElementsUi/BgTitle";
 export default function index() {
   return (
     <>
@@ -15,7 +15,7 @@ export default function index() {
           </div>
           <div className={styles.aboutTextContainer}>
             <div className={styles.content}>
-              <Title text="ABOUT US" length="3" />
+              <BgTitle text="ABOUT US" length="3" tag="p" />
               <h3>Creative Design & Development</h3>
               <p>
                 Our Mission Is To Provide Quality English Language Instruction

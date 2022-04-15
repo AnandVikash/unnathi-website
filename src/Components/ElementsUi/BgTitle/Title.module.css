@@ -4,7 +4,8 @@
 }
 .backgroundColor {
   background-color: #005bea;
-  padding: 10px 0px 10px 10px;
+  padding: 7px 0px 7px 10px;
   border-radius: 8px;
   color: white;
+  padding-left: 25px;
 }

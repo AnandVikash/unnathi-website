@@ -1,0 +1,11 @@
+.tagstyles {
+  margin: 10px 0px;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.2em;
+  letter-spacing: -0.65px;
+  color: #0000;
+  margin: 0;
+  max-width: 666px;
+}
