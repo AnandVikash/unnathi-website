@@ -11,6 +11,7 @@ export default function index() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    arrows: true,
   };
   return (
     <>
