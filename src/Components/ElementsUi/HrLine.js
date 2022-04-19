@@ -7,7 +7,7 @@ export default function HrLine({ width, height, color }) {
         height,
         width,
         backgroundColor: color,
-        marginLeft: 0,
+
         borderRadius: "10px",
       }}
     ></hr>
