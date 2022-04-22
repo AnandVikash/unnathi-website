@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./process.module.css";
-import BgTitle from "../../ElementsUi/BgTitle";
-import SecTitle from "../../ElementsUi/SecTitle";
-import HrLine from "../../ElementsUi/HrLine";
+import BgTitle from "../../Assets/ElementsUi/BgTitle";
+import SecTitle from "../../Assets/ElementsUi/SecTitle";
+import HrLine from "../../Assets/ElementsUi/HrLine";
 export default function index() {
   return (
     <>

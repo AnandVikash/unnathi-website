@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./ourTeam.module.css";
 import Slider from "react-slick";
-import BgTitle from "../../ElementsUi/BgTitle";
-import HrLine from "../../ElementsUi/HrLine";
-import SecTitle from "../../ElementsUi/SecTitle";
+import BgTitle from "../../Assets/ElementsUi/BgTitle";
+import HrLine from "../../Assets/ElementsUi/HrLine";
+import SecTitle from "../../Assets/ElementsUi/SecTitle";
 export default function index() {
   const settings = {
     dots: true,

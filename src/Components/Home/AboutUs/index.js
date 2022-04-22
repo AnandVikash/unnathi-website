@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../../Assets/Home/AboutUs/group-image.jpg";
 import styles from "./About.module.css";
-import BgTitle from "../../ElementsUi/BgTitle";
+import BgTitle from "../../Assets/ElementsUi/BgTitle";
 export default function index() {
   return (
     <>

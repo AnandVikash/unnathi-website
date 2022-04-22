@@ -15,7 +15,6 @@ export default function index() {
       <Testimonials />
       <OurProcess />
       <Blog />
-      <Footer />
     </div>
   );
 }

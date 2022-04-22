@@ -1,9 +1,9 @@
 import React from "react";
-import BgTitle from "../../ElementsUi/BgTitle";
-import SecTitle from "../../ElementsUi/SecTitle";
-import HrLine from "../../ElementsUi/HrLine";
+import BgTitle from "../../Assets/ElementsUi/BgTitle";
+import SecTitle from "../../Assets/ElementsUi/SecTitle";
+import HrLine from "../../Assets/ElementsUi/HrLine";
 import styles from "./ourblog.module.css";
-import Button from "../../ElementsUi/Button";
+import Button from "../../Assets/ElementsUi/Button";
 import Slider from "react-slick";
 export default function index() {
   const settings = {
