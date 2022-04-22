@@ -4,16 +4,13 @@
 }
 .ourProcessContainer {
   padding-top: 100px;
-  border: 2px solid red;
 }
 .ourTopContainer {
   display: flex;
   padding: 0 3%;
-  border: 2px solid red;
 }
 .ourTopContainer div {
   width: 50%;
-  border: 2px solid red;
 }
 .ourTopPrimaryOne div {
   background-color: blue;
@@ -29,5 +26,37 @@
   border: 3px solid green;
 }
 .ourBottomContainer {
-  display: flex;
+  display: grid;
+  padding: 4% 2%;
+  grid-template-columns: 50% 50%;
+}
+.imgBackColor {
+}
+.ourBottomPrimaryOne img {
+  width: 100%;
+}
+.cardContainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+}
+.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-content: center;
+  box-shadow: 0px 5px 45px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 45px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 45px -5px rgba(0, 0, 0, 0.75);
+  margin: 20px 0px;
+  height: 200px;
+  background-color: white;
+}
+.cards div {
+  align-self: center;
+  justify-self: center;
+
+  padding: 10px;
+}
+.cardsImage {
 }

@@ -38,17 +38,40 @@ export default function index() {
           </div>
           <div className={styles.ourBottomContainer}>
             <div className={styles.ourBottomPrimaryOne}>
-              <div></div>
               <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/co-workers-working-together-PRZ8DTV@2x.jpg" />
             </div>
             <div className={styles.ourBottomPrimaryTwo}>
               <div className={styles.cardContainer}>
-                <div className={styles.cardItem}>
-                  <div className={styles.cardIcon}>
+                <div className={styles.cards}>
+                  <div className={styles.cardsImage}>
                     <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Significon-Bulb.png" />
                   </div>
-                  <div className={styles.cardText}>
-                    <h3>01. Build Prototypes</h3>
+                  <div className={styles.cardsText}>
+                    <h2>01. Build Prototypes</h2>
+                    <p>
+                      Our mission is to provide quality English language
+                      instruction
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.cards}>
+                  <div className={styles.cardsImage}>
+                    <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Significon-Bulb.png" />
+                  </div>
+                  <div className={styles.cardsText}>
+                    <h2>01. Build Prototypes</h2>
+                    <p>
+                      Our mission is to provide quality English language
+                      instruction
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.cards}>
+                  <div className={styles.cardsImage}>
+                    <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Significon-Bulb.png" />
+                  </div>
+                  <div className={styles.cardsText}>
+                    <h2>01. Build Prototypes</h2>
                     <p>
                       Our mission is to provide quality English language
                       instruction
