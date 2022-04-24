@@ -1,6 +1,7 @@
 import React from "react";
 import OurBenifits from "./OurBenifits";
 import WhoWeAre from "./WhoAreWe";
+import OurSkill from "./OurSkill";
 import SecTitle from "../Assets/ElementsUi/SecTitle";
 import styles from "./about.module.css";
 
@@ -16,6 +17,7 @@ export default function index() {
       </div>
       <OurBenifits />
       <WhoWeAre />
+      <OurSkill />
     </>
   );
 }

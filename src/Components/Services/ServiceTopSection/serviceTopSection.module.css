@@ -1,0 +1,27 @@
+.serviceTopMainContainer {
+  width: 100%;
+  margin: 8% 0%;
+}
+.serviceTopContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.serviceTextContainer {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.serviceTextTitle {
+  flex: 3;
+}
+.serviceTextDesc {
+  flex: 4;
+}
+.serviceTextDesc p {
+  color: #787878;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.6em;
+}

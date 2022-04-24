@@ -1,0 +1,93 @@
+.stickyPosition {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 9999999;
+}
+.navbarMainContainer {
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+  transition: 2s;
+}
+
+.navbarContainer {
+  margin: 0 auto;
+  width: 90%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 55px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 55px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 55px -2px rgba(0, 0, 0, 0.75);
+  transition: 2s;
+}
+.navbarImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarImg img {
+  width: 70%;
+}
+.navbarMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarMenu ul {
+}
+.navbarMenu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbarContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(52, 125, 235);
+  border-radius: 0px 20px 20px 0px;
+  transition: 2s;
+}
+.navbarContactLogo {
+  flex: 1;
+}
+.navbarContactLogo svg {
+  color: white;
+  font-size: 60px;
+}
+.navbarContactText {
+  flex: 2;
+}
+.navbarContactText h5 {
+  color: white;
+  font-size: 1rem;
+}
+.navbarContactText p {
+  color: white;
+  font-size: 2rem;
+}
+
+.navbarMenu ul li:after {
+  content: "";
+  background: orange;
+  display: block;
+  width: 0%;
+  height: 2px;
+}
+.navbarMenu ul li:hover::after {
+  margin-top: 3px;
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+}

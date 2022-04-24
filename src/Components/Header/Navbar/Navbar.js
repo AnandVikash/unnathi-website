@@ -1,28 +1,85 @@
-import React from "react";
-import "./Navbar.css";
-
+import React, { useEffect, useState } from "react";
+import styles from "./navbar.module.css";
+import { FaHeadset } from "react-icons/fa";
 function Navbar() {
+  const [scrollClassName, setScrollClassName] = useState(false);
+  // const [removeScrollClass, setRemoveScrollClass] = useState(true);
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    if (position > window.innerHeight) {
+      setScrollClassName(true);
+      console.log(position);
+    }
+    if (position < window.innerHeight) {
+      setScrollClassName(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  const handleNavbarScroll = {
+    width: "",
+    height: "",
+    borderRadius: "",
+    transition: "",
+  };
+  const navbarContact = {
+    borderRadius: "",
+    transition: "",
+  };
+
+  if (scrollClassName) {
+    handleNavbarScroll.width = "100%";
+    handleNavbarScroll.height = "100%";
+    handleNavbarScroll.borderRadius = "0px";
+    handleNavbarScroll.transition = "2s";
+    navbarContact.borderRadius = "0px";
+    navbarContact.transition = "2s";
+  }
+
   return (
-    <div className="n-wrapper">
-      <div className="n-left">
-        <div className="n-name">Digikit</div>
-        <span>toggle</span>
-      </div>
-      <div className="n-right">
-        <div className="n-list">
-          <ul>
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>About</li>
-            <li>Testimon</li>
-          </ul>
+    <>
+      <div className={styles.stickyPosition}>
+        <div className={styles.navbarMainContainer}>
+          <div
+            className={styles.navbarContainer}
+            // style={{ width: "100%", height: "100%", borderRadius: "0px" }}
+            style={{ ...handleNavbarScroll }}
+          >
+            <div className={styles.navbarImg}>
+              <img src="https://digikit.in/assets/img/logo.png" />
+            </div>
+            <div className={styles.navbarMenu}>
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+            <div
+              className={styles.navbarContact}
+              // style={{ borderRadius: "0px" }}
+              style={{ ...navbarContact }}
+            >
+              <div className={styles.navbarContactLogo}>
+                <FaHeadset />
+              </div>
+              <div className={styles.navbarContactText}>
+                <h5>Free Call</h5>
+                <p>1234567890</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <button className="button">contact us</button>
       </div>
-    </div>
+    </>
   );
 }
 

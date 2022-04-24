@@ -1,0 +1,47 @@
+.serviceMainContainer {
+}
+.serviceTopContainer {
+  background-image: url("https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/sharing-idea-PAGDGS7@2x.jpg");
+  height: 55vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.serviceTopContaineroverlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.aboutTopContainer {
+    background-image: url("https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/sharing-idea-PAGDGS7@2x.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  .aboutTopContaineroverlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   */
