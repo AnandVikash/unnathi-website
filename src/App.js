@@ -2,6 +2,8 @@ import Navbar from "./Components/Header/Navbar/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Service from "./Components/Services";
+import Blogs from "./Components/Blogs";
+import SingleBlog from "./Components/Blogs/SingleBlog";
 import Footer from "./Components/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,6 +19,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/:blogtTitle/:id" element={<SingleBlog />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -23,7 +23,31 @@ export default function index() {
               Through A Variety Of Courses To International
             </p>
           </div>
-          <div>
+
+          <div className={styles.serviceCards}>
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceCardImg}>
+                <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/01/asian-businesswoman-laptop-planning-strategy-PQFT2HE@2x.jpg" />
+              </div>
+              <div className={styles.serviceCardText}>
+                <div className={styles.serviceCardTitle}>Web Design</div>
+                <div className={styles.serviceCardIcon}> ----&gt;</div>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.serviceCards}>
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceCardImg}>
+                <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/01/asian-businesswoman-laptop-planning-strategy-PQFT2HE@2x.jpg" />
+              </div>
+              <div className={styles.serviceCardText}>
+                <div className={styles.serviceCardTitle}>Web Design</div>
+                <div className={styles.serviceCardIcon}> ----&gt;</div>
+              </div>
+            </div>
+          </div>
+          {/* <div>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <img
@@ -74,9 +98,43 @@ export default function index() {
                 </div>
               </div>
             </div>
+          </div> */}
+        </div>
+        <div className={styles.serviceCardContainer2}>
+          <div className={styles.serviceCards}>
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceCardImg}>
+                <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/01/asian-businesswoman-laptop-planning-strategy-PQFT2HE@2x.jpg" />
+              </div>
+              <div className={styles.serviceCardText}>
+                <div className={styles.serviceCardTitle}>Web Design</div>
+                <div className={styles.serviceCardIcon}> ----&gt;</div>
+              </div>
+            </div>{" "}
+          </div>
+          <div className={styles.serviceCards}>
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceCardImg}>
+                <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/01/asian-businesswoman-laptop-planning-strategy-PQFT2HE@2x.jpg" />
+              </div>
+              <div className={styles.serviceCardText}>
+                <div className={styles.serviceCardTitle}>Web Design</div>
+                <div className={styles.serviceCardIcon}> ----&gt;</div>
+              </div>
+            </div>{" "}
+          </div>
+          <div className={styles.serviceCards}>
+            <div className={styles.serviceCard}>
+              <div className={styles.serviceCardImg}>
+                <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/01/asian-businesswoman-laptop-planning-strategy-PQFT2HE@2x.jpg" />
+              </div>
+              <div className={styles.serviceCardText}>
+                <div className={styles.serviceCardTitle}>Web Design</div>
+                <div className={styles.serviceCardIcon}> ----&gt;</div>
+              </div>
+            </div>{" "}
           </div>
         </div>
-        <div></div>
       </div>
     </>
   );

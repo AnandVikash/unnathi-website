@@ -5,10 +5,11 @@ import OurTeam from "./OurTeam";
 import Testimonials from "./Testimonials";
 import OurProcess from "./OurProcess";
 import Blog from "./OurBlog";
-import Footer from "../Footer";
+import Banner from "./Banner";
 export default function index() {
   return (
     <div>
+      <Banner />
       <About />
       <Service />
       <OurTeam />

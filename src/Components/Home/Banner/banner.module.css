@@ -1,0 +1,22 @@
+.bannerMainContainer {
+}
+.bannerContainer {
+  width: 95%;
+  margin: 0 auto;
+}
+.bannerContent {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.bannerContentText {
+  padding-top: 200px;
+}
+
+.bannerContentImg {
+  transform: translate(10%, -10%);
+  transition: 2s;
+}
+.bannerContentImage:hover .bannerContentImg {
+  transform: translate(0%, -8%);
+}

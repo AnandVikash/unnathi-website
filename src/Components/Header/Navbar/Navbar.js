@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
 import { FaHeadset } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 function Navbar() {
   const [scrollClassName, setScrollClassName] = useState(false);
   // const [removeScrollClass, setRemoveScrollClass] = useState(true);
@@ -41,7 +42,11 @@ function Navbar() {
     navbarContact.borderRadius = "0px";
     navbarContact.transition = "2s";
   }
+  let activeStyle = {
+    textDecoration: "underline",
+  };
 
+  let activeClassName = "underline";
   return (
     <>
       <div className={styles.stickyPosition}>
@@ -56,10 +61,25 @@ function Navbar() {
             </div>
             <div className={styles.navbarMenu}>
               <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Blog</li>
+                <li>
+                  <NavLink
+                    to="/"
+                    style={({ isActive }) =>
+                      isActive ? activeStyle : undefined
+                    }
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/about">About</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/service">Services</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/blogs">Blog</NavLink>{" "}
+                </li>
                 <li>Contact Us</li>
               </ul>
             </div>
