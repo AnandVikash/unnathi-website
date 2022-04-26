@@ -2,10 +2,11 @@ import React from "react";
 import img from "../../Assets/Home/AboutUs/group-image.jpg";
 import styles from "./About.module.css";
 import BgTitle from "../../Assets/ElementsUi/BgTitle";
+import { motion } from "framer-motion";
 export default function index() {
   return (
     <>
-      <div className={styles.aboutMainContainer}>
+      <motion.div className={styles.aboutMainContainer}>
         <div className={styles.aboutContainer}>
           <div className={styles.imgContainer}>
             <img src={img} />
@@ -27,7 +28,7 @@ export default function index() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

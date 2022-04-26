@@ -80,7 +80,10 @@ function Navbar() {
                 <li>
                   <NavLink to="/blogs">Blog</NavLink>{" "}
                 </li>
-                <li>Contact Us</li>
+                <li>
+                  {" "}
+                  <NavLink to="/contact-us">Contact Us</NavLink>{" "}
+                </li>
               </ul>
             </div>
             <div
