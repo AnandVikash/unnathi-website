@@ -10,7 +10,6 @@ function Navbar() {
     const position = window.pageYOffset;
     if (position > window.innerHeight) {
       setScrollClassName(true);
-      console.log(position);
     }
     if (position < window.innerHeight) {
       setScrollClassName(false);

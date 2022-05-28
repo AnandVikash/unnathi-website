@@ -1,5 +1,5 @@
 import Navbar from "./Components/Header/Navbar/Navbar";
-import Home from "./Components/Home";
+import Home from "./Components/Home/Index";
 import About from "./Components/About";
 import Service from "./Components/Services";
 import Contact from "./Components/Contact";
@@ -8,9 +8,8 @@ import SingleBlog from "./Components/Blogs/SingleBlog";
 import Footer from "./Components/Footer";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
+import "./animation.css";
 function App() {
   return (
     <>

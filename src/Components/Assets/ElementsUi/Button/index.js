@@ -3,7 +3,6 @@ import React, { useState } from "react";
 export default function Index(props) {
   const [hover, setHover] = useState(false);
   const { btntext, bgcolor, color, hoverColor, hoverBgColor } = props;
-  console.log(bgcolor);
   const buttonStyle = ({ hover }) => ({
     padding: "13px 50px",
     background: hover ? hoverBgColor : bgcolor,
