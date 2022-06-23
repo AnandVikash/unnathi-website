@@ -3,10 +3,11 @@ import styles from "./Title.module.css";
 export default function BgTitle({
   text,
   length,
-  tag,
+  tag: Tag,
   textColor,
   secColor,
   backgroundColor,
+  secBackColor,
 }) {
   return (
     <>

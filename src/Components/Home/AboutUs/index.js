@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import img from "../../Assets/Home/AboutUs/group-image.jpg";
 import styles from "./About.module.css";
 import BgTitle from "../../Assets/ElementsUi/BgTitle";
@@ -9,36 +9,67 @@ import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 export default function Index() {
   const [ref, inView] = useInView({
-    threshold: 0.2,
+    threshold: 0.1,
   });
-  const animation = useAnimation();
+  const [scrollPosition, setScrollPosition] = useState(0);
 
+  const imganimation = useAnimation();
+  const animationBox1 = useAnimation();
+  const animationBox2 = useAnimation();
+  let scrollPos = Math.ceil(scrollPosition);
   useEffect(() => {
     if (inView) {
-      console.log("true");
-      animation.start({
-        x: 100,
+      imganimation.start({
+        y: scrollPos / 40,
+        transition: { type: "spring", stiffness: 100 },
+      });
+      animationBox1.start({
+        x: scrollPos / 35,
+        transition: { type: "spring", stiffness: 100 },
+      });
+      animationBox2.start({
+        y: scrollPos / 20,
+        transition: { type: "spring", stiffness: 100 },
       });
     }
     if (!inView) {
-      animation.start({
-        x: 0,
-      });
     }
-  }, [inView]);
+  }, [inView, scrollPosition]);
+  const handleScroll = () => {
+    const position = Math.floor(window.pageYOffset);
+    setScrollPosition(position);
+  };
 
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrollPosition]);
   return (
     <>
-      <div className={` ${styles.aboutMainContainer}`}>
-        <div className={styles.aboutContainer}>
-          <div className={styles.imgContainer}>
-            <img src={img} ref={ref} />
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        // data-aos-once="false"
+        className={` ${styles.aboutMainContainer}`}
+      >
+        <div className={styles.aboutContainer} ref={ref}>
+          <div
+            className={styles.imgContainer}
 
-            <div className={styles.blueBackGround}></div>
+            // data-aos-duration="1000"
+          >
             <motion.div
-              animate={animation}
+              animate={animationBox2}
+              className={styles.blueBackGround}
+            ></motion.div>
+            <motion.div
+              animate={animationBox1}
               className={styles.cementBackGround}
             ></motion.div>
+            {/* <motion.img src={img} animate={animationBox1} /> */}
+            <motion.img animate={imganimation} src={img} />
           </div>
           <div className={styles.aboutTextContainer}>
             <div className={styles.content}>

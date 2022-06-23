@@ -6,7 +6,7 @@
 }
 .navbarMainContainer {
   position: absolute;
-  height: 120px;
+  height: 90px;
   width: 100%;
   vertical-align: center;
   display: flex;
@@ -64,7 +64,7 @@
 }
 .navbarContactLogo svg {
   color: white;
-  font-size: 60px;
+  font-size: 40px;
 }
 .navbarContactText {
   flex: 2;

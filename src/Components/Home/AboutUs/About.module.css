@@ -1,49 +1,54 @@
 .aboutMainContainer {
   width: 95%;
   margin: 0 auto;
-
-  /* padding-top: 400px; */
 }
 .aboutContainer {
   display: flex;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
 }
 .aboutContainer div {
   flex-basis: 50%;
 }
 .imgContainer {
   position: relative;
+  padding: 30px 0px 30px 25px;
+  height: 750px;
+  text-align: center;
 }
 .imgContainer img {
-  display: block;
-  height: 80%;
-  margin-top: 10%;
-  border-radius: 10px;
+  width: 75%;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 15px;
+  z-index: 2;
 }
 
 .blueBackGround {
   position: absolute;
-  background-color: aqua;
-  left: 33%;
+  margin: 0 auto;
   top: 20%;
-  width: 40%;
-  height: 60%;
-  z-index: -2;
-  border-radius: 10px;
+  left: 35%;
+  width: 50%;
+  height: 50%;
+  z-index: 0;
+  background-color: yellow;
+  border-radius: 15px;
 }
 .cementBackGround {
   position: absolute;
-  background-color: red;
-  left: 43%;
-  top: 40%;
-  width: 40%;
-  height: 55%;
-  z-index: -1;
-  border-radius: 10px;
+  margin: 0 auto;
+  top: 35%;
+  left: 37%;
+  width: 50%;
+  height: 60%;
+  background-color: blue;
+  border-radius: 15px;
+  z-index: 0;
 }
-.aboutTextContainer {
-  border: 2px solid red;
-}
+
 .content {
   padding: 40px;
 }
