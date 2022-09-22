@@ -6,7 +6,6 @@ export default function Index(props) {
   const buttonStyle = ({ hover }) => ({
     padding: "13px 50px",
     background: hover ? hoverBgColor : bgcolor,
-    margin: "20px 0px",
     fontSize: "20px",
     fontWeight: "600",
     borderRadius: "20px",

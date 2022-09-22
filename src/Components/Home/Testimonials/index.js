@@ -1,349 +1,149 @@
 import React from "react";
 import styles from "./testimonial.module.css";
 import Slider from "react-slick";
+import SecTitle from "../../Assets/ElementsUi/SecTitle";
 import { ImQuotesRight } from "react-icons/im";
+import { ImQuotesLeft } from "react-icons/im";
+import { RiDoubleQuotesL } from "react-icons/ri";
+import TestimonialImg from "../../Assets/Home/Testimonials/testimonial-background.jpg";
 export default function index() {
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "green" }}
-        onClick={onClick}
-      />
-    );
-  }
-  const settings = {
+  var settings = {
     dots: true,
-    infinite: true,
     arrows: true,
+    infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
   };
   return (
     <>
-      <div className={styles.testimonialMainContainer}>
-        <div className={styles.testimonialSliderContainer}>
-          <Slider {...settings}>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.imgbox}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
+      <div className={styles.TestimonialAlphaContainer}>
+        <SecTitle
+          title="Testimonials"
+          titleTag="p"
+          titleColor="#000"
+          text=""
+          textTag="p"
+          textColor="#000"
+        />
+        <div className={styles.TestimonialContainer}>
+          <Slider {...settings} className={styles.TestimonialSliderContainer}>
+            <div>
+              <div className={styles.TestimonialItem}>
+                <div className={styles.TestimonialItemDescContainer}>
+                  <p className={styles.TestimonialItemDesc}>
+                    <RiDoubleQuotesL />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus tempor quis eros volutpat lobortis. Integer
+                    hendrerit finibus euismod.
                   </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
+                </div>
+                <div className={styles.TestimonialItemAuthorContainer}>
+                  <p className={styles.TestimonialItemAuthor}>User</p>
+                  <p className={styles.TestimonialItemDesignation}>Student</p>
                 </div>
               </div>
             </div>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.imgbox}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
+            <div>
+              <div className={styles.TestimonialItem}>
+                <div className={styles.TestimonialItemDescContainer}>
+                  <p className={styles.TestimonialItemDesc}>
+                    <RiDoubleQuotesL />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus tempor quis eros volutpat lobortis. Integer
+                    hendrerit finibus euismod. Phasellus at semper metus. Nullam
+                    et est et ligula faucibus tristique sed id elit. Sed
+                    porttitor eros velit, eget faucibus nisi ullamcorper a. In
+                    hac habitasse
                   </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
+                </div>
+                <div className={styles.TestimonialItemAuthorContainer}>
+                  <p className={styles.TestimonialItemAuthor}>User</p>
+                  <p className={styles.TestimonialItemDesignation}>Student</p>
                 </div>
               </div>
             </div>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.imgbox}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
+            <div>
+              <div className={styles.TestimonialItem}>
+                <div className={styles.TestimonialItemDescContainer}>
+                  <p className={styles.TestimonialItemDesc}>
+                    <RiDoubleQuotesL />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus tempor quis eros volutpat lobortis. Integer
+                    hendrerit finibus euismod.se
                   </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
+                </div>
+                <div className={styles.TestimonialItemAuthorContainer}>
+                  <p className={styles.TestimonialItemAuthor}>User</p>
+                  <p className={styles.TestimonialItemDesignation}>Student</p>
                 </div>
               </div>
             </div>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.imgbox}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
+            <div>
+              <div className={styles.TestimonialItem}>
+                <div className={styles.TestimonialItemDescContainer}>
+                  <p className={styles.TestimonialItemDesc}>
+                    <RiDoubleQuotesL />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus tempor quis eros volutpat lobortis. Integer
+                    hendrerit finibus euismod. Phasellus at semper metus. Nullam
+                    et est et ligula faucibus tristique sed id elit.
                   </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
+                </div>
+                <div className={styles.TestimonialItemAuthorContainer}>
+                  <p className={styles.TestimonialItemAuthor}>User</p>
+                  <p className={styles.TestimonialItemDesignation}>Student</p>
                 </div>
               </div>
             </div>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.imgbox}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
+            <div>
+              <div className={styles.TestimonialItem}>
+                <div className={styles.TestimonialItemDescContainer}>
+                  <p className={styles.TestimonialItemDesc}>
+                    <RiDoubleQuotesL />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus tempor quis etus. Nullam et est et ligula faucibus
+                    tristique sed id elit. Sed porttitor eros velit, eget
+                    faucibus nisi ullamcorper a. In hac habitasse
                   </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
+                </div>
+                <div className={styles.TestimonialItemAuthorContainer}>
+                  <p className={styles.TestimonialItemAuthor}>User</p>
+                  <p className={styles.TestimonialItemDesignation}>Student</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className={styles.TestimonialItem}>
+                <div className={styles.TestimonialItemDescContainer}>
+                  <p className={styles.TestimonialItemDesc}>
+                    <RiDoubleQuotesL />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus te id elit. Sed porttitor eros velit, eget faucibus
+                    nisi ullamcorper a. In hac habitasse
+                  </p>
+                </div>
+                <div className={styles.TestimonialItemAuthorContainer}>
+                  <p className={styles.TestimonialItemAuthor}>User</p>
+                  <p className={styles.TestimonialItemDesignation}>Student</p>
                 </div>
               </div>
             </div>
           </Slider>
         </div>
       </div>
-      {/* <div className={styles.testimonialMainContainer}>
-        <div className={styles.testimonialMaincontainer}>
-          <SamplePrevArrow />
-          <Slider {...settings}>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.testionialImage}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
-                  </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.testionialImage}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
-                  </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.testionialImage}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
-                  </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.testionialImage}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
-                  </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.testimonialItemContainer}>
-              <div className={styles.testimonialItem}>
-                <div className={styles.testionialImage}>
-                  <div className={styles.colorBox}></div>
-                  <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-                </div>
-                <div className={styles.testimonialText}>
-                  <p className={styles.testimonial}>
-                    When it comes to barbequing, there are two main schools of
-                    thought for the techniques that you can use. Freshly eggs
-                    with applewood smoked bacon - are amazing!
-                  </p>
-                  <div className={styles.authors}>
-                    <div>
-                      <p className={styles.author}>Albert Wilson</p>
-                    </div>
-                    <div>
-                      <ImQuotesRight
-                        style={{
-                          color: "red",
-                          fontSize: "100px",
-                        }}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </div> */}
     </>
   );
-}
-{
-  /*           <div className={styles.testimonialItem}>
-            <div className={styles.imgBox}>
-              <div className={styles.colorBox}></div>
-              <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/Mask-Group-835@2x@2x.jpg" />
-            </div>
-            <div className={styles.testimonialText}>
-              <p className={styles.testimonial}>
-                When it comes to barbequing, there are two main schools of
-                thought for the techniques that you can use. Freshly eggs with
-                applewood smoked bacon - are amazing!
-              </p>
-              <div className={styles.authors}>
-                <div>
-                  <p className={styles.author}>Albert Wilson</p>
-                </div>
-                <div>
-                  <ImQuotesRight
-                    style={{
-                      color: "red",
-                      fontSize: "100px",
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div> */
 }

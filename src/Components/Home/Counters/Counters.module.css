@@ -1,0 +1,36 @@
+.CountersAlphaContainer {
+  margin: 30px 0px;
+}
+.CountersMainContainer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  height: 300px;
+}
+.CountersMainContainer > div {
+  flex-basis: 33.33%;
+  border-right: 2px solid #000;
+}
+.CountersItem {
+  text-align: center;
+}
+.CountersItem svg {
+  font-size: 50px;
+  width: 100%;
+}
+.CountersItem p {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(92, 92, 92);
+  width: 85%;
+  margin: 15px auto;
+  line-height: 25px;
+}
+.CountersItem span {
+  font-weight: bold;
+  font-size: 50px;
+}

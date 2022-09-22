@@ -1,101 +1,122 @@
 import React, { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
-import { FaHeadset } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import {
+  AiFillPhone,
+  AiOutlineMail,
+  AiFillFacebook,
+  AiFillTwitterCircle,
+  AiFillInstagram,
+} from "react-icons/ai";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaPinterest,
+  FaSearch,
+} from "react-icons/fa";
+import { NavLink, Link } from "react-router-dom";
 function Navbar() {
-  const [scrollClassName, setScrollClassName] = useState(false);
-  // const [removeScrollClass, setRemoveScrollClass] = useState(true);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    if (position > window.innerHeight) {
-      setScrollClassName(true);
-    }
-    if (position < window.innerHeight) {
-      setScrollClassName(false);
-    }
+    setScrollPosition(position);
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const handleNavbarScroll = {
-    width: "",
-    height: "",
-    borderRadius: "",
-    transition: "",
-  };
-  const navbarContact = {
-    borderRadius: "",
-    transition: "",
-  };
+  console.log(scrollPosition);
+  // let stickyClasses = styles.navbarMenuSticky;
 
-  if (scrollClassName) {
-    handleNavbarScroll.width = "100%";
-    handleNavbarScroll.height = "100%";
-    handleNavbarScroll.borderRadius = "0px";
-    handleNavbarScroll.transition = "2s";
-    navbarContact.borderRadius = "0px";
-    navbarContact.transition = "2s";
+  let stickyClasses = "";
+  if (scrollPosition > window.innerHeight) {
+    stickyClasses = styles.navbarMenuSticky;
   }
-  let activeStyle = {
-    textDecoration: "underline",
-  };
-
-  let activeClassName = "underline";
   return (
     <>
-      <div className={styles.stickyPosition}>
-        <div className={styles.navbarMainContainer}>
-          <div
-            className={styles.navbarContainer}
-            // style={{ width: "100%", height: "100%", borderRadius: "0px" }}
-            style={{ ...handleNavbarScroll }}
-          >
-            <div className={styles.navbarImg}>
-              <img src="https://digikit.in/assets/img/logo.png" />
-            </div>
-            <div className={styles.navbarMenu}>
-              <ul>
-                <li>
-                  <NavLink
-                    to="/"
-                    style={({ isActive }) =>
-                      isActive ? activeStyle : undefined
-                    }
-                  >
-                    Home
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/about">About</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/service">Services</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/blogs">Blog</NavLink>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <NavLink to="/contact-us">Contact Us</NavLink>{" "}
-                </li>
-              </ul>
-            </div>
-            <div
-              className={styles.navbarContact}
-              // style={{ borderRadius: "0px" }}
-              style={{ ...navbarContact }}
-            >
-              <div className={styles.navbarContactLogo}>
-                <FaHeadset />
+      <div className={styles.navbarAlphaContainer}>
+        <div className={styles.navbarTopContainer}>
+          <div className={styles.navbarTopAccounts}>
+            <div className={styles.navbarTopEmail}>
+              <div>
+                <AiOutlineMail />
               </div>
-              <div className={styles.navbarContactText}>
-                <h5>Free Call</h5>
-                <p>1234567890</p>
+              <div>healing.unnathi@gmail.com</div>
+            </div>
+            <div className={styles.navbarTopPhone}>
+              <div>
+                <AiFillPhone />
+              </div>
+              <div>+91 9845426049</div>
+            </div>
+            <div className={styles.navbarTopFaq}></div>
+          </div>
+          <div className={styles.navbarTopSocialAccounts}>
+            <ul className={styles.navbarTopSocialMedia}>
+              <li>
+                <FaFacebookF />
+              </li>
+              <li>
+                <FaInstagram />
+              </li>
+              <li>
+                <FaLinkedinIn />
+              </li>
+              <li>
+                <FaTwitter />
+              </li>
+              <li>
+                <FaPinterest />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className={`${styles.navbarMenuAlphaContainer} ${stickyClasses}`}>
+          <div className={styles.navbarMenuMainContainer}>
+            <div className={styles.navbarlogoContainer}>
+              <img src="https://unnathi.org/images/logonew.jpg" />
+            </div>
+            <div className={styles.navbarMenuContainer}>
+              <div className={styles.navbarMenuBackgroundContainer}>
+                <div className={styles.navbarMenuItems}>
+                  <ul>
+                    <li>
+                      <NavLink to="/">Home</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/">Training</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/">Healing</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/">About Us</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/">Projects</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/">Media</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/">Research</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to="/">Contact</NavLink>
+                    </li>
+                  </ul>
+                </div>
+                <div className={styles.navbarMenuSearch}>
+                  <FaSearch />
+                </div>
+                <div className={styles.navbarMenuButton}>
+                  <a>Donate Now</a>
+                </div>
               </div>
             </div>
           </div>

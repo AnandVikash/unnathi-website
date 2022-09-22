@@ -1,38 +1,27 @@
 .bannerMainContainer {
-  width: 100%;
-  border: 2px solid red;
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-  /* background: yellow; */
-}
-.leftBottom {
-  position: absolute;
-  bottom: 100px;
-  left: -160px;
-}
-.bannerContainer {
+  background: linear-gradient(
+      108deg,
+      rgba(255, 222, 209, 0.5662640056022409) 100%,
+      rgba(255, 77, 0, 0.3060574571625525) 100%
+    ),
+    url("../../Assets/Home/Banner/header-banner.jpeg");
   display: grid;
-  height: 130vh;
-  /* height: 1064px; */
-  grid-template-columns: 40% 60%;
-  -webkit-box-shadow: 0px 16px 20px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 16px 20px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 16px 20px 0px rgba(0, 0, 0, 0.75);
+  grid-template-columns: 50% 50%;
+  padding: 4% 8%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bannerText {
-  padding: 200px 5% 0px;
+  font-size: 25px;
+  margin: 14px 0px;
+  width: 80%;
+  line-height: 29px;
 }
-
-.bannerImagePos {
-  /* transform: translate(18%, -9%); */
-  /* transform: translate(18%, -15%); */
+.bannerTextTitle p {
+  font-size: 50px;
+  font-weight: 500;
 }
-.bannerContentImg img {
-  position: absolute;
-  top: 0;
-}
-.bannerContentImg img {
-  height: 100%;
+.bannerTextTitle p:first-child {
+  font-weight: bold !important;
 }

@@ -1,93 +1,114 @@
-.stickyPosition {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 9999999;
-}
-.navbarMainContainer {
-  position: absolute;
-  height: 90px;
-  width: 100%;
-  vertical-align: center;
-  display: flex;
-  align-items: center;
-  transition: 2s;
+.navbarAlphaContainer {
+  /* height: 100px; */
 }
 
-.navbarContainer {
-  margin: 0 auto;
-  width: 90%;
-  height: 80%;
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 10px 10px 55px -2px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 55px -2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 55px -2px rgba(0, 0, 0, 0.75);
-  transition: 2s;
-}
-.navbarImg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.navbarImg img {
-  width: 70%;
-}
-.navbarMenu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.navbarMenu ul {
-}
-.navbarMenu ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 20px;
+.navbarAlphaContainer svg {
   font-size: 20px;
-  font-weight: bold;
 }
-
-.navbarContact {
+.navbarTopContainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background-color: rgb(52, 125, 235);
-  border-radius: 0px 20px 20px 0px;
-  transition: 2s;
+  padding: 11px 50px;
+  background-color: #cccccc29;
 }
-.navbarContactLogo {
-  flex: 1;
+.navbarTopContainer > div {
+  flex-basis: 50%;
+  height: 20px;
 }
-.navbarContactLogo svg {
-  color: white;
-  font-size: 40px;
+.navbarTopAccounts {
+  display: flex;
 }
-.navbarContactText {
-  flex: 2;
-}
-.navbarContactText h5 {
-  color: white;
-  font-size: 1rem;
-}
-.navbarContactText p {
-  color: white;
-  font-size: 2rem;
+.navbarTopAccounts > div {
+  margin-left: 20px;
 }
 
-.navbarMenu ul li:after {
-  content: "";
-  background: orange;
-  display: block;
-  width: 0%;
-  height: 2px;
+.navbarTopEmail {
+  display: flex;
 }
-.navbarMenu ul li:hover::after {
-  margin-top: 3px;
+.navbarTopEmail > div {
+  margin-left: 10px;
+}
+.navbarTopPhone {
+  display: flex;
+}
+.navbarTopPhone > div {
+  margin-left: 10px;
+}
+.navbarTopSocialAccounts {
+  text-align: right;
+}
+.navbarTopSocialMedia {
+  list-style: none;
+}
+.navbarTopSocialMedia li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* ------
+------
+menu
+------
+------ */
+.navbarMenuAlphaContainer {
+  /* position: fixed;
   width: 100%;
+  background-color: #fff;
+  top: 0; */
+  /* border: 2px solid red; */
+  transition: 1s;
+}
+.navbarMenuSticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 5px;
+  z-index: 999;
+  transition: 1s;
+}
+.navbarMenuMainContainer {
+  display: grid;
+  grid-template-columns: 17% 83%;
+  align-items: center;
+}
+.navbarlogoContainer {
   text-align: center;
-  transition: 0.5s;
+}
+.navbarlogoContainer img {
+  width: 120px;
+  height: 100px;
+}
+.navbarMenuContainer {
+}
+.navbarMenuBackgroundContainer {
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 70% 10% 20%;
+  padding: 25px 0px 25px 15px;
+  border-radius: 10px 0px 0px 10px;
+}
+.navbarMenuItems ul {
+  list-style: none;
+  display: flex;
+}
+.navbarMenuItems ul li {
+  /* display: inline-block; */
+  margin-left: 10px;
+  list-style: none;
+}
+.navbarMenuItems ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+.navbarMenuButton {
+  text-align: center;
+}
+.navbarMenuButton a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #000;
 }

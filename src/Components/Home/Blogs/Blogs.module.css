@@ -1,0 +1,62 @@
+.BlogsAlphaContainer {
+  position: relative;
+  padding-top: 30px;
+}
+.BlogItemsBackground {
+  background-color: #ffded1 !important;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 60%;
+  z-index: -1;
+}
+.BlogsContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.BlogsItemsFlexContainer {
+  margin-top: 100px;
+  display: flex;
+  gap: 5%;
+  justify-content: space-around;
+}
+
+.BlogsItemsFlexContainer > div {
+  flex-basis: 50%;
+  background: #fff;
+  z-index: -1;
+  box-shadow: 3px 6px 16px -3px rgba(0, 0, 0, 0.75);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.BlogsItemImage {
+  text-align: center;
+}
+.BlogsItemImage img {
+  width: 100%;
+}
+.BlogsItemContent {
+  margin: 15px 0px;
+  padding: 10px 20px;
+}
+.BlogsItemContent > p {
+  font-size: 18px;
+  margin: 10px 0px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.BlogsItemContent hr {
+  background-color: #000;
+  height: 2px;
+}
+
+.BlogItemDate {
+  color: rgb(0 0 0 / 55%);
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px !important;
+}
+.BlogItemRead {
+  text-align: center;
+  color: #000;
+}

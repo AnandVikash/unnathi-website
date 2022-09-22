@@ -24,6 +24,34 @@ function App() {
           <Route path="/blogs/:blogtTitle/:id" element={<SingleBlog />} />
         </Routes>
         <Footer />
+        <br />
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
+
+        <br />
       </BrowserRouter>
     </>
   );

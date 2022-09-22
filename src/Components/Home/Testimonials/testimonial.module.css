@@ -1,80 +1,58 @@
-.testimonialMainContainer {
-  margin: 10% 0% 5%;
+.TestimonialAlphaContainer {
+  margin: 30px 0px;
+  padding: 100px 0px;
+  background: linear-gradient(
+      108deg,
+      rgba(255, 222, 209, 0.56561975131849616) 100%,
+      rgba(255, 77, 0, 0.09317230310092783) 100%
+    ),
+    url(../../Assets/Home/Testimonials/wood-new.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.testimonialSliderContainer {
-  width: 85%;
+.TestimonialContainer {
+  width: 90%;
   margin: 0 auto;
+}
+
+.TestimonialSliderContainer div {
+  height: 100%;
+}
+.TestimonialItem {
+  margin: 10px;
   padding: 20px;
-}
-.testimonialItemContainer {
-  width: 85% !important;
-  margin-top: 5%;
-  margin-left: 7.5%;
-  margin-bottom: 5%;
-}
-.testimonialItem {
-  min-height: 350px;
-  display: grid !important;
-  margin: 0 auto;
-  grid-template-columns: 25% 75%;
-  box-shadow: 15px 29px 30px -15px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 15px 29px 30px -15px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 15px 29px 30px -15px rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(2px) saturate(200%);
+  -webkit-backdrop-filter: blur(2px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.69);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.imgbox {
-  position: relative;
-  z-index: -1;
+.TestimonialItemDesc {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600;
 }
-.colorBox {
-  top: 0;
-  position: absolute;
-  height: 65%;
-  width: 80%;
-  transform: translate(-10%, 0%);
-  background-color: red;
-  border-radius: 10px;
-  z-index: 2;
+.TestimonialItem svg {
+  font-size: 35px;
+  margin: 0px 10px;
 }
-.imgbox img {
-  position: absolute;
-  width: 80%;
-  transform: translate(-25%, -20%);
-  border-radius: 10px;
-  height: 65%;
-  width: 80%;
-  z-index: 999999;
+.TestimonialItemAuthorContainer {
+  margin: 15px 0px;
+  text-align: center;
 }
-
-.testimonialText {
-  padding: 3%;
-}
-.testimonial {
+.TestimonialItemAuthor {
   font-size: 25px;
   font-weight: 600;
-  text-transform: capitalize;
-  font-style: italic;
-  line-height: 1.8em;
-  padding-top: 5%;
-}
-.authors {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.author {
-  font-weight: 700;
-  font-size: 25px;
-}
-.author::before {
-  content: "----";
-  margin-right: 10px;
-}
-.testimonialMainContainer button {
-  border: 2px solid red !important;
-  background-color: red;
-}
-.testimonialMainContainer button .slick-prev:before {
-  font-size: 35px !important;
+  margin: 5px 0px;
   color: red;
+}
+.TestimonialItemDesignation {
+  font-size: 20px;
+  font-weight: 500;
 }

@@ -1,0 +1,72 @@
+.ProjectsAlphaContainer {
+  position: relative;
+}
+.ProjectItemsBackground {
+  background-color: #ffded1 !important;
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  bottom: 0;
+  z-index: -1;
+}
+.ProjectsContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.ProjectsItemsFlexContainer {
+  display: flex;
+  gap: 5%;
+  justify-content: space-around;
+}
+
+.ProjectsItemsFlexContainer > div {
+  flex-basis: 50%;
+  background: linear-gradient(
+      rgba(212, 212, 212, 0.972108) 100%,
+      rgba(255, 77, 0, 0.9317230310092783) 100%
+    ),
+    url(http://localhost:3000/static/media/jupiter.15f140aafda6659a1ab2.svg);
+  padding: 20px 10px;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.projectsItemImage {
+  text-align: center;
+}
+.projectsItemImage img {
+  width: 35%;
+}
+.ProjectsItemContent {
+  margin: 15px 0px;
+}
+.ProjectsItemContent > p {
+  font-size: 18px;
+  margin: 10px 0px;
+  line-height: 25px;
+  font-weight: 500;
+}
+.ProjectsAddressItemContainer {
+  display: flex;
+  margin: 20px 0px 10px;
+}
+.ProjectsAddressItemContainer > div {
+  flex-basis: 50%;
+}
+.ProjectsAddressItem {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.ProjectsAddresIcon svg {
+  font-size: 25px;
+}
+.ProjectsAddresDesc p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.ProjectsAddresDesc p:first-child {
+  font-size: 18px !important;
+  font-weight: 600;
+  margin-bottom: 4px;
+}

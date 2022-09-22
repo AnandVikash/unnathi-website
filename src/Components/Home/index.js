@@ -1,21 +1,30 @@
 import React from "react";
-import About from "./AboutUs/Index";
-import Service from "./Services";
-import OurTeam from "./OurTeam";
-import Testimonials from "./Testimonials";
-import OurProcess from "./OurProcess";
-import Blog from "./OurBlog";
-import Banner from "./Banner/Index";
+import About from "./AboutUs/index";
+import AboutFounder from "./AboutFounder/index";
+import Projects from "./Projects/index";
+import Events from "./Events/index";
+import Donation from "./Donation/index";
+import Blogs from "./Blogs/index";
+import Banner from "./Banner/index";
+import Counters from "./Counters/index";
+import Testimonials from "./Testimonials/index";
 export default function index() {
   return (
     <div>
       <Banner />
       <About />
-      <Service />
-      <OurTeam />
+      <AboutFounder />
+      <Projects />
+      <Events />
+      <Donation />
+      <Counters />
       <Testimonials />
+      {/* <Blogs /> */}
+      {/* 
+      <OurTeam />
+ 
       <OurProcess />
-      <Blog />
+      <Blog /> */}
     </div>
   );
 }

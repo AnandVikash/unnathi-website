@@ -7,61 +7,74 @@ import {
   FaTwitter,
   FaPinterest,
 } from "react-icons/fa";
+import { TwitterOnAirButton } from "react-twitter-embed";
 export default function index() {
+  const data = `<a class="twitter-timeline" href="https://twitter.com/UnnathiF?ref_src=twsrc%5Etfw">Tweets by UnnathiF</a>`;
+
   return (
     <>
       <div className={styles.footerMainContainer}>
         <div className={styles.footerContainer}>
-          <div className={styles.footer}>
-            <div className={styles.footerCol1}>
-              <img src="https://digikit.in/assets/img/logo.png" />
-              <p className={styles.footerCol1Text}>
-                But I must explain to you how all this mistaken idea of
-                denouncing pleasure pain was born and I will give you a
-                complete.
+          <div className={styles.footerFormContentContainer}>
+            <div className={styles.footerFormContent}>
+              <p className={styles.footerFormTitle}>Newsletter</p>
+              <p className={styles.footerFormDesc}>
+                To get weekly & monthly news, Your email address
+                <span>Subscribe</span> to our newsletter.
+              </p>
+            </div>
+            <div className={styles.footerForm}></div>
+          </div>
+          <div className={styles.footerContentContainer}>
+            <div className={styles.footerContentItem}>
+              <img src="https://www.unnathi.org/images/logonew.jpg" alt="" />
+              <p>
+                Welcome to Unnathi Healing Foundation. Everyone wants to give to
+                society, and Unnathi provides platform to serve and be served.
+                The approach is to give help to get help. The world is ours and
+                we all have to transcend the horizons of individual identity to
+                build the collective soul.
               </p>
               <p>
-                <ul className={styles.footerCol1Social}>
-                  <li>
-                    <FaFacebookF />
-                  </li>
-                  <li>
-                    <FaInstagram />
-                  </li>
-                  <li>
-                    <FaLinkedinIn />
-                  </li>
-                  <li>
-                    <FaTwitter />
-                  </li>
-                  <li>
-                    <FaPinterest />{" "}
-                  </li>
+                <span> Address:</span> 150, 2nd Floor, Above Vishwas Jewellers,
+                Sanjay Nagar Main Rd, AECS Layout, Bengaluru, Karnataka 560094
+              </p>
+              <p>
+                <span>Phone:</span>+91 9845426049
+              </p>
+              <p>
+                <span>Email:</span>healing.unnathi@gmail.com
+              </p>
+            </div>
+            <div className={styles.footerContentItem}>
+              <div className={styles.footerContentLinks}>
+                <p className={styles.footerContentLinksTitle}>Quick Likes</p>
+                <ul>
+                  <li>About us</li>
+                  <li>Services</li>
+                  <li>Projects</li>
+                  <li>News</li>
+                  <li>Career</li>
                 </ul>
-              </p>
+              </div>
             </div>
-            <div className={styles.footerCol2}>
-              <h4>Quick Links</h4>
-              <ul>
-                <li>Home </li>
-                <li> Services </li>
-                <li> About </li>
-                <li>Contact</li>
-              </ul>
+            <div className={styles.footerContentItem}>
+              <div className={styles.footerContentLinks}>
+                <p className={styles.footerContentLinksTitle}>Support</p>
+                <ul>
+                  <li>Help&FAQ</li>
+                  <li>Causes</li>
+                  <li>Events</li>
+                  <li>Contact us</li>
+                  <li>Terms of services</li>
+                </ul>
+              </div>
             </div>
-            <div className={styles.footerCol3}>
-              <h4>Let's Talk</h4>
-              <ul>
-                <li>Phone: +91 9513474123 </li>
-                <li>Email: hello@digikit.in</li>
-              </ul>
-            </div>
-            <div className={styles.footerCol4}>
-              <h4>CONTACT</h4>
-              <p>
-                No. 36/11, Second Floor, 2nd Cross, *G" Block, Sahakara Nagar (
-                behind Motherhood Hospital ) Bengaluru - 560 092
-              </p>
+            <div className={styles.footerContentItem}>
+              <div className={styles.footerContentLinks}>
+                <p className={styles.footerContentLinksTitle}>Latest tweets</p>
+                <div dangerouslySetInnerHTML={{ __html: data }} />
+              </div>
             </div>
           </div>
         </div>
