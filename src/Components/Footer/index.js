@@ -19,11 +19,18 @@ export default function index() {
             <div className={styles.footerFormContent}>
               <p className={styles.footerFormTitle}>Newsletter</p>
               <p className={styles.footerFormDesc}>
-                To get weekly & monthly news, Your email address
+                To get weekly & monthly news, Your email address &nbsp;
                 <span>Subscribe</span> to our newsletter.
               </p>
             </div>
-            <div className={styles.footerForm}></div>
+            <div className={styles.footerForm}>
+              <form>
+                <div>
+                  <input type="email" placeholder="Enter Your Email Address" />
+                  <input type="submit" value="Subscribe" />
+                </div>
+              </form>
+            </div>
           </div>
           <div className={styles.footerContentContainer}>
             <div className={styles.footerContentItem}>
@@ -62,7 +69,7 @@ export default function index() {
               <div className={styles.footerContentLinks}>
                 <p className={styles.footerContentLinksTitle}>Support</p>
                 <ul>
-                  <li>Help&FAQ</li>
+                  <li>Help & FAQ</li>
                   <li>Causes</li>
                   <li>Events</li>
                   <li>Contact us</li>
