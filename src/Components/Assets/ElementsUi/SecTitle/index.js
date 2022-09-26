@@ -7,13 +7,11 @@ export default function SecTitle({
   text,
   textTag: TextTag,
   textColor,
+  textAlign,
 }) {
   return (
     <>
-      {/* <Tag style={{ color: colors, fontWeight }} className={styles.tagstyles}>
-        {text}
-      </Tag> */}
-      <div className={styles.SecTitleContainer}>
+      <div className={styles.SecTitleContainer} style={{ textAlign }}>
         <TitleTag className={styles.SecTitleText} style={{ color: titleColor }}>
           {title}
         </TitleTag>

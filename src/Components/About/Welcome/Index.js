@@ -1,29 +1,43 @@
 import React from "react";
 import styles from "./welcome.module.css";
+import SecTitle from "../../Assets/ElementsUi/SecTitle";
+
 export default function Index() {
   return (
     <>
       <div className={styles.WelcomeMainContainer}>
         <div className={styles.welcomeContainer}>
-          <div className={styles.welcome_item}>
+          <div className={styles.welcomeItem}>
             <img src="https://andit.co/projects/html/jago-welfare/assets/img/common/about.png"></img>
           </div>
-          <div className={styles.welcome_item}>
-            <p>Welcome to Jago</p>
-            <h1>A world where poverty will not exists</h1>
+          <div className={styles.welcomeItem}>
+            <SecTitle
+              title="Welcome to Jago"
+              titleTag="p"
+              titleColor="#808080"
+              text="“Health is the birth right of an individual”"
+              textTag="p"
+              textColor="#000"
+              textAlign="left"
+            />
+
             <h2>We are the largest crowdfunding</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-              sed do eiusmod tempor incididunt ut labore.
+              Welcome to Unnathi Healing Foundation. Everyone wants to be
+              healthy. Unnathi Healing Foundation, Bengaluru, is providing the
+              required tools and techniques to be healthy, through Yogic
+              Healing. The approach of Yogic healing is based on the ancient
+              Indian traditional method in which the human body is made of five
+              layers.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-              sed do eiusmod tempor incididunt ut labore et simply free text
-              dolore magna aliqua lonm andhn. Lorem ipsum dolor sit amet,
-              consectetur notted adipisicing elit sed do eiusmod tempor
-              incididunt ut labore et simply.
+              It is narrated in Thittirya Upanishad, ancient Samskrith scripts,
+              that the human body contains five layers called Panchakosha.
+              Physical body is Annamayakosha and the etheric layer is called
+              Pranamayakosha. At Unnathi we heal the Pranamayakosha (the energy
+              body) to treat the Annamayakosha (the physical body).
             </p>
-            <div className={styles.welcome_SubContent}>
+            <div className={styles.welcomeSubContent}>
               <button>Learn more</button>
               <a>How we work</a>
             </div>

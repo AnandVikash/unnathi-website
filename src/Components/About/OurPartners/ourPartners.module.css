@@ -1,42 +1,48 @@
-.ourTeamMainContainer {
-  background-color: #eef4f8;
+.ourPartnersMainContainer {
   margin: 30px 0px;
 }
 
-.ourTeamMembers {
+.ourProjectsMembers {
   padding: 2%;
-  /* border: 2px solid red; */
 }
 
-.ourTeamContent {
-  /* border: 2px solid red; */
+.ourProjectsContent {
   width: 90%;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   margin: 0 auto;
   text-align: center;
 }
-.ourTeamContent > div {
+.ourProjectsContent > div {
   padding: 20px;
 }
 
-.ourCards {
+.ourSections {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 4px rgba(168, 168, 168, 0.75);
 }
-.ourCards img {
-  width: 100%;
+.ourSections img {
+  width: 50%;
+  padding: 3%;
+  border-radius: 100%;
 }
 
-.ourCards h3 {
+.ourSections h4 {
+  color: #838292;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ourSections h3 {
   color: #2a283e;
   margin-top: 3%;
   padding: 2%;
   font-size: 25px;
 }
 
-.ourCards p {
+.ourSections p {
   color: #918090;
   margin-top: 6%;
   font-size: 20px;

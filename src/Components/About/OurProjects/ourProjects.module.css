@@ -1,16 +1,15 @@
 .ourProjectsMainContainer {
-  /* background-color: #eef4f8; */
+  background-color: #fce9e2;
   display: grid;
   grid-template-columns: 60% 40%;
   margin: 0 auto;
+  padding: 2%;
 }
 
 .ourProjectsMainContainer > div {
-  /* border: 2px solid red; */
 }
 
 .ourProjectsText {
-  /* border: 2px solid red; */
   width: 80%;
   margin: 0 auto;
 }
