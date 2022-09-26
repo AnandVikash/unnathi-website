@@ -30,8 +30,6 @@ function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(scrollPosition);
-  // let stickyClasses = styles.navbarMenuSticky;
 
   let stickyClasses = "";
   if (scrollPosition > window.innerHeight) {
@@ -86,28 +84,30 @@ function Navbar() {
                 <div className={styles.navbarMenuItems}>
                   <ul>
                     <li>
-                      <NavLink to="/">Home</NavLink>
+                      <NavLink exact to="/">
+                        Home
+                      </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/">Training</NavLink>
+                      <NavLink to="/traning">Training</NavLink>
                     </li>
                     <li>
-                      <NavLink to="/">Healing</NavLink>
+                      <NavLink to="/healing">Healing</NavLink>
                     </li>
                     <li>
-                      <NavLink to="/">About Us</NavLink>
+                      <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li>
-                      <NavLink to="/">Projects</NavLink>
+                      <NavLink to="/projects">Projects</NavLink>
                     </li>
                     <li>
-                      <NavLink to="/">Media</NavLink>
+                      <NavLink to="/media">Media</NavLink>
                     </li>
                     <li>
-                      <NavLink to="/">Research</NavLink>
+                      <NavLink to="/research">Research</NavLink>
                     </li>
                     <li>
-                      <NavLink to="/">Contact</NavLink>
+                      <NavLink to="/contact">Contact</NavLink>
                     </li>
                   </ul>
                 </div>

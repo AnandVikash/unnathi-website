@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";
 export default function Index() {
+  const img1 = "../../Assets/Home/AboutUs/book-icon.png";
   return (
     <>
       <div className={styles.AboutAlphaContainer}>
@@ -37,6 +38,7 @@ export default function Index() {
           </div>
         </div>
       </div>
+      {/* <img src={require("../../Assets/Home/AboutUs/book-icon.png")} /> */}
     </>
   );
 }
