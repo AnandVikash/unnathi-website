@@ -1,0 +1,43 @@
+.ourProjectsMainContainer {
+  /* background-color: #eef4f8; */
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 0 auto;
+}
+
+.ourProjectsMainContainer > div {
+  /* border: 2px solid red; */
+}
+
+.ourProjectsText {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ourProjects p {
+  margin-top: 2%;
+  color: #818090;
+  font-size: 20px;
+  margin-left: 2%;
+  font-weight: 600;
+}
+
+.ourProjects h2 {
+  color: #212529;
+  font-size: 30px;
+  font-weight: bold;
+  width: 80%;
+  margin-top: 1%;
+  line-height: 1.5;
+  margin-left: 6%;
+}
+
+.ourProjectsBtn {
+  border: 2px solid grey;
+  margin-top: 8%;
+  margin-left: 6%;
+  padding: 2%;
+  width: 65%;
+  border: none;
+}

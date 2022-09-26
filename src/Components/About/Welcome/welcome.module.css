@@ -1,5 +1,5 @@
 .WelcomeMainContainer {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   margin: 30px 0px;
 }
 
@@ -12,11 +12,13 @@
 
 img {
   width: 90%;
+  /* height: 590px; */
 }
 
 .welcome_item p {
   margin-top: 2%;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
   color: #818090;
   line-height: 1.5;
   width: 95%;
@@ -33,7 +35,8 @@ img {
   margin-top: 5%;
   color: red;
   line-height: 1.2;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .welcome_SubContent {
