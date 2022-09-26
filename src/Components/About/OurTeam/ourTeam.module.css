@@ -1,6 +1,7 @@
 .ourTeamMainContainer {
   background-color: #eef4f8;
   margin: 30px 0px;
+  padding: 20px 0px;
 }
 
 .ourTeamMembers {
@@ -31,13 +32,16 @@
 
 .ourCards h3 {
   color: #2a283e;
-  margin-top: 3%;
-  padding: 2%;
   font-size: 25px;
 }
 
 .ourCards p {
   color: #918090;
-  margin-top: 6%;
   font-size: 20px;
+}
+.ourCardsDesc {
+  padding: 10px 0px;
+}
+.ourCardsDesc p {
+  margin-top: 7px;
 }

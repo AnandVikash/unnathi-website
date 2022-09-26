@@ -12,7 +12,7 @@ export default function Index() {
           </div>
           <div className={styles.welcomeItem}>
             <SecTitle
-              title="Welcome to Jago"
+              title="Welcome to unnathi"
               titleTag="p"
               titleColor="#808080"
               text="“Health is the birth right of an individual”"
@@ -20,7 +20,6 @@ export default function Index() {
               textColor="#000"
               textAlign="left"
             />
-
             <h2>We are the largest crowdfunding</h2>
             <p>
               Welcome to Unnathi Healing Foundation. Everyone wants to be
@@ -37,10 +36,10 @@ export default function Index() {
               Pranamayakosha. At Unnathi we heal the Pranamayakosha (the energy
               body) to treat the Annamayakosha (the physical body).
             </p>
-            <div className={styles.welcomeSubContent}>
+            {/* <div className={styles.welcomeSubContent}>
               <button>Learn more</button>
               <a>How we work</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

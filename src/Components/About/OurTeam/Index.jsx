@@ -27,7 +27,7 @@ export default function Index() {
                     alt=""
                   />
                 </div>
-                <div>
+                <div className={styles.ourCardsDesc}>
                   <h3>Mark carson</h3>
                   <p>projects manager</p>
                 </div>
@@ -42,7 +42,7 @@ export default function Index() {
                     alt=""
                   />
                 </div>
-                <div>
+                <div className={styles.ourCardsDesc}>
                   <h3>Mark carson</h3>
                   <p>projects manager</p>
                 </div>
@@ -57,7 +57,7 @@ export default function Index() {
                     alt=""
                   />
                 </div>
-                <div>
+                <div className={styles.ourCardsDesc}>
                   <h3>Mark carson</h3>
                   <p>projects manager</p>
                 </div>
@@ -72,7 +72,7 @@ export default function Index() {
                     alt=""
                   />
                 </div>
-                <div>
+                <div className={styles.ourCardsDesc}>
                   <h3>Mark carson</h3>
                   <p>projects manager</p>
                 </div>

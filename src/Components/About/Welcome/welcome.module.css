@@ -3,24 +3,26 @@
 }
 
 .welcomeContainer {
-  width: 80%;
+  width: 90%;
   display: grid;
   grid-template-columns: 50% 50%;
+  align-items: center;
   margin: 0 auto;
   padding: 2%;
+  /* border: 2px solid red; */
 }
 
 .welcomeItem img {
-  width: 90%;
+  width: 95%;
 }
 
 .welcomeItem p {
   margin-top: 2%;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
   color: #818090;
   line-height: 1.5;
-  width: 95%;
+  text-align: justify;
 }
 
 .welcomeItem h1 {
