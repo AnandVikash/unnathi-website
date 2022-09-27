@@ -1,0 +1,58 @@
+.TestimonialAlphaContainer {
+  margin: 30px 0px;
+  padding: 100px 0px;
+  background: linear-gradient(
+      108deg,
+      rgba(255, 222, 209, 0.56561975131849616) 100%,
+      rgba(255, 77, 0, 0.09317230310092783) 100%
+    ),
+    url(../../../Assets/Home/Testimonials/wood-new.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.TestimonialContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.TestimonialSliderContainer div {
+  height: 100%;
+}
+.TestimonialItem {
+  margin: 10px;
+  padding: 20px;
+  backdrop-filter: blur(2px) saturate(200%);
+  -webkit-backdrop-filter: blur(2px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.69);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.TestimonialItemDesc {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.TestimonialItem svg {
+  font-size: 35px;
+  margin: 0px 10px;
+}
+.TestimonialItemAuthorContainer {
+  margin: 15px 0px;
+  text-align: center;
+}
+.TestimonialItemAuthor {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px 0px;
+  color: red;
+}
+.TestimonialItemDesignation {
+  font-size: 20px;
+  font-weight: 500;
+}

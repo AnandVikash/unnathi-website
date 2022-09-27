@@ -1,0 +1,163 @@
+.navbarAlphaContainer {
+  /* height: 100px; */
+}
+
+.navbarAlphaContainer svg {
+  font-size: 20px;
+}
+.navbarTopContainer {
+  display: flex;
+  padding: 11px 50px;
+  background-color: #cccccc29;
+}
+.navbarTopContainer > div {
+  flex-basis: 50%;
+  height: 20px;
+}
+.navbarTopAccounts {
+  display: flex;
+}
+.navbarTopAccounts > div {
+  margin-left: 20px;
+}
+
+.navbarTopEmail {
+  display: flex;
+}
+.navbarTopEmail > div {
+  margin-left: 10px;
+}
+.navbarTopPhone {
+  display: flex;
+}
+.navbarTopPhone > div {
+  margin-left: 10px;
+}
+.navbarTopSocialAccounts {
+  text-align: right;
+}
+.navbarTopSocialMedia {
+  list-style: none;
+}
+.navbarTopSocialMedia li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* ------
+------
+menu
+------
+------ */
+.navbarMenuAlphaContainer {
+  /* position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0; */
+  /* border: 2px solid red; */
+  transition: 1s;
+}
+.navbarMenuSticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 5px;
+  z-index: 999;
+  transition: 1s;
+}
+.navbarMenuMainContainer {
+  display: grid;
+  grid-template-columns: 17% 83%;
+  align-items: center;
+}
+.navbarlogoContainer {
+  text-align: center;
+}
+.navbarlogoContainer img {
+  width: 120px;
+  height: 100px;
+}
+.navbarMenuContainer {
+}
+.navbarMenuBackgroundContainer {
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 70% 10% 20%;
+  padding: 25px 0px 25px 15px;
+  border-radius: 10px 0px 0px 10px;
+}
+.navbarMenuItems > ul {
+  list-style: none;
+  display: flex;
+}
+.navbarMenuItems > ul li {
+  /* display: inline-block; */
+  margin-left: 10px;
+  list-style: none;
+  position: relative;
+}
+.navbarMenuItems > ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 5px;
+}
+
+.navbarMenuButton {
+  text-align: center;
+}
+.navbarMenuButton a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #000;
+}
+.navbarMenuButton a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #000;
+}
+/* ------
+------
+submenu
+------
+------ */
+.navbarMenuItems {
+  position: relative;
+}
+.submenulist {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: -1px 0px 16px -1px rgba(0, 0, 0, 0.75);
+  padding: 20px 10px;
+  width: 170px;
+  z-index: 9999;
+  margin-top: 10px;
+  margin-left: -20px;
+  position: absolute;
+  display: none;
+  transition: 1s;
+}
+.submenulist li:first-child {
+  margin-top: 0px !important;
+}
+.submenulist li {
+  display: block;
+  margin-top: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.navbarMenuItem:hover .submenulist {
+  display: block;
+  margin-top: 10px !important;
+  /* transition: 1s; */
+}
+.submenulist li:hover {
+  font-weight: 700;
+  padding-left: 10px;
+  /* margin-left: 10px !important; */
+  /* transition: 1s; */
+}
