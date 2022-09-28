@@ -87,7 +87,6 @@ function Navbar() {
                             {item.hasOwnProperty("submenu") && (
                               <ul className={styles.submenulist}>
                                 {item.submenu.map((item) => {
-                                  console.log(item);
                                   return (
                                     <>
                                       <li>

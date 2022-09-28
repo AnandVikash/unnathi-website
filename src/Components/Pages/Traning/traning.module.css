@@ -1,0 +1,14 @@
+.TraningMainContainer {
+  margin: 80px 0px;
+}
+.TraningContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.TraningContainer p {
+  margin: 34px 0px;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 35px;
+}

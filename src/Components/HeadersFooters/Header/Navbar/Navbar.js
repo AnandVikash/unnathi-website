@@ -27,7 +27,7 @@ function Navbar() {
   }, []);
 
   let stickyClasses = "";
-  if (scrollPosition > window.innerHeight) {
+  if (scrollPosition > window.innerHeight - 150) {
     stickyClasses = styles.navbarMenuSticky;
   }
   return (
@@ -87,7 +87,6 @@ function Navbar() {
                             {item.hasOwnProperty("submenu") && (
                               <ul className={styles.submenulist}>
                                 {item.submenu.map((item) => {
-                                  console.log(item);
                                   return (
                                     <>
                                       <li>

@@ -7,9 +7,6 @@ import { FaRegHandshake } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
 
 export default function Index() {
-  for (let i = 0; i < 100; i += 10) {
-    console.log(i);
-  }
   return (
     <>
       <div className={styles.CountersAlphaContainer}>

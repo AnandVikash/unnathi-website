@@ -1,0 +1,29 @@
+.GalleryImgMainContainer {
+}
+.GalleryButtonContainer a {
+  margin-left: 20px;
+}
+.GalleryImgContainer {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  scroll-margin-top: 300px;
+}
+.GalleryImgContainer > div {
+  width: 33.33%;
+}
+.GalleryImages {
+  padding: 15px;
+}
+.GalleryImages img {
+  width: 100%;
+  height: 200px;
+}
+.GalleryImgMainContainer p {
+  font-size: 27px;
+  text-align: center;
+  color: rgb(9, 50, 76);
+  font-weight: bold;
+  margin: 40px 0px 20px;
+}

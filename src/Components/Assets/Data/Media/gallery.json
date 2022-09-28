@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "name": "Budding Sadhakas",
+    "imgFolder": "BuddingSadhakas",
+    "imagnames": [
+      {
+        "id": 1.1,
+        "imgName": "budding-sadhakas-1.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 1.2,
+        "imgName": "budding-sadhakas-2.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 1.3,
+        "imgName": "budding-sadhakas-3.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 1.4,
+        "imgName": "budding-sadhakas-4.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 1.5,
+        "imgName": "budding-sadhakas-5.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 1.6,
+        "imgName": "budding-sadhakas-6.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 1.7,
+        "imgName": "budding-sadhakas-7.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 1.8,
+        "imgName": "budding-sadhakas-8.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 1.9,
+        "imgName": "budding-sadhakas-9.JPG",
+        "imgTitle": "lorem Ipsum"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Build India Movement",
+    "imgFolder": "BuildIndiaMovement",
+    "imagnames": [
+      {
+        "id": 2.1,
+        "imgName": "build-1.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.2,
+        "imgName": "build-2.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.3,
+        "imgName": "build-3.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.4,
+        "imgName": "build-4.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.5,
+        "imgName": "build-5.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.6,
+        "imgName": "build-6.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.7,
+        "imgName": "build-7.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.8,
+        "imgName": "build-8.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.9,
+        "imgName": "build-9.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.1,
+        "imgName": "build-10.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+
+      {
+        "id": 2.11,
+        "imgName": "build-1.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.12,
+        "imgName": "build-12.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.13,
+        "imgName": "build-13.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.14,
+        "imgName": "build-14.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.15,
+        "imgName": "build-15.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.16,
+        "imgName": "build-16.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 2.17,
+        "imgName": "build-17.JPG",
+        "imgTitle": "lorem Ipsum"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Healing Camps",
+    "imgFolder": "HealingCamps",
+    "imagnames": [
+      {
+        "id": 3.1,
+        "imgName": "healing-camp-1.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 3.2,
+        "imgName": "healing-camp-2.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 3.3,
+        "imgName": "healing-camp-3.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 3.4,
+        "imgName": "healing-camp-4.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 3.5,
+        "imgName": "healing-camp-5.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 3.6,
+        "imgName": "healing-camp-6.JPG",
+        "imgTitle": "lorem Ipsum"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Outreach To The Elderly",
+    "imgFolder": "OutreachToTheElderly",
+    "imagnames": [
+      {
+        "id": 4.1,
+        "imgName": "elderly-1.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 4.2,
+        "imgName": "elderly-2.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 4.3,
+        "imgName": "elderly-3.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 4.4,
+        "imgName": "elderly-4.JPG",
+        "imgTitle": "lorem Ipsum"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Recharging The Souls",
+    "imgFolder": "RechargingTheSouls",
+    "imagnames": [
+      {
+        "id": 5.1,
+        "imgName": "rts-1.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.2,
+        "imgName": "rts-2.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.3,
+        "imgName": "rts-3.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.4,
+        "imgName": "rts-4.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.5,
+        "imgName": "rts-5.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.6,
+        "imgName": "rts-6.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.7,
+        "imgName": "rts-7.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.8,
+        "imgName": "rts-8.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.9,
+        "imgName": "rts-9.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.1,
+        "imgName": "rts-10.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 5.11,
+        "imgName": "rts-11.JPG",
+        "imgTitle": "lorem Ipsum"
+      }
+    ]
+  }
+]
