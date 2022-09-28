@@ -44,6 +44,7 @@ export default function Index() {
                             <img
                               src={require(`../../../Assets/Media/${item.imgFolder}/${subItems.imgName}`)}
                             />
+                            {/* <div>{subItems.imgTitle}</div> */}
                           </div>
                         </>
                       );
