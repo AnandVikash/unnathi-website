@@ -2,11 +2,8 @@ import React from "react";
 import styles from "./gallery.module.css";
 import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 import GalleryData from "../../../Assets/Data/Media/gallery.json";
+import { FaHandPointRight } from "react-icons/fa";
 export default function Index() {
-  //   console.log(GalleryData);
-  //   GalleryData.map((item) => {
-  //     console.log(item.name);
-  //   });
   return (
     <>
       <BannerTitle
@@ -22,7 +19,9 @@ export default function Index() {
             {GalleryData.map((item) => {
               return (
                 <>
-                  <a href={`#${item.imgFolder.toLowerCase()}`}>{item.name}</a>
+                  <div>
+                    <a href={`#${item.imgFolder.toLowerCase()}`}>{item.name}</a>
+                  </div>
                 </>
               );
             })}
@@ -42,16 +41,13 @@ export default function Index() {
                         <>
                           <div className={styles.GalleryImages}>
                             <img
-                              src={require(`../../../Assets/Media/${item.imgFolder}/${subItems.imgName}`)}
+                              loading="lazy"
+                              src={require(`../../../Assets/Media/Gallery/${item.imgFolder}/${subItems.imgName}`)}
                             />
-                            {/* <div>{subItems.imgTitle}</div> */}
                           </div>
                         </>
                       );
                     })}
-                    <br />
-                    <br />
-                    <br />
                   </div>
                 </>
               );

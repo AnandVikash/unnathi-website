@@ -38,19 +38,21 @@
   line-height: 35px;
 }
 .BannerContainer .slick-prev {
-  left: 20px;
+  left: 30px;
   z-index: 2;
 }
 .BannerContainer .slick-prev::before {
-  color: red !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 30px;
 }
 
 .BannerContainer .slick-next {
-  right: 20px;
+  right: 30px;
   z-index: 2;
 }
 .BannerContainer .slick-next::before {
-  color: red !important;
+  color: rgb(255, 255, 255) !important;
+  font-size: 30px;
 }
 .slick-dots {
   position: absolute;

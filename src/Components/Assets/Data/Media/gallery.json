@@ -269,5 +269,124 @@
         "imgTitle": "lorem Ipsum"
       }
     ]
+  },
+  {
+    "id": 6,
+    "name": "Traning Pics",
+    "imgFolder": "TrainingPics",
+    "imagnames": [
+      {
+        "id": 6.1,
+        "imgName": "traning-1.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 6.2,
+        "imgName": "traning-2.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 6.3,
+        "imgName": "traning-3.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 6.4,
+        "imgName": "traning-4.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 6.5,
+        "imgName": "traning-5.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 6.6,
+        "imgName": "traning-6.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 6.7,
+        "imgName": "traning-7.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 6.8,
+        "imgName": "traning-8.JPG",
+        "imgTitle": "lorem Ipsum"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Prominent Personalities",
+    "imgFolder": "WithProminentPersonalities",
+    "imagnames": [
+      {
+        "id": 7.1,
+        "imgName": "wpp-1.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.2,
+        "imgName": "wpp-2.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.3,
+        "imgName": "wpp-3.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.4,
+        "imgName": "wpp-4.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.5,
+        "imgName": "wpp-5.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.6,
+        "imgName": "wpp-6.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.7,
+        "imgName": "wpp-7.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.8,
+        "imgName": "wpp-8.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.9,
+        "imgName": "wpp-9.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.1,
+        "imgName": "wpp-10.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.11,
+        "imgName": "wpp-11.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.12,
+        "imgName": "wpp-12.JPG",
+        "imgTitle": "lorem Ipsum"
+      },
+      {
+        "id": 7.13,
+        "imgName": "wpp-13.JPG",
+        "imgTitle": "lorem Ipsum"
+      }
+    ]
   }
 ]
