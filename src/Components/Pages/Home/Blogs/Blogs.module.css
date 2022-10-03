@@ -1,6 +1,8 @@
 .BlogsAlphaContainer {
   position: relative;
   padding-top: 30px;
+  background-color: #eee;
+  isolation: isolate;
 }
 .BlogItemsBackground {
   background-color: #ffded1 !important;
@@ -13,22 +15,16 @@
 .BlogsContainer {
   width: 90%;
   margin: 0 auto;
+  /* border: 2px solid red; */
 }
+
 .BlogsItemsFlexContainer {
-  margin-top: 100px;
-  display: flex;
-  gap: 5%;
-  justify-content: space-around;
 }
-
-.BlogsItemsFlexContainer > div {
-  flex-basis: 50%;
-  background: #fff;
-  z-index: -1;
-  box-shadow: 3px 6px 16px -3px rgba(0, 0, 0, 0.75);
-  border-radius: 0px 0px 10px 10px;
+.BlogsItems {
+  margin: 20px;
+  /* background-color: red; */
+  box-shadow: 0px 0px 14px -3px rgba(115, 115, 115, 1);
 }
-
 .BlogsItemImage {
   text-align: center;
 }

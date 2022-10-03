@@ -19,7 +19,7 @@ export default function index() {
       <Donation />
       <Counters />
       <Testimonials />
-      {/* <Blogs /> */}
+      <Blogs />
       {/* 
       <OurTeam />
  

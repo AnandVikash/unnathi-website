@@ -19,7 +19,7 @@ export default function index() {
         title="Contact With Us"
         titleTag="p"
         titleColor="#808080"
-        text="Get in touchwith us & stay updates"
+        text="Get in touch with us & stay updates"
         textTag="p"
         textColor="#000"
       />
