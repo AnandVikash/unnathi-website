@@ -26,7 +26,7 @@
   background-color: rgba(255, 255, 255, 0.69);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
-  min-height: 360px;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,12 +47,17 @@
   text-align: center;
 }
 .TestimonialItemAuthor {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 600;
-  margin: 5px 0px;
+  margin: 9px 0px;
   color: red;
 }
 .TestimonialItemDesignation {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.TestimonialItemPlace {
+  font-size: 18px;
+  margin: 5px 0px;
   font-weight: 500;
 }

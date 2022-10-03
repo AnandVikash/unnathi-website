@@ -1,10 +1,13 @@
 import React from "react";
 import styles from "./ourTeam.module.css";
 import SecTitle from "../../../Assets/ElementsUi/SecTitle";
-
+import OurTeamData from "../../../Assets/Data/OurTeam/ourteam.json";
 export default function Index() {
   return (
     <>
+      {/* <img
+        src={require("../../../Assets/AboutUs/our-team/saraswathi-hegde.png")}
+      /> */}
       <div className={styles.ourTeamMainContainer}>
         <div className={styles.ourTeamContainer}>
           <SecTitle
@@ -18,66 +21,25 @@ export default function Index() {
         </div>
         <div className={styles.ourTeamMembers}>
           <div className={styles.ourTeamContent}>
-            <div>
-              {" "}
-              <div className={styles.ourCards}>
-                <div>
-                  <img
-                    src="https://andit.co/projects/html/jago-welfare/assets/img/volunteer/volunteer-1.png"
-                    alt=""
-                  />
-                </div>
-                <div className={styles.ourCardsDesc}>
-                  <h3>Mark carson</h3>
-                  <p>projects manager</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              {" "}
-              <div className={styles.ourCards}>
-                <div>
-                  <img
-                    src="https://andit.co/projects/html/jago-welfare/assets/img/volunteer/volunteer-2.png"
-                    alt=""
-                  />
-                </div>
-                <div className={styles.ourCardsDesc}>
-                  <h3>Mark carson</h3>
-                  <p>projects manager</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              {" "}
-              <div className={styles.ourCards}>
-                <div>
-                  <img
-                    src="https://andit.co/projects/html/jago-welfare/assets/img/volunteer/volunteer-3.png"
-                    alt=""
-                  />
-                </div>
-                <div className={styles.ourCardsDesc}>
-                  <h3>Mark carson</h3>
-                  <p>projects manager</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              {" "}
-              <div className={styles.ourCards}>
-                <div>
-                  <img
-                    src="https://andit.co/projects/html/jago-welfare/assets/img/volunteer/volunteer-4.png"
-                    alt=""
-                  />
-                </div>
-                <div className={styles.ourCardsDesc}>
-                  <h3>Mark carson</h3>
-                  <p>projects manager</p>
-                </div>
-              </div>
-            </div>
+            {OurTeamData.map((item) => {
+              return (
+                <>
+                  <div key={item.id}>
+                    <div className={styles.ourCards}>
+                      <div>
+                        <img
+                          src={require(`../../../Assets/AboutUs/our-team/${item.img}`)}
+                        />
+                      </div>
+                      <div className={styles.ourCardsDesc}>
+                        <h3>{item.name}</h3>
+                        <p>{item.designation}</p>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+            })}
           </div>
         </div>
       </div>

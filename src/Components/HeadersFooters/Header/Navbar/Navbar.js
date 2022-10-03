@@ -89,7 +89,7 @@ function Navbar() {
                                 {item.submenu.map((item) => {
                                   return (
                                     <>
-                                      <li>
+                                      <li key={item.id}>
                                         <NavLink to={item.url}>
                                           {item.title}
                                         </NavLink>

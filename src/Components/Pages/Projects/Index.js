@@ -1,30 +1,34 @@
-import React, { useState, useEffect, useRef } from "react";
-import styles from "./Projects.module.css";
-import SecTitle from "../../../Assets/ElementsUi/SecTitle";
-import buildIndiaMovement from "../../../Assets/Home/Projects/build-india-movement.jpeg";
+import React from "react";
+import styles from "./projects.module.css";
+import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+import SecTitle from "../../Assets/ElementsUi/SecTitle";
+import ProjectData from "../../Assets/Data/Projects/projects.json";
+import buildIndiaMovement from "../../Assets/Home/Projects/build-india-movement.jpeg";
 import { IoLocationSharp } from "react-icons/io5";
 import { VscOrganization } from "react-icons/vsc";
-import ProjectData from "../../../Assets/Data/Projects/projects.json";
-
 export default function Index() {
   return (
     <>
-      <div className={styles.ProjectsAlphaContainer}>
-        <div className={styles.ProjectItemsBackground}></div>
-        <div className={styles.ProjectsContainer}>
-          <div className={styles.ProjectHeader}>
-            <SecTitle
-              title="Projects"
-              titleTag="p"
-              titleColor="#808080"
-              text="We are always where other people need help"
-              textTag="p"
-              textColor="#000"
-            />
-          </div>
+      <BannerTitle
+        title="Projects"
+        titleTag="h1"
+        titleColor="#fff"
+        img="090b2b.png"
+        imgColor="696969"
+      />
+      <div className={styles.projectsMainContainer}>
+        <SecTitle
+          title="Our Projects"
+          titleTag="p"
+          titleColor="#808080"
+          text="We are always where other people need help"
+          textTag="p"
+          textColor="#000"
+        />
 
+        <div className={styles.ProjectsContainer}>
           <div className={styles.ProjectsItemsFlexContainer}>
-            {ProjectData.slice(0, 3).map((item) => {
+            {ProjectData.map((item) => {
               return (
                 <>
                   <div className={styles.ProjectsItemsContainer}>

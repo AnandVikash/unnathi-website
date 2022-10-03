@@ -6,18 +6,19 @@
 
 .ourTeamMembers {
   padding: 2%;
-  /* border: 2px solid red; */
 }
 
 .ourTeamContent {
-  /* border: 2px solid red; */
   width: 90%;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .ourTeamContent > div {
+  width: 25%;
   padding: 20px;
 }
 
@@ -28,16 +29,17 @@
 }
 .ourCards img {
   width: 100%;
+  height: 250px;
 }
 
 .ourCards h3 {
   color: #2a283e;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .ourCards p {
   color: #918090;
-  font-size: 20px;
+  font-size: 17px;
 }
 .ourCardsDesc {
   padding: 10px 0px;

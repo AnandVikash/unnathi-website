@@ -1,13 +1,5 @@
-.ProjectsAlphaContainer {
-  position: relative;
-}
-.ProjectItemsBackground {
-  background-color: #ffded1 !important;
-  width: 100%;
-  position: absolute;
-  top: 60%;
-  bottom: 0;
-  z-index: -1;
+.projectsMainContainer {
+  margin-top: 50px;
 }
 .ProjectsContainer {
   width: 90%;

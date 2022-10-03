@@ -6,6 +6,7 @@ import { ImQuotesRight } from "react-icons/im";
 import { ImQuotesLeft } from "react-icons/im";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import TestimonialImg from "../../../Assets/Home/Testimonials/testimonial-background.jpg";
+import TestimonialData from "../../../Assets/Data/Testimonials/testimonial.json";
 export default function index() {
   var settings = {
     dots: true,
@@ -40,107 +41,33 @@ export default function index() {
         />
         <div className={styles.TestimonialContainer}>
           <Slider {...settings} className={styles.TestimonialSliderContainer}>
-            <div>
-              <div className={styles.TestimonialItem}>
-                <div className={styles.TestimonialItemDescContainer}>
-                  <p className={styles.TestimonialItemDesc}>
-                    <RiDoubleQuotesL />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus tempor quis eros volutpat lobortis. Integer
-                    hendrerit finibus euismod.
-                  </p>
-                </div>
-                <div className={styles.TestimonialItemAuthorContainer}>
-                  <p className={styles.TestimonialItemAuthor}>User</p>
-                  <p className={styles.TestimonialItemDesignation}>Student</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className={styles.TestimonialItem}>
-                <div className={styles.TestimonialItemDescContainer}>
-                  <p className={styles.TestimonialItemDesc}>
-                    <RiDoubleQuotesL />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus tempor quis eros volutpat lobortis. Integer
-                    hendrerit finibus euismod. Phasellus at semper metus. Nullam
-                    et est et ligula faucibus tristique sed id elit. Sed
-                    porttitor eros velit, eget faucibus nisi ullamcorper a. In
-                    hac habitasse
-                  </p>
-                </div>
-                <div className={styles.TestimonialItemAuthorContainer}>
-                  <p className={styles.TestimonialItemAuthor}>User</p>
-                  <p className={styles.TestimonialItemDesignation}>Student</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className={styles.TestimonialItem}>
-                <div className={styles.TestimonialItemDescContainer}>
-                  <p className={styles.TestimonialItemDesc}>
-                    <RiDoubleQuotesL />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus tempor quis eros volutpat lobortis. Integer
-                    hendrerit finibus euismod.se
-                  </p>
-                </div>
-                <div className={styles.TestimonialItemAuthorContainer}>
-                  <p className={styles.TestimonialItemAuthor}>User</p>
-                  <p className={styles.TestimonialItemDesignation}>Student</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className={styles.TestimonialItem}>
-                <div className={styles.TestimonialItemDescContainer}>
-                  <p className={styles.TestimonialItemDesc}>
-                    <RiDoubleQuotesL />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus tempor quis eros volutpat lobortis. Integer
-                    hendrerit finibus euismod. Phasellus at semper metus. Nullam
-                    et est et ligula faucibus tristique sed id elit.
-                  </p>
-                </div>
-                <div className={styles.TestimonialItemAuthorContainer}>
-                  <p className={styles.TestimonialItemAuthor}>User</p>
-                  <p className={styles.TestimonialItemDesignation}>Student</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className={styles.TestimonialItem}>
-                <div className={styles.TestimonialItemDescContainer}>
-                  <p className={styles.TestimonialItemDesc}>
-                    <RiDoubleQuotesL />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus tempor quis etus. Nullam et est et ligula faucibus
-                    tristique sed id elit. Sed porttitor eros velit, eget
-                    faucibus nisi ullamcorper a. In hac habitasse
-                  </p>
-                </div>
-                <div className={styles.TestimonialItemAuthorContainer}>
-                  <p className={styles.TestimonialItemAuthor}>User</p>
-                  <p className={styles.TestimonialItemDesignation}>Student</p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className={styles.TestimonialItem}>
-                <div className={styles.TestimonialItemDescContainer}>
-                  <p className={styles.TestimonialItemDesc}>
-                    <RiDoubleQuotesL />
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus te id elit. Sed porttitor eros velit, eget faucibus
-                    nisi ullamcorper a. In hac habitasse
-                  </p>
-                </div>
-                <div className={styles.TestimonialItemAuthorContainer}>
-                  <p className={styles.TestimonialItemAuthor}>User</p>
-                  <p className={styles.TestimonialItemDesignation}>Student</p>
-                </div>
-              </div>
-            </div>
+            {TestimonialData.map((item) => {
+              return (
+                <>
+                  <div key={item.id}>
+                    <div className={styles.TestimonialItem}>
+                      <div className={styles.TestimonialItemDescContainer}>
+                        <p className={styles.TestimonialItemDesc}>
+                          <RiDoubleQuotesL />
+                          {item.text}
+                        </p>
+                      </div>
+                      <div className={styles.TestimonialItemAuthorContainer}>
+                        <p className={styles.TestimonialItemAuthor}>
+                          {item.name}
+                        </p>
+                        <p className={styles.TestimonialItemDesignation}>
+                          {item.profession}
+                        </p>
+                        <p className={styles.TestimonialItemPlace}>
+                          {item.place}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+            })}
           </Slider>
         </div>
       </div>

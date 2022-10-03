@@ -19,7 +19,7 @@ export default function Index() {
             {GalleryData.map((item) => {
               return (
                 <>
-                  <div>
+                  <div key={item.id}>
                     <a href={`#${item.imgFolder.toLowerCase()}`}>{item.name}</a>
                   </div>
                 </>
@@ -28,13 +28,13 @@ export default function Index() {
           </div>
           <div className={styles.GalleryImgMainContainer}>
             {GalleryData.map((item) => {
-              console.log();
               return (
                 <>
                   <p>{item.name}</p>
                   <div
                     className={styles.GalleryImgContainer}
                     id={`${item.imgFolder.toLowerCase()}`}
+                    key={item.id}
                   >
                     {item.imagnames.map((subItems) => {
                       return (
