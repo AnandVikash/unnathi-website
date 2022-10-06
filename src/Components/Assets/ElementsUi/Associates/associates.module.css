@@ -1,0 +1,27 @@
+.AssociatesMainContainer {
+  background-color: rgb(227, 227, 227);
+  padding: 40px 0px 60px;
+  margin-bottom: 50px;
+}
+
+.AssociatesContainer {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.AssociateImg {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.AssociateImg img {
+  margin: 0 auto;
+}
+.AssociateImg p {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 600;
+}

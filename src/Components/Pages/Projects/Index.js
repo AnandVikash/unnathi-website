@@ -13,7 +13,7 @@ export default function Index() {
         title="Projects"
         titleTag="h1"
         titleColor="#fff"
-        img="090b2b.png"
+        localImg="projects.jpg"
         imgColor="696969"
       />
       <div className={styles.projectsMainContainer}>

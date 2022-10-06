@@ -19,7 +19,6 @@ export default function Index() {
         <div className={styles.ourProjectsMembers}>
           <div className={styles.ourProjectsContent}>
             <div>
-              {" "}
               <div className={styles.ourSections}>
                 <div>
                   <img
@@ -41,7 +40,6 @@ export default function Index() {
               </div>
             </div>
             <div>
-              {" "}
               <div className={styles.ourSections}>
                 <div>
                   <img
@@ -63,7 +61,6 @@ export default function Index() {
               </div>
             </div>
             <div>
-              {" "}
               <div className={styles.ourSections}>
                 <div>
                   <img
@@ -85,7 +82,6 @@ export default function Index() {
               </div>
             </div>
             <div>
-              {" "}
               <div className={styles.ourSections}>
                 <div>
                   <img

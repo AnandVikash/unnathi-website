@@ -110,7 +110,7 @@ export default function index() {
                 <div className={styles.serviceCardTitle}>Web Design</div>
                 <div className={styles.serviceCardIcon}> ----&gt;</div>
               </div>
-            </div>{" "}
+            </div>
           </div>
           <div className={styles.serviceCards}>
             <div className={styles.serviceCard}>
@@ -121,7 +121,7 @@ export default function index() {
                 <div className={styles.serviceCardTitle}>Web Design</div>
                 <div className={styles.serviceCardIcon}> ----&gt;</div>
               </div>
-            </div>{" "}
+            </div>
           </div>
           <div className={styles.serviceCards}>
             <div className={styles.serviceCard}>
@@ -132,7 +132,7 @@ export default function index() {
                 <div className={styles.serviceCardTitle}>Web Design</div>
                 <div className={styles.serviceCardIcon}> ----&gt;</div>
               </div>
-            </div>{" "}
+            </div>
           </div>
         </div>
       </div>

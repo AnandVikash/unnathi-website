@@ -14,8 +14,7 @@
   grid-template-columns: 45% 55%;
   padding-bottom: 30px;
 }
-.EventItemsContainer > div {
-}
+
 .EventItems {
   padding: 10px;
 }
@@ -42,27 +41,32 @@
   font-weight: bold;
   text-align: left;
 }
+
 .EventVerticleDesc p {
   font-size: 19px;
   font-weight: bold;
   margin-top: 7px;
 }
+
 .EventVerticleDate {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .EventVerticleCircleDate {
   background-color: #09324c;
   clip-path: ellipse(50% 40% at 50% 50%);
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
   height: 50px;
   display: flex;
   align-items: center;
   padding: 30%;
   justify-content: center;
+  text-align: center;
 }
+
 .EventsVerticleCardDesc {
   color: rgb(137, 137, 137);
   margin: 7px 0px;
@@ -70,22 +74,20 @@
   line-height: 25px;
   width: 90%;
 }
+
 .EventsAddressItemContainer {
   display: flex;
 }
+
 .EventsAddressItemContainer > div {
   flex-basis: 50%;
-}
-.EventsAddressItem {
-  display: flex;
-  gap: 10px;
 }
 
 .EventsAddressItem {
   display: flex;
-  align-items: center;
   gap: 5%;
 }
+
 .EventsAddresIcon svg {
   font-size: 25px;
 }
@@ -146,13 +148,14 @@
 .EventHorizontalCircleDate {
   background-color: #09324c;
   clip-path: ellipse(50% 40% at 50% 50%);
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
   height: 50px;
   display: flex;
   align-items: center;
-  padding: 20% 20%;
+  padding: 25% 20%;
   justify-content: center;
+  text-align: center;
 }
 .EventsHorizontalCardDesc {
   color: rgb(137, 137, 137);

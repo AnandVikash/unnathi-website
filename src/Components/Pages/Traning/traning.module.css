@@ -16,6 +16,7 @@
 
 .TraningText img {
   width: 100%;
+  height: 350px;
 }
 
 .TraningText p {
@@ -44,9 +45,13 @@
 }
 
 .TraningSidebarLinks ul li {
+  margin-top: 20px;
+}
+.TraningSidebarLinks ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
   font-size: 18px;
   font-weight: 600;
-  margin-top: 20px;
 }
 
 .TraningSidebarAddress {

@@ -91,7 +91,8 @@
 }
 
 .FormsContainer input,
-.FormsContainer textarea {
+.FormsContainer textarea,
+.FormsContainer select {
   height: 60px;
   width: 100%;
   border-radius: 15px;
@@ -104,8 +105,14 @@
 .FormsContainer textarea {
   height: 150px;
 }
+.FormsContainer select {
+  width: 100%;
+  padding: 10px !important;
+}
 
-.FormsContainer form ::placeholder {
+.FormsContainer form ::placeholder,
+.FormsContainer select,
+.FormsContainer select option {
   color: #757d7d;
   font-size: 16px;
   font-weight: 500;

@@ -12,7 +12,7 @@ export default function index() {
         title="Contact"
         titleTag="h1"
         titleColor="#fff"
-        img="090b2b.png"
+        localImg="contacts.jpg"
         imgColor="696969"
       />
       <SecTitle
@@ -52,7 +52,7 @@ export default function index() {
                   <p>healing.unnathi@gmail.com</p>
                 </div>
               </div>
-              {/* <div className={styles.AddressItemContainer}>
+              <div className={styles.AddressItemContainer}>
                 <div className={styles.AddressItemIcon}>
                   <div className={styles.AddressIcon}>
                     <BsTelephoneFill />
@@ -62,11 +62,11 @@ export default function index() {
                   <h3>Phone</h3>
                   <p>+91 9845426049</p>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className={styles.FormsMainContainer}>
-            {/* <div className={styles.FormsContainer}>
+            <div className={styles.FormsContainer}>
               <h3>Leave us a message</h3>
               <form>
                 <div>
@@ -79,13 +79,24 @@ export default function index() {
                   <input type="text" placeholder="Subject" />
                 </div>
                 <div>
+                  <select name="franchise" id="franchise">
+                    <option value="" disabled selected hidden>
+                      Select your Franchise
+                    </option>
+                    <option value="north">North</option>
+                    <option value="south">South</option>
+                    <option value="east">East</option>
+                    <option value="west">West</option>
+                  </select>
+                </div>
+                <div>
                   <textarea rows="10" placeholder="Message" />
                 </div>
                 <div className={styles.FormSubmit}>
                   <input type="submit" value="Send Message" />
                 </div>
               </form>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

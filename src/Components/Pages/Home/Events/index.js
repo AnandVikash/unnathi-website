@@ -26,13 +26,11 @@ export default function Index() {
                     <span className={styles.EventVerticalTags}>
                       #ONE HEALER PER FAMILY
                     </span>
-                    <p>
-                      Healthy food and nutritions Dec awreness campaign december
-                    </p>
+                    <p>Full moon day meditation</p>
                   </div>
                   <div className={styles.EventVerticleDate}>
                     <div className={styles.EventVerticleCircleDate}>
-                      20 <br /> Dec
+                      9th <br /> Oct
                     </div>
                   </div>
                 </div>
@@ -74,12 +72,13 @@ export default function Index() {
                       <div className={styles.EventHorizontalDesc}>
                         <p>Run for the senior citizens.</p>
                         <span className={styles.EventHorizontalTags}>
-                          #REGULAR EVENTS AT UNNATHI HEALING FOUNDATION
+                          Yogic Crystal Healing and Yogic Psychic Self Defence
                         </span>
                       </div>
                       <div className={styles.EventHorizontalDate}>
                         <div className={styles.EventHorizontalCircleDate}>
-                          20 <br /> Dec
+                          15th – 16th <br />
+                          Oct 2022
                         </div>
                       </div>
                     </div>
@@ -118,14 +117,16 @@ export default function Index() {
                   <div className={styles.EventHorizontalCard}>
                     <div className={styles.EventHorizontalContent}>
                       <div className={styles.EventHorizontalDesc}>
-                        <p>Run for the senior citizens.</p>
+                        <p>Full moon day meditation</p>
                         <span className={styles.EventHorizontalTags}>
                           #REGULAR EVENTS AT UNNATHI HEALING FOUNDATION
                         </span>
                       </div>
                       <div className={styles.EventHorizontalDate}>
                         <div className={styles.EventHorizontalCircleDate}>
-                          20 <br /> Dec
+                          8th Nov
+                          <br />
+                          2022
                         </div>
                       </div>
                     </div>

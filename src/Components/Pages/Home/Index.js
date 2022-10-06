@@ -1,5 +1,5 @@
 import React from "react";
-import About from "./AboutUs/index";
+import About from "./AboutUs/Index";
 import AboutFounder from "./AboutFounder/index";
 import Projects from "./Projects/index";
 import Events from "./Events/index";
@@ -8,6 +8,7 @@ import Blogs from "./Blogs/index";
 import Banner from "./Banner/index";
 import Counters from "./Counters/index";
 import Testimonials from "./Testimonials/index";
+import Associates from "../../Assets/ElementsUi/Associates/Index";
 export default function index() {
   return (
     <div>
@@ -19,12 +20,8 @@ export default function index() {
       <Donation />
       <Counters />
       <Testimonials />
+      <Associates />
       <Blogs />
-      {/* 
-      <OurTeam />
- 
-      <OurProcess />
-      <Blog /> */}
     </div>
   );
 }

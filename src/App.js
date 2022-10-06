@@ -7,6 +7,7 @@ import About from "./Components/Pages/About/Index";
 import Traning from "./Components/Pages/Traning/Index";
 import Healing from "./Components/Pages/Healing/Index";
 import Gallery from "./Components/Pages/Media/Gallery/Index";
+import Blogs from "./Components/Pages/Blogs";
 import Projects from "./Components/Pages/Projects/Index";
 import Contact from "./Components/Pages/Contact/Index";
 import "slick-carousel/slick/slick.css";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/training" element={<Traning />} />
           <Route path="/healing" element={<Healing />} />
           <Route path="/media/gallery" element={<Gallery />} />
+          <Route path="/media/blogs" element={<Blogs />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./About.module.css";
 import Bookimg from "../../../Assets/Home/AboutUs/book-icon.png";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   const img1 = "../../../Assets/Home/AboutUs/book-icon.png";
@@ -13,14 +14,14 @@ export default function Index() {
             <div className={styles.AboutImg}>
               <img src={Bookimg} />
               <p>Healing</p>
-              <a>More details...</a>
+              <Link to="/healing">More details...</Link>
             </div>
           </div>
           <div className={styles.AboutIconContainer}>
             <div className={styles.AboutImg}>
               <img src={Bookimg} />
               <p>Training</p>
-              <a>More details...</a>
+              <Link to="/traning">More details...</Link>
             </div>
           </div>
           <div className={styles.AboutIconContainer}>

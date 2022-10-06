@@ -48,6 +48,12 @@
   font-weight: 600;
   margin-top: 20px;
 }
+.HealingSidebarLinks ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 600;
+}
 
 .HealingSidebarAddress {
   background-color: var(--primary-color);

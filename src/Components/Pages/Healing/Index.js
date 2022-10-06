@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./healing.module.css";
 import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+import { Link } from "react-router-dom";
+
 export default function Index() {
   return (
     <>
@@ -8,13 +10,15 @@ export default function Index() {
         title="Healing"
         titleTag="h1"
         titleColor="#fff"
-        img="090b2b.png"
+        localImg="banner-5.jpg"
         imgColor="696969"
       />
       <div className={styles.HealingMainContainer}>
         <div className={styles.HealingContainer}>
           <div className={styles.HealingText}>
-            <img src={`https://dummyimage.com/884x400/0000FF/090b2b.png`} />
+            {/* <img src={`https://dummyimage.com/884x400/0000FF/090b2b.png`} /> */}
+            <img src={require("../../Assets/Home/Banner/banner-3.jpg")} />
+
             <p>
               Being healthy is our right, is not a choice. There is an ancient
               method of keeping fit the Physical, Emotional and Mental levels.
@@ -27,7 +31,7 @@ export default function Index() {
               of healing through research and the proven methods. If there is
               one yogic healer in a family, the family will be healthy and helps
               to maintain the overall wellness of the family. Vision of Unnathi
-              is to “make one yogic healer per family”.{" "}
+              is to “make one yogic healer per family”.
             </p>
             <p>
               Unnathi is into training since 2010. The trained yogic healers are
@@ -45,7 +49,7 @@ export default function Index() {
             </p>
             <p>
               One of the popular course “Kriyashakthi” is specially designed for
-              a practitioner to attract prosperity in abundance.{" "}
+              a practitioner to attract prosperity in abundance.
             </p>
             <p>
               You may contact Unnathi to register to forth coming batches of
@@ -60,13 +64,21 @@ export default function Index() {
             <div className={styles.HealingSidebarContainer}>
               <div className={styles.HealingSidebarLinks}>
                 <ul>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
-                  <li>lorem ipsum</li>
+                  <li>
+                    <Link to="/about-us">About Us</Link>
+                  </li>
+                  <li>
+                    <Link to="/traning">Traning</Link>
+                  </li>
+                  <li>
+                    <Link to="/healing">Healing</Link>
+                  </li>
+                  <li>
+                    <Link to="/projects">Projects</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact</Link>
+                  </li>
                 </ul>
               </div>
               <div className={styles.HealingSidebarAddress}>
