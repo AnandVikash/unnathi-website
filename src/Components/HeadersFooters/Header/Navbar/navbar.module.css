@@ -87,13 +87,18 @@ menu
   padding: 25px 0px 25px 15px;
   border-radius: 10px 0px 0px 10px;
 }
+.navbarMenuItems {
+  width: 90%;
+  margin: 0 auto;
+}
 .navbarMenuItems > ul {
   list-style: none;
   display: flex;
+  justify-content: space-around;
 }
 .navbarMenuItems > ul li {
   /* display: inline-block; */
-  margin-left: 10px;
+  /* margin-left: 10px; */
   list-style: none;
   position: relative;
 }
@@ -104,7 +109,10 @@ menu
   font-weight: bold;
   padding: 6px 5px;
 }
-
+.navbarMenuItemIcon svg {
+  position: absolute;
+  font-size: 15px;
+}
 .navbarMenuButton {
   text-align: center;
 }
@@ -158,6 +166,4 @@ submenu
 .submenulist li:hover {
   font-weight: 700;
   padding-left: 10px;
-  /* margin-left: 10px !important; */
-  /* transition: 1s; */
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./blog.module.css";
-import data from "../../Assets/Blog/Data/blog.json";
+import data from "../../../Assets/Blog/Data/blog.json";
 import { NavLink } from "react-router-dom";
 export default function Blog() {
   return (
@@ -16,8 +16,8 @@ export default function Blog() {
                     <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/inspired-woman-NEARSKQ@2x-768x531.jpg" />
                     <div className={styles.blogTextContainer}>
                       <div className={styles.blogText}>
-                        <h5>{title}</h5>
-                        <p>{excerpt.substring(0, 100)}....</p>
+                        <h5>{excerpt.substring(0, 50)}...</h5>
+                        <p>{excerpt.substring(0, 105)}....</p>
                         <a href={`/blogs/${title}/${id}`}>
                           <button>Read More</button>
                         </a>

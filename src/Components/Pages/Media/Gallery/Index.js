@@ -10,7 +10,7 @@ export default function Index() {
         title="Gallery"
         titleTag="h1"
         titleColor="#fff"
-        img="090b2b.png"
+        localImg="gallery-1.jpg"
         imgColor="696969"
       />
       <div className={styles.GalleryMainContainer}>

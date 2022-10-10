@@ -9,6 +9,7 @@ import {
   FaPinterest,
   FaSearch,
 } from "react-icons/fa";
+import { IoMdArrowDropdown } from "react-icons/io";
 import { NavLink, Link } from "react-router-dom";
 import { menuItems } from "../Navbar";
 function Navbar() {
@@ -82,7 +83,15 @@ function Navbar() {
                       return (
                         <>
                           <li key={item.id} className={styles.navbarMenuItem}>
-                            <NavLink to={item.url}>{item.title}</NavLink>
+                            <NavLink
+                              to={item.url}
+                              className={styles.navbarMenuItemIcon}
+                            >
+                              {item.title}
+                              {item.hasOwnProperty("submenu") && (
+                                <IoMdArrowDropdown />
+                              )}
+                            </NavLink>
 
                             {item.hasOwnProperty("submenu") && (
                               <ul className={styles.submenulist}>
@@ -106,7 +115,7 @@ function Navbar() {
                   </ul>
                 </div>
                 <div className={styles.navbarMenuSearch}>
-                  <FaSearch />
+                  {/* <FaSearch /> */}
                 </div>
                 <div className={styles.navbarMenuButton}>
                   <a>Donate Now</a>

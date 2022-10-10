@@ -3,6 +3,7 @@
   padding-top: 30px;
   background-color: #eee;
   isolation: isolate;
+  padding-bottom: 60px;
 }
 .BlogItemsBackground {
   background-color: #ffded1 !important;
@@ -34,6 +35,10 @@
 .BlogsItemContent {
   margin: 15px 0px;
   padding: 10px 20px;
+}
+.BlogsItemContent > h3 {
+  color: var(--primary-color);
+  font-weight: bold;
 }
 .BlogsItemContent > p {
   font-size: 18px;

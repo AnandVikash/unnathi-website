@@ -1,11 +1,11 @@
 .AboutAlphaContainer {
   position: relative;
-  padding-top: 5%;
+  padding: 5% 0%;
 }
 .AboutBackGround {
   position: absolute;
   top: 0;
-  height: 65%;
+  height: 100%;
   width: 100%;
   z-index: -1;
   background-color: #d4d4d4;
@@ -39,5 +39,8 @@
 }
 .AboutImg a {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }

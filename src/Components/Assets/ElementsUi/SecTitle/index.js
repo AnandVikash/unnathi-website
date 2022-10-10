@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./secTitle.module.css";
-export default function SecTitle({
-  title,
-  titleTag: TitleTag,
-  titleColor,
-  text,
-  textTag: TextTag,
-  textColor,
-  textAlign,
-}) {
+export default function SecTitle(props) {
+  let {
+    title,
+    titleTag: TitleTag,
+    titleColor,
+    text,
+    textTag: TextTag,
+    textColor,
+    textAlign,
+  } = props;
   return (
     <>
       <div className={styles.SecTitleContainer} style={{ textAlign }}>

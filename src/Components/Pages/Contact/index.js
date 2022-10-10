@@ -12,7 +12,7 @@ export default function index() {
         title="Contact"
         titleTag="h1"
         titleColor="#fff"
-        img="090b2b.png"
+        localImg="contacts.jpg"
         imgColor="696969"
       />
       <SecTitle
@@ -77,6 +77,17 @@ export default function index() {
                 </div>
                 <div>
                   <input type="text" placeholder="Subject" />
+                </div>
+                <div>
+                  <select name="franchise" id="franchise">
+                    <option value="" disabled selected hidden>
+                      Select your Franchise
+                    </option>
+                    <option value="north">North</option>
+                    <option value="south">South</option>
+                    <option value="east">East</option>
+                    <option value="west">West</option>
+                  </select>
                 </div>
                 <div>
                   <textarea rows="10" placeholder="Message" />

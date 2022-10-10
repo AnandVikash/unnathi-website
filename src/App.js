@@ -7,7 +7,11 @@ import About from "./Components/Pages/About/Index";
 import Traning from "./Components/Pages/Traning/Index";
 import Healing from "./Components/Pages/Healing/Index";
 import Gallery from "./Components/Pages/Media/Gallery/Index";
+import Blogs from "./Components/Pages/Blogs";
+import Events from "./Components/Pages/Events/Index";
 import Projects from "./Components/Pages/Projects/Index";
+import ProjectsSingle from "./Components/Pages/Projects/SingleProject/Index";
+import Research from "./Components/Pages/Research/Index";
 import Contact from "./Components/Pages/Contact/Index";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,25 +30,14 @@ function App() {
           <Route path="/training" element={<Traning />} />
           <Route path="/healing" element={<Healing />} />
           <Route path="/media/gallery" element={<Gallery />} />
+          <Route path="/media/blogs" element={<Blogs />} />
+          <Route path="/media/events" element={<Events />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects-single" element={<ProjectsSingle />} />
+          <Route path="/research" element={<Research />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </BrowserRouter>
     </>
   );

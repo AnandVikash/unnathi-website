@@ -110,71 +110,7 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div>
-              <div className={styles.BlogsItems}>
-                <div className={styles.BlogsItemImage}>
-                  <img src={buildIndiaMovement} />
-                </div>
-                <div className={styles.BlogsItemContent}>
-                  <h3>JOIN BUILD INDIA MOMENT</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur notted adipisicing
-                    elit sed do eiusmod tempor incididunt ut labore.
-                  </p>
-                  <p className={styles.BlogItemDate}>August 19 2022</p>
-                  <hr />
-                  <p className={styles.BlogItemRead}> Read More</p>
-                </div>
-              </div>
-            </div>
           </Slider>
-          {/* <div className={styles.BlogsItemsFlexContainer}>
-            <div className={styles.BlogsItems}>
-              <div className={styles.BlogsItemImage}>
-                <img src={buildIndiaMovement} />
-              </div>
-              <div className={styles.BlogsItemContent}>
-                <h3>JOIN BUILD INDIA MOMENT</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur notted adipisicing
-                  elit sed do eiusmod tempor incididunt ut labore.
-                </p>
-                <p className={styles.BlogItemDate}>August 19 2022</p>
-                <hr />
-                <p className={styles.BlogItemRead}> Read More</p>
-              </div>
-            </div>
-            <div className={styles.BlogsItems}>
-              <div className={styles.BlogsItemImage}>
-                <img src={buildIndiaMovement} />
-              </div>
-              <div className={styles.BlogsItemContent}>
-                <h3>JOIN BUILD INDIA MOMENT</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur notted adipisicing
-                  elit sed do eiusmod tempor incididunt ut labore.
-                </p>
-                <p className={styles.BlogItemDate}>August 19 2022</p>
-                <hr />
-                <p className={styles.BlogItemRead}> Read More</p>
-              </div>
-            </div>
-            <div className={styles.BlogsItems}>
-              <div className={styles.BlogsItemImage}>
-                <img src={buildIndiaMovement} />
-              </div>
-              <div className={styles.BlogsItemContent}>
-                <h3>JOIN BUILD INDIA MOMENT</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur notted adipisicing
-                  elit sed do eiusmod tempor incididunt ut labore.
-                </p>
-                <p className={styles.BlogItemDate}>August 19 2022</p>
-                <hr />
-                <p className={styles.BlogItemRead}> Read More</p>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </>
