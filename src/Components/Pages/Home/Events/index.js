@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./Events.module.css";
 import SecTitle from "../../../Assets/ElementsUi/SecTitle";
+
 import events from "../../../Assets/Home/Events/events.jpeg";
 import { IoLocationSharp } from "react-icons/io5";
 
@@ -17,6 +18,7 @@ export default function Index() {
             textTag="p"
             textColor="#000"
           />
+
           <div className={styles.EventItemsContainer}>
             <div className={styles.EventItems}>
               <div className={styles.EventVerticalCard}>

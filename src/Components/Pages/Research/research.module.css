@@ -1,0 +1,78 @@
+.ResearchMainContainer {
+  margin: 80px 0px;
+}
+
+.ResearchContainer {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 70% 30%;
+}
+
+.ResearchText {
+  padding: 10px !important;
+}
+
+.ResearchText img {
+  width: 100%;
+  height: 350px;
+}
+
+.ResearchText p {
+  margin-top: 16px;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: justify;
+}
+.ResearchText p strong {
+  color: #616161;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ResearchText p ul {
+  margin-left: 40px;
+}
+.ResearchSidebarContainer {
+  background-color: #f9f9fc;
+  position: sticky;
+  top: 20%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 15px;
+}
+
+.ResearchSidebarLinks {
+  padding: 20px 10px 20px 20px;
+}
+
+.ResearchSidebarLinks ul {
+  list-style: none;
+}
+
+.ResearchSidebarLinks ul li {
+  margin-top: 20px;
+}
+.ResearchSidebarLinks ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ResearchSidebarAddress {
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 0px 0px 15px 15px;
+}
+.ResearchSidebarAddress p {
+  margin: 10px 0px 5px;
+  color: #fff;
+  line-height: 25px;
+  font-size: 17px;
+}
+.ResearchSidebarAddress p strong {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}

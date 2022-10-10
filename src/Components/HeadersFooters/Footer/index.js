@@ -7,7 +7,8 @@ import {
   FaTwitter,
   FaPinterest,
 } from "react-icons/fa";
-import { TwitterOnAirButton } from "react-twitter-embed";
+
+import { TwitterTimelineEmbed } from "react-twitter-embed";
 export default function index() {
   const data = `<a class="twitter-timeline" href="https://twitter.com/UnnathiF?ref_src=twsrc%5Etfw">Tweets by UnnathiF</a>`;
 
@@ -77,10 +78,19 @@ export default function index() {
                 </ul>
               </div>
             </div>
-            <div className={styles.footerContentItem}>
+
+            <div
+              className={`${styles.footerContentItem}${styles.footerContainerTwiteer}`}
+            >
               <div className={styles.footerContentLinks}>
                 <p className={styles.footerContentLinksTitle}>Latest tweets</p>
-                <div dangerouslySetInnerHTML={{ __html: data }} />
+                <div>
+                  <TwitterTimelineEmbed
+                    sourceType="profile"
+                    screenName="UnnathiF"
+                    options={{ height: 350 }}
+                  />
+                </div>
               </div>
             </div>
           </div>

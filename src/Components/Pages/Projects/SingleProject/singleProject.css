@@ -1,0 +1,103 @@
+.SingleEventContainer {
+  width: 90%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.SingleEventContainer > div {
+}
+
+.SingleEventContent {
+  padding: 10px;
+}
+.SingleEventContentImg {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.SingleEventContentImg img {
+  width: 100%;
+  transition: 0.5s;
+}
+.SingleEventContentImg img:hover {
+  transform: scale(1.3);
+}
+.SingleEventContentDesc h3 {
+  margin: 15px 0px;
+  font-size: 30px;
+}
+.SingleEventContentDesc p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #818090;
+  font-weight: 500;
+  margin: 10px 0px;
+  text-align: justify;
+}
+.SingleEventTitle {
+  font-size: 25px !important;
+  color: #383838 !important;
+  margin: 25px 0px !important;
+  font-weight: 600 !important;
+}
+.SingleEventContentDesc ul {
+  margin: 20px 30px 10px;
+}
+/* 
+----
+-----
+event
+----
+--- */
+.SingleEventDetails {
+  padding: 10px;
+}
+.SingleEventDetailsOrganizer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  box-shadow: -4px -4px 20px rgb(0 0 0 / 8%), 8px 10px 24px rgb(0 0 0 / 8%);
+  border-radius: 10px;
+  padding: 10px;
+}
+.SingleEventDetailsOrganizer > div {
+  padding: 5px;
+}
+.SingleEventOrganizerContact > div {
+  padding: 5px;
+}
+.SingleEventOrganizerHeading {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(105, 105, 105);
+}
+.SingleEventOrganizerName {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.SingleEventOrganizerCompany {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(105, 105, 105);
+}
+
+.SingleEventContactItem {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+}
+
+.SingleEventContactItemIcon {
+  background-color: red;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20%;
+  color: #fff;
+}
+.SingleEventContactItemDetails {
+  font-size: 17px;
+  font-weight: 600;
+}
