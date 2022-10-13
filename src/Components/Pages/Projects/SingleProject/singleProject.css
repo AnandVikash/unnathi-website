@@ -90,7 +90,6 @@ event
 }
 
 .SingleEventContactItemIcon {
-  background-color: red;
   padding: 8px;
   font-size: 18px;
   font-weight: bold;
@@ -100,4 +99,78 @@ event
 .SingleEventContactItemDetails {
   font-size: 17px;
   font-weight: 600;
+}
+
+.SecondEventDetails {
+  margin-top: 6%;
+  padding: 10px;
+  box-shadow: -4px -4px 20px rgb(0 0 0 / 8%), 8px 10px 24px rgb(0 0 0 / 8%);
+}
+
+.SecondEventOrganizerHeader h1 {
+  font-size: 22px;
+  color: #212529;
+  letter-spacing: 1.4px;
+}
+
+.SecondEventOrganizerHeader {
+  color: Black;
+  font-size: 15px;
+  border-bottom: 1.5px solid grey;
+}
+
+.SecondEventDetailsOrganizer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  /* box-shadow: -4px -4px 20px rgb(0 0 0 / 8%), 8px 10px 24px rgb(0 0 0 / 8%); */
+  border-radius: 10px;
+  padding: 10px;
+}
+.SecondEventDetailsOrganizer > div {
+  padding: 5px;
+}
+.SecondEventOrganizerContact > div {
+  padding: 5px;
+}
+.SecondEventOrganizerHeading {
+  font-size: 20px;
+  color: #2a283e;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.SecondEventOrganizerName {
+  font-size: 18px;
+  color: #818090;
+  font-weight: 600;
+  margin-bottom: 2px;
+  color: rgb(105, 105, 105);
+}
+.SecondEventOrganizerCompany {
+  font-size: 15px;
+  color: #282f29;
+  font-weight: 600;
+}
+
+.SecondEventContactItem {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+}
+
+.SecondEventContactItemIcon {
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20%;
+  color: #fff;
+}
+.SecondEventContactItemDetails {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.ThirdSection {
+  margin-top: 5%;
+  padding: 10px;
+  box-shadow: -4px -4px 20px rgb(0 0 0 / 8%), 8px 10px 24px rgb(0 0 0 / 8%);
 }
