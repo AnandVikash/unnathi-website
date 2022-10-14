@@ -2,10 +2,7 @@ import React from "react";
 import styles from "./testimonial.module.css";
 import Slider from "react-slick";
 import SecTitle from "../../../Assets/ElementsUi/SecTitle";
-import { ImQuotesRight } from "react-icons/im";
-import { ImQuotesLeft } from "react-icons/im";
 import { RiDoubleQuotesL } from "react-icons/ri";
-import TestimonialImg from "../../../Assets/Home/Testimonials/testimonial-background.jpg";
 import TestimonialData from "../../../Assets/Data/Testimonials/testimonial.json";
 export default function index() {
   var settings = {

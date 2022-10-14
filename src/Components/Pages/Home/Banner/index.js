@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./banner.css";
 import Slider from "react-slick";
-import banner1 from "../../../Assets/Home/Banner/banner-1.jpg";
-import banner2 from "../../../Assets/Home/Banner/banner-2.jpg";
-import banner3 from "../../../Assets/Home/Banner/banner-3.jpg";
+import banner1 from "../../../Assets/Home/Banner/new-500.jpg";
+import banner11 from "../../../Assets/Home/Banner/pixelmatching1.jpg";
+import banner2 from "../../../Assets/Home/Banner/banner-1-1.jpg";
+import banner3 from "../../../Assets/Home/Banner/three-join-3.jpg";
 import banner4 from "../../../Assets/Home/Banner/banner-4.jpg";
 import banner5 from "../../../Assets/Home/Banner/banner-5.jpg";
 import banner6 from "../../../Assets/Home/Banner/banner-6.jpg";
@@ -20,7 +21,7 @@ export default function Index() {
     infinite: true,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -34,6 +35,20 @@ export default function Index() {
             <div>
               <div className="BannerSliderContainer">
                 <img src={banner1} />
+                {/* <div className="BannerSliderContent">
+                  <p className="BannerSliderTitle">
+                    Bold - Share your care to make someone’s life better
+                  </p>
+                  <p className="BannerSliderDesc">
+                    Running - Life is a loving gift from God! It becomes better
+                    by giving love that each one is entitled to.
+                  </p>
+                </div> */}
+              </div>
+            </div>
+            <div>
+              <div className="BannerSliderContainer">
+                <img src={banner11} />
                 <div className="BannerSliderContent">
                   <p className="BannerSliderTitle">
                     Share your love to make someone’s life better
@@ -140,7 +155,6 @@ export default function Index() {
               <p>make someone’s</p>
               <p>life better</p>
             </div>
-
             <p className={styles.bannerText}>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a type and scrambled.
