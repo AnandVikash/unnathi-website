@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./traning.module.css";
 import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import { Link } from "react-router-dom";
-
+import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 export default function Index() {
   return (
     <>
@@ -61,40 +61,7 @@ export default function Index() {
             </p>
           </div>
           <div className={styles.TraningSidebar}>
-            <div className={styles.TraningSidebarContainer}>
-              <div className={styles.TraningSidebarLinks}>
-                <ul>
-                  <li>
-                    <Link to="/about-us">About Us</Link>
-                  </li>
-                  <li>
-                    <Link to="/traning">Traning</Link>
-                  </li>
-                  <li>
-                    <Link to="/healing">Healing</Link>
-                  </li>
-                  <li>
-                    <Link to="/projects">Projects</Link>
-                  </li>
-                  <li>
-                    <Link to="/contact">Contact</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className={styles.TraningSidebarAddress}>
-                <p>
-                  <strong>Address:</strong> 150, 2nd Floor, Above Vishwas
-                  Jewellers, Sanjay Nagar Main Rd, AECS Layout, Bengaluru,
-                  Karnataka 560094
-                </p>
-                <p>
-                  <strong>Phone:</strong> +91 9845426049
-                </p>
-                <p>
-                  <strong>Email:</strong> healing.unnathi@gmail.com
-                </p>
-              </div>
-            </div>
+            <MainLinksSideBar />
           </div>
         </div>
       </div>
