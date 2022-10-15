@@ -1,0 +1,173 @@
+.SingleProjectContainer {
+  width: 90%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.SingleProjectContent {
+  padding: 10px;
+}
+.SingleProjectContentImg {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.SingleProjectContentImg img {
+  width: 100%;
+  transition: 0.5s;
+}
+.SingleProjectContentImg img:hover {
+  transform: scale(1.3);
+}
+.SingleProjectContentDesc h3 {
+  margin: 15px 0px;
+  font-size: 30px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 7px;
+}
+.SingleProjectContentDesc p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #818090;
+  font-weight: 500;
+  margin: 10px 0px;
+  text-align: justify;
+}
+.SingleProjectTitle {
+  font-size: 25px !important;
+  color: #383838 !important;
+  margin: 25px 0px !important;
+  font-weight: 600 !important;
+}
+.SingleProjectContentDesc ul {
+  margin: 20px 30px 10px;
+}
+/* 
+----
+-----
+Project
+----
+--- */
+.SingleProjectDetails {
+  padding: 10px;
+}
+.SingleProjectDetails > div {
+  margin: 20px 0px;
+}
+.SingleProjectDetailsOrganizer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  box-shadow: -4px -4px 20px rgb(0 0 0 / 8%), 8px 10px 24px rgb(0 0 0 / 8%);
+  border-radius: 10px;
+  padding: 10px;
+}
+.SingleProjectDetailsOrganizer > div {
+  padding: 5px;
+}
+.SingleProjectOrganizerContact > div {
+  padding: 5px;
+}
+.SingleProjectOrganizerHeading {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(105, 105, 105);
+}
+.SingleProjectOrganizerName {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.SingleProjectOrganizerCompany {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(105, 105, 105);
+}
+
+.SingleProjectContactItem {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+}
+
+.SingleProjectContactItemIcon {
+  background-color: red;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20%;
+  color: #fff;
+}
+.SingleProjectContactItemDetails {
+  font-size: 17px;
+  font-weight: 600;
+}
+/* //  recent Courses */
+.SingleRecentContainer {
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: -4px -4px 20px rgb(0 0 0 / 8%), 8px 10px 24px rgb(0 0 0 / 8%);
+}
+.SingleRecentContainer h3 {
+  font-size: 25px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 7px;
+}
+.SingleRecentProjectsItem {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 10px;
+  margin: 10px 0px;
+}
+.SingleRecentProjectsItemContent p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.SingleRecentProjectsItemContent p span {
+  font-size: 17px;
+  font-weight: 500;
+  display: block;
+  margin: 7px 0px;
+}
+
+.SingleShareCoursesContainer {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -4px -4px 20px rgb(0 0 0 / 8%), 8px 10px 24px rgb(0 0 0 / 8%);
+}
+.SingleShareCoursesContainer h3 {
+  font-size: 25px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 7px;
+}
+.SingleShareCoursesSocial {
+  display: flex;
+  gap: 20px;
+}
+.SingleShareCoursesSocial > div {
+  background-color: #fceceb;
+  border-radius: 50%;
+}
+.SingleShareCoursesSocial svg {
+  font-size: 24px;
+  margin: 10px;
+}
+.SingeMapContainer {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -4px -4px 20px rgb(0 0 0 / 8%), 8px 10px 24px rgb(0 0 0 / 8%);
+}
+.SingeMapContainer h3 {
+  font-size: 25px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 7px;
+}
+.SingeMapContainer iframe {
+  border: 2px solid red;
+  width: 100%;
+}

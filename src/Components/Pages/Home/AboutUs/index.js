@@ -2,12 +2,22 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "./About.module.css";
 import Bookimg from "../../../Assets/Home/AboutUs/book-icon.png";
 import { Link } from "react-router-dom";
+import SecTitle from "../../../Assets/ElementsUi/SecTitle";
 
 export default function Index() {
   const img1 = "../../../Assets/Home/AboutUs/book-icon.png";
+
   return (
     <>
       <div className={styles.AboutAlphaContainer}>
+        <SecTitle
+          title="About us"
+          titleTag="p"
+          titleColor="#808080"
+          text=""
+          textTag="p"
+          textColor="#000"
+        />
         <div className={styles.AboutBackGround}></div>
         <div className={styles.AboutContainer}>
           <div className={styles.AboutIconContainer}>
@@ -21,14 +31,14 @@ export default function Index() {
             <div className={styles.AboutImg}>
               <img src={Bookimg} />
               <p>Training</p>
-              <Link to="/traning">More details...</Link>
+              <Link to="/training">More details...</Link>
             </div>
           </div>
           <div className={styles.AboutIconContainer}>
             <div className={styles.AboutImg}>
               <img src={Bookimg} />
               <p>Projects</p>
-              <a>More details...</a>
+              <Link to="/projects">More details...</Link>
             </div>
           </div>
         </div>

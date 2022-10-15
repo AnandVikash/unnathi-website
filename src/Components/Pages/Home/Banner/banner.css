@@ -1,3 +1,8 @@
+.marquee {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
 .BannerAlphaContainer {
   margin-bottom: 30px;
 }
@@ -59,6 +64,12 @@
 }
 
 @media (min-width: 992px) {
+  .BannerSliderContainer {
+    height: 440px;
+  }
+}
+
+@media (min-width: 1400px) {
   .BannerSliderContainer {
     height: 500px;
   }

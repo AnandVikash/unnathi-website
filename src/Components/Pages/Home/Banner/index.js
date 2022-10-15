@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./banner.css";
+import "./banner.css";
 import Slider from "react-slick";
 import banner1 from "../../../Assets/Home/Banner/new-500.jpg";
 import banner11 from "../../../Assets/Home/Banner/pixelmatching1.jpg";
@@ -28,6 +28,7 @@ export default function Index() {
   };
   return (
     <>
+      <marquee>Current Events </marquee>
       {/* style={{ backgroundImage: `url(${banner1})`, border:"2px solid red" }} */}
       <div className="BannerAlphaContainer">
         <div className="BannerContainer">

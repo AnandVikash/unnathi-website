@@ -14,6 +14,7 @@ export default function SecTitle(props) {
     <>
       <div className={styles.SecTitleContainer} style={{ textAlign }}>
         <TitleTag className={styles.SecTitleText} style={{ color: titleColor }}>
+          {/* <img src="https://andit.co/projects/html/jago-welfare/assets/img/icon/heading.png" /> */}
           {title}
         </TitleTag>
         <TextTag className={styles.SecTitleDesc} style={{ color: textColor }}>

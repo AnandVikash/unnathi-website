@@ -18,7 +18,12 @@ export default function Index() {
             </div>
             <div className={styles.AboutFounderLogoText}>
               <div className={styles.AboutMainBackground}></div>
-              <p>Welcome To Unnathi</p>
+
+              <p>
+                {" "}
+                <img src="https://andit.co/projects/html/jago-welfare/assets/img/icon/about.png" />
+                Welcome To Unnathi
+              </p>
             </div>
           </div>
           <div className={styles.AboutFounderContainer}>
