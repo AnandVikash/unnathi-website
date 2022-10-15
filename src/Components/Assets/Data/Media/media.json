@@ -1,0 +1,19 @@
+[
+  { "id": 1, "imgName": "media-image-1.jpeg", "imgTitle": "Lorem Ipsum" },
+  { "id": 2, "imgName": "media-image-2.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 3, "imgName": "media-image-3.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 5, "imgName": "media-image-5.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 6, "imgName": "media-image-6.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 7, "imgName": "media-image-7.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 8, "imgName": "media-image-8.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 9, "imgName": "media-image-9.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 10, "imgName": "media-image-10.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 11, "imgName": "media-image-11.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 12, "imgName": "media-image-12.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 13, "imgName": "media-image-13.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 14, "imgName": "media-image-14.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 15, "imgName": "media-image-15.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 16, "imgName": "media-image-16.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 17, "imgName": "media-image-17.JPG", "imgTitle": "Lorem Ipsum" },
+  { "id": 18, "imgName": "media-image-18.JPG", "imgTitle": "Lorem Ipsum" }
+]

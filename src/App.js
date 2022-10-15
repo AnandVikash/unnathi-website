@@ -6,6 +6,7 @@ import Home from "./Components/Pages/Home/Index";
 import About from "./Components/Pages/About/Index";
 import Traning from "./Components/Pages/Traning/Index";
 import Healing from "./Components/Pages/Healing/Index";
+import Media from "./Components/Pages/Media/Index";
 import Gallery from "./Components/Pages/Media/Gallery/Index";
 import Blogs from "./Components/Pages/Blogs";
 import Events from "./Components/Pages/Events/Index";
@@ -29,6 +30,7 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/training" element={<Traning />} />
           <Route path="/healing" element={<Healing />} />
+          <Route path="/media" element={<Media />} />
           <Route path="/media/gallery" element={<Gallery />} />
           <Route path="/media/blogs" element={<Blogs />} />
           <Route path="/media/events" element={<Events />} />
