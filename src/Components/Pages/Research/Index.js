@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./research.module.css";
 import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
-import { Link } from "react-router-dom";
-
+import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+import research from "../../Assets/Research/research.jpg";
 export default function Index() {
   return (
     <>
@@ -23,7 +23,7 @@ export default function Index() {
               <strong>
                 {" "}
                 Achieve Holistic Wellbeing Through Yogic Healing- A Research
-                Perspective.
+                Perspective
               </strong>
             </p>
             <p>
@@ -58,6 +58,7 @@ export default function Index() {
               this direction.
             </p>
             <p>Dimensions of our research - to answer following questions</p>
+            <img src={research} />
             <p>
               <strong>Our key activities:</strong>
             </p>
@@ -89,40 +90,7 @@ export default function Index() {
             </p>
           </div>
           <div className={styles.ResearchSidebar}>
-            <div className={styles.ResearchSidebarContainer}>
-              <div className={styles.ResearchSidebarLinks}>
-                <ul>
-                  <li>
-                    <Link to="/about-us">About Us</Link>
-                  </li>
-                  <li>
-                    <Link to="/traning">Traning</Link>
-                  </li>
-                  <li>
-                    <Link to="/healing">Healing</Link>
-                  </li>
-                  <li>
-                    <Link to="/projects">Projects</Link>
-                  </li>
-                  <li>
-                    <Link to="/contact">Contact</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className={styles.ResearchSidebarAddress}>
-                <p>
-                  <strong>Address:</strong> 150, 2nd Floor, Above Vishwas
-                  Jewellers, Sanjay Nagar Main Rd, AECS Layout, Bengaluru,
-                  Karnataka 560094
-                </p>
-                <p>
-                  <strong>Phone:</strong> +91 9845426049
-                </p>
-                <p>
-                  <strong>Email:</strong> healing.unnathi@gmail.com
-                </p>
-              </div>
-            </div>
+            <MainLinksSideBar />
           </div>
         </div>
       </div>
