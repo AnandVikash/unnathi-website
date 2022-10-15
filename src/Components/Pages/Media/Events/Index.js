@@ -1,12 +1,12 @@
 import React from "react";
-import SecTitle from "../../Assets/ElementsUi/SecTitle";
-import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+import SecTitle from "../../../Assets/ElementsUi/SecTitle";
+import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 
 import styles from "./events.module.css";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaEnvelope } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
-import events from "../../Assets/Home/Events/events.jpeg";
+import events from "../../../Assets/Home/Events/events.jpeg";
 
 export default function index() {
   return (

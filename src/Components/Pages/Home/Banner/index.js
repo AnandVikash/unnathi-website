@@ -2,14 +2,20 @@ import React from "react";
 import "./banner.css";
 import Slider from "react-slick";
 import banner1 from "../../../Assets/Home/Banner/new-500.jpg";
-import banner11 from "../../../Assets/Home/Banner/pixelmatching1.jpg";
-import banner2 from "../../../Assets/Home/Banner/banner-1-1.jpg";
-import banner3 from "../../../Assets/Home/Banner/three-join-3.jpg";
-import banner4 from "../../../Assets/Home/Banner/banner-4.jpg";
+
+import banner11 from "../../../Assets/Home/Banner/1520x500-1.jpg";
+import banner2 from "../../../Assets/Home/Banner/1520x500-2.jpg";
+import banner3 from "../../../Assets/Home/Banner/1520x500-3.jpg";
+import banner4 from "../../../Assets/Home/Banner/1520x500-4.jpg";
+
 import banner5 from "../../../Assets/Home/Banner/banner-5.jpg";
 import banner6 from "../../../Assets/Home/Banner/banner-6.jpg";
 
 export default function Index() {
+  //   import banner11 from "../../../Assets/Home/Banner/pixelmatching1.jpg";
+  // import banner2 from "../../../Assets/Home/Banner/banner-1-1.jpg";
+  // import banner3 from "../../../Assets/Home/Banner/three-join-3.jpg";
+  // import banner4 from "../../../Assets/Home/Banner/banner-4.jpg";
   // React.useEffect(() => {
   //   aos.init({
   //     once: false,

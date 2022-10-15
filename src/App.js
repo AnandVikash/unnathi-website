@@ -7,9 +7,11 @@ import About from "./Components/Pages/About/Index";
 import Traning from "./Components/Pages/Traning/Index";
 import Healing from "./Components/Pages/Healing/Index";
 import Media from "./Components/Pages/Media/Index";
+import Affirmations from "./Components/Pages/Media/Affirmations/Index";
 import Gallery from "./Components/Pages/Media/Gallery/Index";
+import News from "./Components/Pages/Media/News/Index";
 import Blogs from "./Components/Pages/Blogs";
-import Events from "./Components/Pages/Events/Index";
+import Events from "./Components/Pages/Media/Events/Index";
 import Projects from "./Components/Pages/Projects/Index";
 import ProjectsSingle from "./Components/Pages/Projects/SingleProject/Index";
 import Research from "./Components/Pages/Research/Index";
@@ -34,6 +36,11 @@ function App() {
           <Route path="/media/gallery" element={<Gallery />} />
           <Route path="/media/blogs" element={<Blogs />} />
           <Route path="/media/events" element={<Events />} />
+          <Route path="/media/news" element={<News />} />
+          <Route
+            path="/media/positive-affirmations"
+            element={<Affirmations />}
+          />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects-single" element={<ProjectsSingle />} />
           <Route path="/research" element={<Research />} />

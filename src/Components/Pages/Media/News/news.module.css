@@ -1,0 +1,26 @@
+.MediaContainer {
+  margin: 30px 0px;
+}
+.MediaImageContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.MediaImageContainer > div {
+  width: 33.33%;
+  text-align: center;
+  padding: 10px;
+  /* height: 100px; */
+}
+.MediaImageItem {
+  width: 90%;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  box-shadow: -1px 2px 14px -4px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+}
+.MediaImageItem img {
+  width: 100%;
+}

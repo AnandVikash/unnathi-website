@@ -26,7 +26,7 @@ export const menuItems = [
       { id: "6.3", title: "News", url: "/media/news" },
       { id: "6.4", title: "Blogs ", url: "/media/blogs" },
       { id: "6.5", title: "Youtube links ", url: "/media/youtube-links" },
-      { id: "6.6", title: "Affirmations", url: "/media/affirmations" },
+      { id: "6.6", title: "Affirmations", url: "/media/positive-affirmations" },
     ],
   },
   {
