@@ -13,6 +13,7 @@ import News from "./Components/Pages/Media/News/Index";
 import Blogs from "./Components/Pages/Blogs";
 import SingleBlogs from "./Components/Pages/Blogs/SingleBlog/Index";
 import Events from "./Components/Pages/Media/Events/Index";
+import Youtube from "./Components/Pages/Media/youtubeLinks/Index";
 import Projects from "./Components/Pages/Projects/Index";
 import ProjectsSingle from "./Components/Pages/Projects/SingleProject/Index";
 import Research from "./Components/Pages/Research/Index";
@@ -42,6 +43,7 @@ function App() {
           />
           {/* SingleBlogs */}
           <Route path="/media/events" element={<Events />} />
+          <Route path="/media/youtube-links" element={<Youtube />} />
           <Route path="/media/news" element={<News />} />
           <Route
             path="/media/positive-affirmations"
