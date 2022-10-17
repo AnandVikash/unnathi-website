@@ -3,11 +3,12 @@ import styles from "./blog.module.css";
 import data from "../../../Assets/Blog/Data/blog.json";
 import { Link } from "react-router-dom";
 export default function Blog() {
+  const Newdata = data.reverse();
   return (
     <>
       <div className={styles.blogMainContainer}>
         <div className={styles.blogContainer}>
-          {data.map((items) => {
+          {Newdata.map((items) => {
             const { id, title, urlIndex, excerpt, content, publishDate } =
               items;
             return (
