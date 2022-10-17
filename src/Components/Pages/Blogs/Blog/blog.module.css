@@ -34,9 +34,10 @@
 .blogTextContainer .blogText {
   padding: 10px 20px;
 }
-.blogText h5 {
+.blogText h3 {
   font-size: 22px;
   overflow: hidden;
+  min-height: 65px;
 }
 .blogText p {
   color: #787878;

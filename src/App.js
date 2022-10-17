@@ -11,6 +11,7 @@ import Affirmations from "./Components/Pages/Media/Affirmations/Index";
 import Gallery from "./Components/Pages/Media/Gallery/Index";
 import News from "./Components/Pages/Media/News/Index";
 import Blogs from "./Components/Pages/Blogs";
+import SingleBlogs from "./Components/Pages/Blogs/SingleBlog/Index";
 import Events from "./Components/Pages/Media/Events/Index";
 import Projects from "./Components/Pages/Projects/Index";
 import ProjectsSingle from "./Components/Pages/Projects/SingleProject/Index";
@@ -35,6 +36,11 @@ function App() {
           <Route path="/media" element={<Media />} />
           <Route path="/media/gallery" element={<Gallery />} />
           <Route path="/media/blogs" element={<Blogs />} />
+          <Route
+            path="/media/blogs/:blogname/:blogid"
+            element={<SingleBlogs />}
+          />
+          {/* SingleBlogs */}
           <Route path="/media/events" element={<Events />} />
           <Route path="/media/news" element={<News />} />
           <Route
