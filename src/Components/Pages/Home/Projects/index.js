@@ -32,7 +32,7 @@ export default function Index() {
             {ProjectData.slice(0, 3).map((item, index) => {
               return (
                 <>
-                  <div className={styles.ProjectsItemsContainer}>
+                  <div className={styles.ProjectsItemsContainer} key={index}>
                     <div
                       className={styles.ProjectsItems}
                       key={index}

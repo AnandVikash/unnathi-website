@@ -20,7 +20,12 @@ export default function Index() {
           />
 
           <div className={styles.EventItemsContainer}>
-            <div className={styles.EventItems}>
+            <div
+              className={styles.EventItems}
+              data-aos="fade-up-right"
+              data-aos-delay="300"
+              data-aos-duration="600"
+            >
               <div className={styles.EventVerticalCard}>
                 <img src={events} />
                 <div className={styles.EventVerticleContent}>
@@ -66,7 +71,12 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div className={styles.EventItems}>
+            <div
+              className={styles.EventItems}
+              data-aos="fade-up-left"
+              data-aos-delay="300"
+              data-aos-duration="600"
+            >
               <div className={styles.EventHorizontalCardContainer}>
                 <div className={styles.EventHorizontalItems}>
                   <div className={styles.EventHorizontalCard}>

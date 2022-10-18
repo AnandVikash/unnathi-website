@@ -14,7 +14,7 @@ export default function Index() {
       <div className={styles.SingleTeamMainContainer}>
         <div className={styles.SingleTeamBannerContainer}>
           <BannerTitle
-            title="About Us"
+            title="Our Team"
             titleTag="h1"
             titleColor="#fff"
             localImg="banner-4.jpg"
@@ -26,7 +26,12 @@ export default function Index() {
         </div>
 
         <div className={styles.SingleTeamContentContainer}>
-          <div className={styles.SingleTeamImage}>
+          <div
+            className={styles.SingleTeamImage}
+            data-aos="fade-up-right"
+            data-aos-delay="300"
+            data-aos-duration="600"
+          >
             <div>
               <img src={require(`../../../Assets/AboutUs/our-team/${img}`)} />
               <p>{name}</p>
@@ -41,6 +46,9 @@ export default function Index() {
           <div
             className={styles.SingleTeamContent}
             dangerouslySetInnerHTML={{ __html: content }}
+            data-aos="fade-up-left"
+            data-aos-delay="300"
+            data-aos-duration="600"
           ></div>
         </div>
       </div>

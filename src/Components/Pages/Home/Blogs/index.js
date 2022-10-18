@@ -28,7 +28,12 @@ export default function Index() {
   };
   return (
     <>
-      <div className={styles.BlogsAlphaContainer}>
+      <div
+        className={styles.BlogsAlphaContainer}
+        data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-duration="500"
+      >
         <div className={styles.BlogItemsBackground}></div>
         <div className={styles.BlogsContainer}>
           <div className={styles.BlogHeader}>
