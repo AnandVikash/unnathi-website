@@ -16,7 +16,12 @@ export default function Index() {
       />
       <div className={styles.TraningMainContainer}>
         <div className={styles.TraningContainer}>
-          <div className={styles.TraningText}>
+          <div
+            className={styles.TraningText}
+            data-aos="fade-up-left"
+            data-aos-delay="300"
+            data-aos-duration="500"
+          >
             <img src={require("../../Assets/Home/Banner/banner-3.jpg")} />
             {/* <img src={`https://dummyimage.com/884x400/0000FF/090b2b.png`} /> */}
             <p>
@@ -60,7 +65,12 @@ export default function Index() {
               touch with Unnathi to join advanced courses of Yogic healing.
             </p>
           </div>
-          <div className={styles.TraningSidebar}>
+          <div
+            className={styles.TraningSidebar}
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="500"
+          >
             <MainLinksSideBar />
           </div>
         </div>
