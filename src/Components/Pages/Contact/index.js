@@ -25,7 +25,12 @@ export default function index() {
       />
       <div className={styles.ContactMainContainer}>
         <div className={styles.ContactContainer}>
-          <div className={styles.AddressContainer}>
+          <div
+            className={styles.AddressContainer}
+            data-aos="fade-up-right"
+            data-aos-delay="300"
+            data-aos-duration="500"
+          >
             <div className={styles.AddressItemsContainers}>
               <div className={styles.AddressItemContainer}>
                 <div className={styles.AddressItemIcon}>
@@ -33,7 +38,12 @@ export default function index() {
                     <IoLocationSharp />
                   </div>
                 </div>
-                <div className={styles.AddressItemContent}>
+                <div
+                  className={styles.AddressItemContent}
+                  data-aos="fade-up-right"
+                  data-aos-delay="300"
+                  data-aos-duration="500"
+                >
                   <h3>Address</h3>
                   <p>
                     150, 2nd Floor, Above Vishwas Jewellers, Sanjay Nagar Main
@@ -47,7 +57,12 @@ export default function index() {
                     <FaEnvelope />
                   </div>
                 </div>
-                <div className={styles.AddressItemContent}>
+                <div
+                  className={styles.AddressItemContent}
+                  data-aos="fade-up-right"
+                  data-aos-delay="300"
+                  data-aos-duration="500"
+                >
                   <h3>Email</h3>
                   <p>healing.unnathi@gmail.com</p>
                 </div>
@@ -58,7 +73,12 @@ export default function index() {
                     <BsTelephoneFill />
                   </div>
                 </div>
-                <div className={styles.AddressItemContent}>
+                <div
+                  className={styles.AddressItemContent}
+                  data-aos="fade-up-right"
+                  data-aos-delay="300"
+                  data-aos-duration="500"
+                >
                   <h3>Phone</h3>
                   <p>+91 9845426049</p>
                 </div>
@@ -66,7 +86,12 @@ export default function index() {
             </div>
           </div>
           <div className={styles.FormsMainContainer}>
-            <div className={styles.FormsContainer}>
+            <div
+              className={styles.FormsContainer}
+              data-aos="fade-up-left"
+              data-aos-delay="300"
+              data-aos-duration="500"
+            >
               <h3>Leave us a message</h3>
               <form>
                 <div>
