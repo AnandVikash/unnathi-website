@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./ourTeam.module.css";
 import SecTitle from "../../../Assets/ElementsUi/SecTitle";
 import OurTeamData from "../../../Assets/Data/OurTeam/ourteam.json";
+
+import { Link } from "react-router-dom";
 export default function Index() {
   return (
     <>
@@ -32,7 +34,9 @@ export default function Index() {
                         />
                       </div>
                       <div className={styles.ourCardsDesc}>
-                        <h3>{item.name}</h3>
+                        <Link to={`/our-team/${item.link}/${item.id}`}>
+                          <h3>{item.name}</h3>
+                        </Link>
                         <p>{item.designation}</p>
                       </div>
                     </div>

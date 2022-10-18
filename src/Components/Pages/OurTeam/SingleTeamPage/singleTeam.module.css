@@ -1,0 +1,75 @@
+.SingleTeamBannerContainer {
+  position: relative;
+  margin-bottom: 100px;
+}
+.SingleTeamNameContainer {
+  position: absolute;
+  height: 20%;
+  top: 90%;
+  background-color: #fff;
+
+  border-radius: 20px;
+  width: 80%;
+  left: 10%;
+  box-shadow: 8px 10px 24px rgb(0 0 0 / 10%);
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.SingleTeamNameContainer h1 {
+  color: #ff5f1a;
+}
+.SingleTeamContentContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  gap: 2%;
+  grid-template-columns: 33% 67%;
+}
+
+.SingleTeamImage > div {
+  background-color: #eee;
+  border-radius: 15px;
+
+  text-align: center;
+  padding: 30px 20px;
+  position: sticky;
+  top: 20%;
+}
+.SingleTeamImage > div img {
+  width: 70%;
+  border-radius: 50%;
+}
+.SingleTeamImage p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.SingleTeamImage p span {
+  font-size: 17px !important;
+  font-weight: 600;
+  font-style: italic;
+  color: #333;
+}
+.SingleTeamContent {
+  padding-top: 20px;
+}
+.SingleTeamContent p {
+  color: #999;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: justify;
+}
+.SingleTeamContent ul {
+  margin-left: 5%;
+}
+.SingleTeamContent li {
+  color: #999;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: justify;
+}

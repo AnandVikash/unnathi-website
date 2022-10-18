@@ -21,21 +21,33 @@ export default function Index() {
         <div className={styles.AboutBackGround}></div>
         <div className={styles.AboutContainer}>
           <div className={styles.AboutIconContainer}>
-            <div className={styles.AboutImg}>
+            <div
+              className={styles.AboutImg}
+              data-aos="fade-left"
+              data-aos-delay="200"
+            >
               <img src={Bookimg} />
               <p>Healing</p>
               <Link to="/healing">More details...</Link>
             </div>
           </div>
           <div className={styles.AboutIconContainer}>
-            <div className={styles.AboutImg}>
+            <div
+              className={styles.AboutImg}
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
               <img src={Bookimg} />
               <p>Training</p>
               <Link to="/training">More details...</Link>
             </div>
           </div>
           <div className={styles.AboutIconContainer}>
-            <div className={styles.AboutImg}>
+            <div
+              className={styles.AboutImg}
+              data-aos="fade-down-right"
+              data-aos-delay="800"
+            >
               <img src={Bookimg} />
               <p>Projects</p>
               <Link to="/projects">More details...</Link>

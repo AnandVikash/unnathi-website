@@ -12,12 +12,19 @@ export default function Index() {
         <div className={styles.AboutMainContainer}>
           <div className={styles.AboutFounderLogoContaier}>
             <div className={styles.AboutFounderLogo}>
-              <div className={styles.AboutFounderLogoCircle}>
-                <img src="https://unnathi.org/images/logonew.jpg" />
-              </div>
-            </div>
-            <div className={styles.AboutFounderLogoText}>
               <div className={styles.AboutMainBackground}></div>
+
+              {/* <div className={styles.AboutFounderLogoCircle}>
+                <img src="https://unnathi.org/images/logonew.jpg" />
+              </div> */}
+            </div>
+            <div
+              className={styles.AboutFounderLogoText}
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-duration="500"
+            >
+              {/* <div className={styles.AboutMainBackground}></div> */}
 
               <p>
                 {" "}
@@ -27,10 +34,20 @@ export default function Index() {
             </div>
           </div>
           <div className={styles.AboutFounderContainer}>
-            <div className={styles.AboutFounderImg}>
+            <div
+              className={styles.AboutFounderImg}
+              data-aos="fade-up-right"
+              data-aos-delay="300"
+              data-aos-duration="600"
+            >
               <img src={FounderImg} />
             </div>
-            <div className={styles.AboutFounderInfo}>
+            <div
+              className={styles.AboutFounderInfo}
+              data-aos="fade-up-left"
+              data-aos-delay="300"
+              data-aos-duration="600"
+            >
               <p className={styles.AboutFounderInfoTitle}>
                 Unnathi Healing Foundation was founded in 2001 by Dr. Saraswathi
                 Hegde.

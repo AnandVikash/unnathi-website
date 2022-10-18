@@ -4,6 +4,7 @@ import Navbar from "./Components/HeadersFooters/Header/Navbar/Navbar";
 import Footer from "./Components/HeadersFooters/Footer";
 import Home from "./Components/Pages/Home/Index";
 import About from "./Components/Pages/About/Index";
+import OurTeam from "./Components/Pages/OurTeam/SingleTeamPage/Index";
 import Traning from "./Components/Pages/Traning/Index";
 import Healing from "./Components/Pages/Healing/Index";
 import Media from "./Components/Pages/Media/Index";
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
+          <Route path="/our-team/:teamName/:teamId" element={<OurTeam />} />
           <Route path="/training" element={<Traning />} />
           <Route path="/healing" element={<Healing />} />
           <Route path="/media" element={<Media />} />
@@ -41,7 +43,6 @@ function App() {
             path="/media/blogs/:blogname/:blogid"
             element={<SingleBlogs />}
           />
-          {/* SingleBlogs */}
           <Route path="/media/events" element={<Events />} />
           <Route path="/media/youtube-links" element={<Youtube />} />
           <Route path="/media/news" element={<News />} />

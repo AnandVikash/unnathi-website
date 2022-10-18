@@ -5,7 +5,7 @@ import YouTubeData from "../../../Assets/Data/Media/youtube.json";
 // import AffirmaionsImage from "../../../Assets/Data/Media/affirmations.json";
 // import { FaHandPointRight } from "react-icons/fa";
 export default function Index() {
-  console.log(YouTubeData);
+  // console.log(YouTubeData);
   return (
     <>
       <BannerTitle

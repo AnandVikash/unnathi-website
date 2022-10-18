@@ -9,7 +9,12 @@ import ProjectData from "../../../Assets/Data/Projects/projects.json";
 export default function Index() {
   return (
     <>
-      <div className={styles.ProjectsAlphaContainer}>
+      <div
+        className={styles.ProjectsAlphaContainer}
+        data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-duration="600"
+      >
         <div className={styles.ProjectItemsBackground}></div>
         <div className={styles.ProjectsContainer}>
           <div className={styles.ProjectHeader}>
@@ -24,11 +29,17 @@ export default function Index() {
           </div>
 
           <div className={styles.ProjectsItemsFlexContainer}>
-            {ProjectData.slice(0, 3).map((item) => {
+            {ProjectData.slice(0, 3).map((item, index) => {
               return (
                 <>
                   <div className={styles.ProjectsItemsContainer}>
-                    <div className={styles.ProjectsItems}>
+                    <div
+                      className={styles.ProjectsItems}
+                      key={index}
+                      data-aos="fade-right"
+                      data-aos-delay="500"
+                      data-aos-duration="600"
+                    >
                       <div className={styles.projectsItemImage}>
                         <img src={buildIndiaMovement} />
                       </div>

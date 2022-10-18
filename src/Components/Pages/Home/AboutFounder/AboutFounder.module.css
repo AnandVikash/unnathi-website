@@ -7,7 +7,7 @@
   width: 90%;
   margin: 20px auto;
   position: relative;
-  padding-top: 30px;
+  padding-top: 5px;
 }
 
 .AboutFounderLogoContaier {
@@ -16,7 +16,7 @@
   margin: 20px 0px;
 }
 .AboutFounderLogoContaier > div {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .AboutFounderLogoCircle {
@@ -33,13 +33,13 @@
 }
 .AboutFounderLogoText {
   position: relative;
-  padding: 10px 20px;
+  padding: 0px 20px 20px 20px;
 }
 .AboutMainBackground {
   position: absolute;
   top: 0;
   left: 0;
-  height: 200%;
+  height: 100%;
   width: 90%;
   clip-path: polygon(100% 0, 0 0, 0 100%);
   background-color: #f2d1c4;

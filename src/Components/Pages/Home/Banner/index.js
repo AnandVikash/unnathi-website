@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./banner.css";
 import Slider from "react-slick";
 import banner1 from "../../../Assets/Home/Banner/new-500.jpg";
@@ -10,17 +10,9 @@ import banner4 from "../../../Assets/Home/Banner/1520x500-4.jpg";
 
 import banner5 from "../../../Assets/Home/Banner/banner-5.jpg";
 import banner6 from "../../../Assets/Home/Banner/banner-6.jpg";
-
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 export default function Index() {
-  //   import banner11 from "../../../Assets/Home/Banner/pixelmatching1.jpg";
-  // import banner2 from "../../../Assets/Home/Banner/banner-1-1.jpg";
-  // import banner3 from "../../../Assets/Home/Banner/three-join-3.jpg";
-  // import banner4 from "../../../Assets/Home/Banner/banner-4.jpg";
-  // React.useEffect(() => {
-  //   aos.init({
-  //     once: false,
-  //   });
-  // }, []);
   const settings = {
     dots: false,
     arrows: true,
@@ -32,11 +24,28 @@ export default function Index() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+  //   import banner11 from "../../../Assets/Home/Banner/pixelmatching1.jpg";
+  // import banner2 from "../../../Assets/Home/Banner/banner-1-1.jpg";
+  // import banner3 from "../../../Assets/Home/Banner/three-join-3.jpg";
+  // import banner4 from "../../../Assets/Home/Banner/banner-4.jpg";
+  // React.useEffect(() => {
+  //   aos.init({
+  //     once: false,
+  //   });
+  // }, []);
+
+  // const [ref, inview] = useInView();
+  // console.log(inview);
+  // useEffect(() => {
+  //   console.log("rag");
+  //   console.log(inview);
+  // });
+
   return (
     <>
       <marquee>Current Events </marquee>
       {/* style={{ backgroundImage: `url(${banner1})`, border:"2px solid red" }} */}
-      <div className="BannerAlphaContainer">
+      <div className="BannerAlphaContainer" data-aos="fade-up">
         <div className="BannerContainer">
           <Slider {...settings}>
             <div>
@@ -56,15 +65,15 @@ export default function Index() {
             <div>
               <div className="BannerSliderContainer">
                 <img src={banner11} />
-                <div className="BannerSliderContent">
+                <motion.div className="BannerSliderContent">
                   <p className="BannerSliderTitle">
-                    Share your love to make someone’s life better
+                    Share your love to make someone’s life better1
                   </p>
                   <p className="BannerSliderDesc">
                     Life is a loving gift from God! It becomes better by giving
                     love that each one is entitled to.
                   </p>
-                </div>
+                </motion.div>
               </div>
             </div>
             <div>
