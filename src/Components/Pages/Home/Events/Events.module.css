@@ -13,8 +13,21 @@
   display: grid;
   grid-template-columns: 45% 55%;
   padding-bottom: 30px;
+  text-align: justify;
 }
-
+.EventItemLink {
+  text-align: center;
+  margin: 20px 0px;
+}
+.EventItemLink a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 10px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+}
 .EventItems {
   padding: 10px;
 }
@@ -77,6 +90,7 @@
 
 .EventsAddressItemContainer {
   display: flex;
+  padding-bottom: 15px;
 }
 
 .EventsAddressItemContainer > div {

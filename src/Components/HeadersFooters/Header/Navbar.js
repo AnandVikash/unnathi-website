@@ -39,4 +39,16 @@ export const menuItems = [
     title: "Contact",
     url: "/contact",
   },
+  {
+    id: "9",
+    title: "Register",
+    url: "/register",
+    submenu: [
+      { id: "9.1", title: "Donor", url: "/register" },
+      { id: "9.2", title: "Volunteer", url: "/register" },
+      { id: "9.3", title: "Event", url: "/register" },
+      { id: "9.4", title: "Training  ", url: "/register" },
+      { id: "9.5", title: "Healing  ", url: "/register" },
+    ],
+  },
 ];

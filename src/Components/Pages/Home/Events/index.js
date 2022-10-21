@@ -4,6 +4,7 @@ import SecTitle from "../../../Assets/ElementsUi/SecTitle";
 
 import events from "../../../Assets/Home/Events/events.jpeg";
 import { IoLocationSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
@@ -41,11 +42,16 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
+
                 <p className={styles.EventsVerticleCardDesc}>
                   1,00,000 individuals were trained in Pranic and Yogic Healing
                   in Bangalore, Mysore, Davanagere, Bellary, Raichur ,
                   Mangalore, Sirsi, Belagavi, Hassan, Koppal from 2001
                 </p>
+                <div className={styles.EventItemLink}>
+                  <Link to="/media/events">Read More</Link>
+                </div>
+
                 <hr />
                 <div className={styles.EventsAddressItemContainer}>
                   <div className={styles.EventsAddressItem}>
@@ -99,6 +105,9 @@ export default function Index() {
                       Healing in Bangalore, Mysore, Davanagere, Bellary, Raichur
                       , Mangalore, Sirsi, Belagavi, Hassan, Koppal from 2001
                     </p>
+                    <div className={styles.EventItemLink}>
+                      <Link to="/media/events">Read More</Link>
+                    </div>
                     <hr />
 
                     <div className={styles.EventsAddressItemContainer}>
@@ -147,6 +156,9 @@ export default function Index() {
                       Healing in Bangalore, Mysore, Davanagere, Bellary, Raichur
                       , Mangalore, Sirsi, Belagavi, Hassan, Koppal from 2001
                     </p>
+                    <div className={styles.EventItemLink}>
+                      <Link to="/media/events">Read More</Link>
+                    </div>
                     <hr />
 
                     <div className={styles.EventsAddressItemContainer}>

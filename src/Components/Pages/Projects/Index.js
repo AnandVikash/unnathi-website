@@ -3,10 +3,13 @@ import styles from "./projects.module.css";
 import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import SecTitle from "../../Assets/ElementsUi/SecTitle";
 import ProjectData from "../../Assets/Data/Projects/projects.json";
-import buildIndiaMovement from "../../Assets/Home/Projects/build-india-movement.jpeg";
+import buildIndiaMovement1 from "../../Assets/Home/Projects/build-india-movement.jpeg";
+import buildIndiaMovement from "../../Assets/Projects/adoloscent-children-2.jpg";
 import { IoLocationSharp } from "react-icons/io5";
 import { VscOrganization } from "react-icons/vsc";
 export default function Index() {
+  let filteredProject = ProjectData.filter((item) => item.homeId == 1);
+
   return (
     <>
       <BannerTitle
@@ -34,11 +37,14 @@ export default function Index() {
                   <div className={styles.ProjectsItemsContainer}>
                     <div className={styles.ProjectsItems}>
                       <div className={styles.projectsItemImage}>
-                        <img src={buildIndiaMovement} />
+                        {/* <img src={buildIndiaMovement} /> */}
+                        <img
+                          src={require(`../../Assets/Projects/new-projects/${item.image}`)}
+                        />
                       </div>
                       <div className={styles.ProjectsItemContent}>
                         <h3>{item.title}</h3>
-                        <p>{item.excerpt.substring(0, 100)}.....</p>
+                        <p>{item.excerpt.substring(0, 90)}.....</p>
                         <div className={styles.ProjectsAddressItemContainer}>
                           <div className={styles.ProjectsAddressItem}>
                             <div className={styles.ProjectsAddresIcon}>

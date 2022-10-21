@@ -1,0 +1,70 @@
+.RegisterMainContainer {
+  margin: 80px 0px;
+}
+
+.RegisterContainer {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 70% 30%;
+}
+
+.FormsContainer {
+  padding: 30px;
+  box-shadow: 0px 0px 11px -5px rgb(0 0 0 / 75%);
+  border-radius: 20px;
+}
+
+.FormsContainer {
+  width: 100%;
+}
+
+.FormsContainer form > div {
+  margin-top: 20px;
+}
+
+.FormsContainer input,
+.FormsContainer textarea,
+.FormsContainer select {
+  height: 60px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #fdf0ef;
+  border: none;
+  padding: 20px;
+  box-shadow: 0px 1px 13px 0px #0000000d;
+}
+
+.FormsContainer textarea {
+  height: 150px;
+  resize: none;
+}
+.FormsContainer select {
+  width: 100%;
+  padding: 10px !important;
+}
+
+.FormsContainer form ::placeholder,
+.FormsContainer select,
+.FormsContainer select option {
+  color: #757d7d;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.FormSubmit input[type="submit"] {
+  width: 40%;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input:focus {
+  border: 3px solid #0000;
+}
+.FormsContainer input:focus,
+.FormsContainer textarea:focus {
+  background-color: #fff;
+}

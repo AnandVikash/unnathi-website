@@ -7,22 +7,59 @@
   margin: 0 auto;
   display: grid;
   grid-gap: 2%;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 75% 25%;
 }
-
-.HealingText {
-  padding: 10px !important;
+.HealingCard {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 25px;
+  position: relative;
+  margin-bottom: 40px;
 }
-
-.HealingText img {
+.HealingCard svg {
+  margin-bottom: 10px;
+  position: absolute;
+  z-index: -1;
+  font-size: 100px;
+  opacity: 0.2;
+  color: var(--primary-color);
+}
+.HealingCardImg {
+  opacity: 0.5;
+  position: absolute;
   width: 100%;
+  top: 20%;
+  text-align: center;
+}
+.HealingCardImg img {
+  width: 120px;
+  height: 100px;
+}
+.HealingCardContent p {
+  color: #6e6e6e;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: justify;
+  margin-top: 10px;
 }
 
-.HealingText p {
-  margin: 34px 0px;
-  color: #999999;
+.HealingCard hr {
+  margin: 10px 0px;
+  color: #ccc;
+}
+.HealingCardAuthor {
+  text-align: right !important;
+}
+.HealingCardAuthor p {
+  color: #545454;
   font-size: 18px;
   font-weight: 700;
-  line-height: 35px;
-  text-align: justify;
+  margin-top: 10px;
+}
+.HealingCardAuthor p span {
+  color: #939393 !important;
+  font-size: 16px !important;
+  font-weight: 700;
+  margin-top: 10px;
 }

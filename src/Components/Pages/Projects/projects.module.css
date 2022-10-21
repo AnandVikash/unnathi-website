@@ -13,7 +13,7 @@
 
 .ProjectsItemsFlexContainer > div {
   flex-basis: 33.33%;
-  padding: 20px;
+  padding: 15px;
 }
 .ProjectsItems {
   background: linear-gradient(
@@ -21,32 +21,35 @@
       rgba(255, 77, 0, 0.9317230310092783) 100%
     ),
     url(http://localhost:3000/static/media/jupiter.15f140aafda6659a1ab2.svg);
-  padding: 20px;
+  padding: 8px;
   z-index: -1;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  min-height: 470px;
 }
 
 .projectsItemImage {
   text-align: center;
 }
 .projectsItemImage img {
-  width: 35%;
+  width: 100%;
 }
 .ProjectsItemContent {
-  margin: 15px 0px;
+  margin: 10px 0px;
+  min-height: 60px;
+  padding: 10px;
 }
 .ProjectsItemContent > h3 {
   line-height: 25px;
+  min-height: 50px;
 }
 .ProjectsItemContent > p {
   font-size: 18px;
   margin: 20px 0px;
   line-height: 25px;
   font-weight: 500;
+  min-height: 70px;
 }
 .ProjectsAddressItemContainer {
   display: flex;

@@ -63,7 +63,7 @@ export default function Index() {
                 Healing Foundation lead by Dr. Saraswathi Hegde is currently
                 working
               </p>
-              <div className={styles.AboutFounderInfoButton}>
+              {/* <div className={styles.AboutFounderInfoButton}>
                 <div>
                   <Button
                     btntext="Register"
@@ -76,7 +76,7 @@ export default function Index() {
                 <div>
                   <p>How We Work</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

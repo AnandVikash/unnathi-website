@@ -2,16 +2,20 @@ import React, { useEffect } from "react";
 import "./banner.css";
 import Slider from "react-slick";
 import banner1 from "../../../Assets/Home/Banner/new-500.jpg";
+import banner2 from "../../../Assets/Home/Banner/live-banner/home-banner-1.jpg";
+import banner3 from "../../../Assets/Home/Banner/live-banner/home-banner-2.jpg";
+import banner4 from "../../../Assets/Home/Banner/live-banner/home-banner-3.jpg";
 
-import banner11 from "../../../Assets/Home/Banner/1520x500-1.jpg";
-import banner2 from "../../../Assets/Home/Banner/1520x500-2.jpg";
-import banner3 from "../../../Assets/Home/Banner/1520x500-3.jpg";
-import banner4 from "../../../Assets/Home/Banner/1520x500-4.jpg";
+// import banner11 from "../../../Assets/Home/Banner/1520x500-1.jpg";
+// import banner2 from "../../../Assets/Home/Banner/1520x500-2.jpg";
+// import banner3 from "../../../Assets/Home/Banner/1520x500-3.jpg";
+// import banner4 from "../../../Assets/Home/Banner/1520x500-4.jpg";
 
-import banner5 from "../../../Assets/Home/Banner/banner-5.jpg";
-import banner6 from "../../../Assets/Home/Banner/banner-6.jpg";
+// import banner5 from "../../../Assets/Home/Banner/banner-5.jpg";
+// import banner6 from "../../../Assets/Home/Banner/banner-6.jpg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 export default function Index() {
   const settings = {
     dots: false,
@@ -19,7 +23,7 @@ export default function Index() {
     infinite: true,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 4000,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -43,7 +47,11 @@ export default function Index() {
 
   return (
     <>
-      <marquee>Current Events </marquee>
+      {" "}
+      <marquee>
+        {" "}
+        <Link to="/media/events">Current Events </Link>
+      </marquee>
       {/* style={{ backgroundImage: `url(${banner1})`, border:"2px solid red" }} */}
       <div className="BannerAlphaContainer" data-aos="fade-up">
         <div className="BannerContainer">
@@ -51,34 +59,7 @@ export default function Index() {
             <div>
               <div className="BannerSliderContainer">
                 <img src={banner1} />
-                {/* <div className="BannerSliderContent">
-                  <p className="BannerSliderTitle">
-                    Bold - Share your care to make someone’s life better
-                  </p>
-                  <p className="BannerSliderDesc">
-                    Running - Life is a loving gift from God! It becomes better
-                    by giving love that each one is entitled to.
-                  </p>
-                </div> */}
-              </div>
-            </div>
-            <div>
-              <div className="BannerSliderContainer">
-                <img src={banner11} />
-                <motion.div className="BannerSliderContent">
-                  <p className="BannerSliderTitle">
-                    Share your love to make someone’s life better1
-                  </p>
-                  <p className="BannerSliderDesc">
-                    Life is a loving gift from God! It becomes better by giving
-                    love that each one is entitled to.
-                  </p>
-                </motion.div>
-              </div>
-            </div>
-            <div>
-              <div className="BannerSliderContainer">
-                <img src={banner2} />
+
                 <div className="BannerSliderContent">
                   <p className="BannerSliderTitle">
                     Physical, Emotional and Mental wellness.
@@ -95,11 +76,11 @@ export default function Index() {
                 <img src={banner2} />
                 <div className="BannerSliderContent">
                   <p className="BannerSliderTitle">
-                    Learning and Teaching are meaningful jobs.
+                    Success is wrapped in failures, unwrap it!
                   </p>
                   <p className="BannerSliderDesc">
-                    Learning is endless. Universe is Great teacher for lessons
-                    unknown. Be a Learner!
+                    Our kind words may heal the pain of an individual and
+                    motivate to explore life.
                   </p>
                 </div>
               </div>
@@ -107,20 +88,6 @@ export default function Index() {
             <div>
               <div className="BannerSliderContainer">
                 <img src={banner3} />
-                <div className="BannerSliderContent">
-                  <p className="BannerSliderTitle">
-                    Learning and Teaching are meaningful jobs.
-                  </p>
-                  <p className="BannerSliderDesc">
-                    Learning is endless. Universe is Great teacher for lessons
-                    unknown. Be a Learner!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="BannerSliderContainer">
-                <img src={banner4} />
                 <div className="BannerSliderContent">
                   <p className="BannerSliderTitle">
                     Yogic healing is a powerful tool to heal oneself and others.
@@ -134,6 +101,92 @@ export default function Index() {
             </div>
             <div>
               <div className="BannerSliderContainer">
+                <img src={banner4} />
+
+                <div className="BannerSliderContent">
+                  <p className="BannerSliderTitle">
+                    Personality is from a person.
+                  </p>
+                  <p className="BannerSliderDesc">
+                    Good intuition and a proper guidance may help a person to
+                    turn into a personality.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* <div>
+              <div className="BannerSliderContainer">
+                <img src={banner11} />
+                <motion.div className="BannerSliderContent">
+                  <p className="BannerSliderTitle">
+                    Share your love to make someone’s life better1
+                  </p>
+                  <p className="BannerSliderDesc">
+                    Life is a loving gift from God! It becomes better by giving
+                    love that each one is entitled to.
+                  </p>
+                </motion.div>
+              </div>
+            </div> */}
+            {/* <div>
+              <div className="BannerSliderContainer">
+                <img src={banner2} />
+                <div className="BannerSliderContent">
+                  <p className="BannerSliderTitle">
+                    Physical, Emotional and Mental wellness.
+                  </p>
+                  <p className="BannerSliderDesc">
+                    It is important to keep ourselves fit to see the beautiful
+                    creations of God and to contribute our best to this planet.
+                  </p>
+                </div>
+              </div>
+            </div> */}
+            {/* <div>
+              <div className="BannerSliderContainer">
+                <img src={banner2} />
+                <div className="BannerSliderContent">
+                  <p className="BannerSliderTitle">
+                    Learning and Teaching are meaningful jobs.
+                  </p>
+                  <p className="BannerSliderDesc">
+                    Learning is endless. Universe is Great teacher for lessons
+                    unknown. Be a Learner!
+                  </p>
+                </div>
+              </div>
+            </div> */}
+            {/* <div>
+              <div className="BannerSliderContainer">
+                <img src={banner3} />
+                <div className="BannerSliderContent">
+                  <p className="BannerSliderTitle">
+                    Learning and Teaching are meaningful jobs.
+                  </p>
+                  <p className="BannerSliderDesc">
+                    Learning is endless. Universe is Great teacher for lessons
+                    unknown. Be a Learner!
+                  </p>
+                </div>
+              </div>
+            </div> */}
+            {/* <div>
+              <div className="BannerSliderContainer">
+                <img src={banner4} />
+                <div className="BannerSliderContent">
+                  <p className="BannerSliderTitle">
+                    Yogic healing is a powerful tool to heal oneself and others.
+                  </p>
+                  <p className="BannerSliderDesc">
+                    Be a healer to create a positive vibration in the
+                    individual. Be an instrument for healing energy.
+                  </p>
+                </div>
+              </div>
+            </div> */}
+            {/* <div>
+              <div className="BannerSliderContainer">
                 <img src={banner5} />
                 <div className="BannerSliderContent">
                   <p className="BannerSliderTitle">
@@ -145,8 +198,8 @@ export default function Index() {
                   </p>
                 </div>
               </div>
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <div className="BannerSliderContainer">
                 <img src={banner6} />
                 <div className="BannerSliderContent">
@@ -159,7 +212,7 @@ export default function Index() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Slider>
         </div>
       </div>

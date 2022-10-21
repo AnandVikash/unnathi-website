@@ -19,17 +19,20 @@ import Projects from "./Components/Pages/Projects/Index";
 import ProjectsSingle from "./Components/Pages/Projects/SingleProject/Index";
 import Research from "./Components/Pages/Research/Index";
 import Contact from "./Components/Pages/Contact/Index";
+import Donate from "./Components/Pages/DonateUs/Index";
+import Register from "./Components/Pages/Register/Index";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ScrollToTop from "./Components/Assets/ScrollToTop";
-
+import Sidenavwidget from "./Components/Assets/ElementsUi/SidenavWidget/Index";
 function App() {
   return (
     <>
       <BrowserRouter>
         <ScrollToTop />
         <Navbar />
+        <Sidenavwidget />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<About />} />
@@ -53,6 +56,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects-single" element={<ProjectsSingle />} />
           <Route path="/research" element={<Research />} />
+          <Route path="/donate-us" element={<Donate />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

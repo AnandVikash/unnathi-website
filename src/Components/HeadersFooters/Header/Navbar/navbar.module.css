@@ -84,17 +84,17 @@ menu
   box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
   display: grid;
   grid-template-columns: 70% 10% 20%;
-  padding: 25px 0px 25px 15px;
+  padding: 25px 0px 25px 5px;
   border-radius: 10px 0px 0px 10px;
 }
 .navbarMenuItems {
-  width: 90%;
-  margin: 0 auto;
+  width: 96%;
+  /* margin: 0 auto; */
 }
 .navbarMenuItems > ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .navbarMenuItems > ul li {
   /* display: inline-block; */
@@ -121,6 +121,8 @@ menu
   border-radius: 10px;
   font-weight: bold;
   border: 2px solid #000;
+  text-decoration: none;
+  color: #000;
 }
 .navbarMenuButton a {
   padding: 10px 20px;

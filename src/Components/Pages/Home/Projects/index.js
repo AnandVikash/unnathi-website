@@ -6,6 +6,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { VscOrganization } from "react-icons/vsc";
 import ProjectData from "../../../Assets/Data/Projects/projects.json";
 
+import { Link } from "react-router-dom";
 export default function Index() {
   return (
     <>
@@ -41,7 +42,9 @@ export default function Index() {
                       data-aos-duration="600"
                     >
                       <div className={styles.projectsItemImage}>
-                        <img src={buildIndiaMovement} />
+                        <img
+                          src={require(`../../../Assets/Projects/new-projects/${item.image}`)}
+                        />
                       </div>
                       <div className={styles.ProjectsItemContent}>
                         <h3>{item.title}</h3>
@@ -69,6 +72,18 @@ export default function Index() {
                           </div>
                         </div>
                       </div>
+                      <div className={styles.ProjectItemsHoverText}>
+                        <p>{item.excerpt.substring(0, 150)}.....</p>
+                        <p>
+                          <Link to="/projects">Know More</Link>
+                        </p>
+                      </div>
+                      {/* <div className={styles.ProjectItemsHoverText}>
+                        <p>{item.excerpt.substring(0, 150)}.....</p>
+                        <p>
+                          <a href="/projects">Know More</a>
+                        </p>
+                      </div> */}
                     </div>
                   </div>
                 </>

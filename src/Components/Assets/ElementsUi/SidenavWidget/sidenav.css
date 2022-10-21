@@ -1,0 +1,62 @@
+/* #mysidenavassam {
+}
+#mysidenavassam a {
+  margin-top: 15%;
+  position: fixed;
+  right: -160px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 220px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 9999;
+}
+#mysidenavassam i {
+  text-align: left !important;
+  margin-right: 25px;
+}
+#mysidenavassam a:hover {
+  right: 0;
+}
+
+#sidenavphone {
+  top: 80px;
+  background-color: #2196f3;
+}
+#sidenavappiontment {
+  top: 140px;
+  background-color: #555;
+} */
+#mysidenav > div {
+  position: fixed;
+  top: 40%;
+  right: -170px;
+  z-index: 999999;
+  padding: 10px;
+  width: 220px;
+  transition: 0.5s;
+}
+#mysidenav > div:hover {
+  right: 0px;
+}
+#mysidenav a {
+  font-size: 19px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+#mysidenav svg {
+  font-size: 25px;
+  color: #fff;
+  margin-right: 20px;
+  font-weight: bold;
+}
+#sidenavappiontment {
+  background: linear-gradient(45deg, #fe302b, #f89c07);
+}
+#sidenavphone {
+  margin-top: 49px;
+  background: linear-gradient(45deg, #6438e0, #fe8d90);
+}

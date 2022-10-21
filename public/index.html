@@ -24,6 +24,9 @@
       html {
         scroll-behavior: smooth;
       }
+      body {
+        overflow-x: hidden;
+      }
     </style>
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -56,6 +59,31 @@
       src="https://platform.twitter.com/widgets.js"
       charset="utf-8"
     ></script> -->
+
+    <script>
+      (function (w, d, s, u) {
+        w.gbwawc = {
+          url: u,
+          options: {
+            waId: "+919845426049",
+            siteName: "Unnathi Healing Foundation",
+            siteTag: "Usually reply in few minutes",
+            siteLogo: "https://unnathi.org/images/logonew.jpg",
+            widgetPosition: "RIGHT",
+            triggerMessage: "Chat Now",
+            welcomeMessage: "Welcome to Cutis Hospital Bangalore 😊",
+            brandColor: "#25D366",
+            messageText: "I am looking for",
+            replyOptions: ["Healing", "Traning", ""],
+          },
+        };
+        var h = d.getElementsByTagName(s)[0],
+          j = d.createElement(s);
+        j.async = true;
+        j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+        h.parentNode.insertBefore(j, h);
+      })(window, document, "script", "https://waw.gallabox.com");
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

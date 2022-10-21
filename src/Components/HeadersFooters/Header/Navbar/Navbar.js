@@ -118,7 +118,7 @@ function Navbar() {
                   {/* <FaSearch /> */}
                 </div>
                 <div className={styles.navbarMenuButton}>
-                  <a>Donate Now</a>
+                  <Link to="/donate-us">Donate Now</Link>
                 </div>
               </div>
             </div>

@@ -1,6 +1,7 @@
 .AboutAlphaContainer {
   position: relative;
 }
+
 .AboutBackGround {
   position: absolute;
   top: 0;
@@ -14,7 +15,32 @@
 .AboutContainer {
   width: 80%;
   margin: 0 auto;
-  display: flex;
+  text-align: center;
+  /* display: flex; */
+}
+.AboutContainer p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.AboutContainer p::first-letter {
+  color: var(--primary-color) !important;
+  font-size: 28px;
+  font-weight: bold;
+}
+.AboutContainer a {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  padding: 15px 30px;
+  border-radius: 20px;
 }
 .AboutContainer > div {
   text-align: center;
