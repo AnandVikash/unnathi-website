@@ -7,10 +7,20 @@ export default function Index() {
     <>
       <div className={styles.WelcomeMainContainer}>
         <div className={styles.welcomeContainer}>
-          <div className={styles.welcomeItem}>
+          <div
+            className={styles.welcomeItem}
+            data-aos="fade-up-right"
+            data-aos-delay="300"
+            data-aos-duration="500"
+          >
             <img src="https://andit.co/projects/html/jago-welfare/assets/img/common/about.png"></img>
           </div>
-          <div className={styles.welcomeItem}>
+          <div
+            className={styles.welcomeItem}
+            data-aos="fade-up-left"
+            data-aos-delay="300"
+            data-aos-duration="500"
+          >
             <SecTitle
               title="Welcome to unnathi"
               titleTag="p"

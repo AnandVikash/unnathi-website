@@ -16,7 +16,7 @@ export default function Index() {
             textColor="#000"
           />
         </div>
-        <div className={styles.ourProjectsMembers}>
+        {/* <div className={styles.ourProjectsMembers}>
           <div className={styles.ourProjectsContent}>
             <div>
               <div className={styles.ourSections}>
@@ -103,7 +103,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
