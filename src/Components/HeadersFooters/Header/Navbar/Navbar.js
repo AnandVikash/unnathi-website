@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
 import { AiFillPhone, AiOutlineMail } from "react-icons/ai";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import {
   FaFacebookF,
   FaInstagram,
@@ -8,6 +9,7 @@ import {
   FaTwitter,
   FaPinterest,
   FaSearch,
+  FaQuora,
 } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { NavLink, Link } from "react-router-dom";
@@ -44,7 +46,7 @@ function Navbar() {
             </div>
             <div className={styles.navbarTopPhone}>
               <div>
-                <AiFillPhone />
+                <BsFillTelephoneFill />
               </div>
               <div>+91 9845426049</div>
             </div>
@@ -53,19 +55,38 @@ function Navbar() {
           <div className={styles.navbarTopSocialAccounts}>
             <ul className={styles.navbarTopSocialMedia}>
               <li>
-                <FaFacebookF />
+                <a
+                  href="https://www.facebook.com/unnathi.healing.5"
+                  target="_blank"
+                >
+                  <FaFacebookF />
+                </a>
               </li>
               <li>
-                <FaInstagram />
+                <a
+                  href="https://twitter.com/UnnathiF/with_replies"
+                  target="_blank"
+                >
+                  {" "}
+                  <FaTwitter />
+                </a>
               </li>
               <li>
-                <FaLinkedinIn />
+                <a
+                  href="https://instagram.com/unnathihealing_foundation?igshid=eauotystejn9"
+                  target="_blank"
+                >
+                  {" "}
+                  <FaInstagram />
+                </a>
               </li>
               <li>
-                <FaTwitter />
-              </li>
-              <li>
-                <FaPinterest />
+                <a
+                  href="https://www.quora.com/q/ugxhmonbnylydfda?invite_code=uc0zNnmcMc3SrFp5yi6H"
+                  target="_blank"
+                >
+                  <FaQuora />
+                </a>
               </li>
             </ul>
           </div>

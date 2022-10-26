@@ -41,9 +41,13 @@
 }
 .navbarTopSocialMedia li {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
 }
-
+.navbarTopSocialMedia a {
+  color: #000;
+}
+.navbarTopSocialMedia li a {
+}
 /* ------
 ------
 menu
@@ -113,6 +117,7 @@ menu
   position: absolute;
   font-size: 15px;
 }
+
 .navbarMenuButton {
   text-align: center;
 }

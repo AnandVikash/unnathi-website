@@ -43,8 +43,8 @@ export default function Index() {
                         />
                       </div>
                       <div className={styles.ProjectsItemContent}>
-                        <h3>{item.title}</h3>
-                        <p>{item.excerpt.substring(0, 90)}.....</p>
+                        <h3>{item.title.substring(0, 38)} ......</h3>
+                        <p>{item.excerpt.substring(0, 90)} .....</p>
                         <div className={styles.ProjectsAddressItemContainer}>
                           <div className={styles.ProjectsAddressItem}>
                             <div className={styles.ProjectsAddresIcon}>

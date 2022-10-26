@@ -43,6 +43,8 @@
 .ProjectsItemContent > h3 {
   line-height: 25px;
   min-height: 50px;
+  font-size: 1rem;
+  /* calc(0.75rem + 1vmin); */
 }
 .ProjectsItemContent > p {
   font-size: 18px;
