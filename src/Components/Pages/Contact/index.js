@@ -54,7 +54,7 @@ export default function index() {
                 </div>
                 <div className={styles.AddressItemContent}>
                   <h3>Email</h3>
-                  <p>healing.unnathi@gmail.com</p>
+                  <p>unnathi.org@gmail.com </p>
                 </div>
               </div>
               <div className={styles.AddressItemContainer}>

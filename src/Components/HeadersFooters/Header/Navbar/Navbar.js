@@ -14,13 +14,25 @@ import {
 import { IoMdArrowDropdown } from "react-icons/io";
 import { NavLink, Link } from "react-router-dom";
 import { menuItems } from "../Navbar";
+import MobileMenu from "../MobileHeader/Index";
 function Navbar() {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [scrollPosition, setScrollPosition] = useState(window.pageYOffset);
+  const [resizePosition, setResizePosition] = useState(window.innerWidth);
 
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position);
   };
+  const handleResize = () => {
+    const position = window.innerWidth;
+    setResizePosition(position);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -33,6 +45,7 @@ function Navbar() {
   if (scrollPosition > window.innerHeight - 150) {
     stickyClasses = styles.navbarMenuSticky;
   }
+
   return (
     <>
       <div className={styles.navbarAlphaContainer}>
@@ -42,7 +55,7 @@ function Navbar() {
               <div>
                 <AiOutlineMail />
               </div>
-              <div>healing.unnathi@gmail.com</div>
+              <div>unnathi.org@gmail.com </div>
             </div>
             <div className={styles.navbarTopPhone}>
               <div>
@@ -98,46 +111,58 @@ function Navbar() {
             </div>
             <div className={styles.navbarMenuContainer}>
               <div className={styles.navbarMenuBackgroundContainer}>
-                <div className={styles.navbarMenuItems}>
-                  <ul>
-                    {menuItems.map((item) => {
-                      return (
-                        <>
-                          <li key={item.id} className={styles.navbarMenuItem}>
-                            <NavLink
-                              to={item.url}
-                              className={styles.navbarMenuItemIcon}
-                            >
-                              {item.title}
-                              {item.hasOwnProperty("submenu") && (
-                                <IoMdArrowDropdown />
-                              )}
-                            </NavLink>
+                {resizePosition > 1200 && (
+                  <>
+                    <div className={styles.navbarMenuItems}>
+                      <ul>
+                        {menuItems.map((item) => {
+                          return (
+                            <>
+                              <li
+                                key={item.id}
+                                className={styles.navbarMenuItem}
+                              >
+                                <NavLink
+                                  to={item.url}
+                                  className={styles.navbarMenuItemIcon}
+                                >
+                                  {item.title}
+                                  {item.hasOwnProperty("submenu") && (
+                                    <IoMdArrowDropdown />
+                                  )}
+                                </NavLink>
 
-                            {item.hasOwnProperty("submenu") && (
-                              <ul className={styles.submenulist}>
-                                {item.submenu.map((item) => {
-                                  return (
-                                    <>
-                                      <li key={item.id}>
-                                        <NavLink to={item.url}>
-                                          {item.title}
-                                        </NavLink>
-                                      </li>
-                                    </>
-                                  );
-                                })}
-                              </ul>
-                            )}
-                          </li>
-                        </>
-                      );
-                    })}
-                  </ul>
-                </div>
-                <div className={styles.navbarMenuSearch}>
-                  {/* <FaSearch /> */}
-                </div>
+                                {item.hasOwnProperty("submenu") && (
+                                  <ul className={styles.submenulist}>
+                                    {item.submenu.map((item) => {
+                                      return (
+                                        <>
+                                          <li key={item.id}>
+                                            <NavLink to={item.url}>
+                                              {item.title}
+                                            </NavLink>
+                                          </li>
+                                        </>
+                                      );
+                                    })}
+                                  </ul>
+                                )}
+                              </li>
+                            </>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  </>
+                )}
+                {resizePosition < 1200 && (
+                  <div className={styles.navbarMenuItems}>
+                    <MobileMenu />
+                  </div>
+                )}
+                {/* <div className={styles.navbarMenuSearch}>
+                  <FaSearch />
+                </div> */}
                 <div className={styles.navbarMenuButton}>
                   <Link to="/donate-us">Donate Now</Link>
                 </div>

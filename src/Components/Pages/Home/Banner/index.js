@@ -21,7 +21,7 @@ export default function Index() {
     dots: false,
     arrows: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     speed: 2000,
     autoplaySpeed: 4000,
     speed: 500,

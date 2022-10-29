@@ -18,9 +18,9 @@ marquee a {
   position: relative;
 }
 .BannerSliderContainer img {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
-  opacity: 0.9;
+  opacity: 0.9; */
 }
 
 .BannerSliderContent {
@@ -75,5 +75,41 @@ marquee a {
 @media (min-width: 1400px) {
   .BannerSliderContainer {
     height: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .BannerSliderContainer {
+    height: 45vh;
+  }
+  .BannerSliderContainer img {
+    height: 100%;
+  }
+  .BannerSliderContent {
+    width: 94%;
+    left: 3%;
+    opacity: 0.75;
+  }
+  /* .BannerSliderContent {
+    position: absolute;
+    bottom: 2%;
+    width: 70%;
+    left: 7%;
+    background-color: #ffffff;
+
+    padding: 20px;
+    border-radius: 10px;
+  } */
+  .BannerSliderTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+    color: rgb(9, 50, 76);
+  }
+  .BannerSliderDesc {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
   }
 }

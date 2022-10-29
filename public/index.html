@@ -25,7 +25,7 @@
         scroll-behavior: smooth;
       }
       body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
       }
     </style>
 
@@ -71,7 +71,8 @@
             siteLogo: "https://unnathi.org/images/logonew.jpg",
             widgetPosition: "RIGHT",
             triggerMessage: "Chat Now",
-            welcomeMessage: "Welcome to Cutis Hospital Bangalore 😊",
+            welcomeMessage:
+              "Welcome to Welcome to Unnathi Healing Foundation 😊",
             brandColor: "#25D366",
             messageText: "I am looking for",
             replyOptions: ["Healing", "Traning", ""],
@@ -100,7 +101,7 @@
     -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({ disable: "mobile" });
     </script>
   </body>
 </html>

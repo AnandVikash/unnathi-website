@@ -51,7 +51,7 @@ export default function index() {
                 <span>Phone:</span>+91 9845426049
               </p>
               <p>
-                <span>Email:</span>healing.unnathi@gmail.com
+                <span>Email:</span>unnathi.org@gmail.com
               </p>
             </div>
             <div className={styles.footerContentItem}>

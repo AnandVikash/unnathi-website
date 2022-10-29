@@ -111,3 +111,39 @@
 .footerContainerTwiteer {
   padding: 5px !important;
 }
+
+@media (max-width: 576px) {
+  .footerFormContentContainer {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: -30%;
+  }
+  .footerFormContentContainer > div {
+    height: 100%;
+  }
+  .footerContentContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+  }
+  .footerContentItem {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .footerFormContentContainer {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: -10%;
+  }
+  .footerContentContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+  }
+}
+.footerMainContainer {
+  border: 2px solid red;
+}

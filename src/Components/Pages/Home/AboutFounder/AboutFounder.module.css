@@ -97,3 +97,22 @@
   line-height: 30px;
 }
 /* clip-path: polygon(100% 0, 0 0, 0 100%); */
+
+@media (max-width: 576px) {
+  .AboutFounderLogoContaier {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .AboutFounderLogoText p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .AboutFounderContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .AboutFounderContainer > div {
+    width: 100%;
+  }
+}

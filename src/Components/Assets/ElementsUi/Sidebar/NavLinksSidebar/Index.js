@@ -33,7 +33,7 @@ export default function Index() {
             <strong>Phone:</strong> +91 9845426049
           </p>
           <p>
-            <strong>Email:</strong> healing.unnathi@gmail.com
+            <strong>Email:</strong> unnathi.org@gmail.com
           </p>
         </div>
       </div>

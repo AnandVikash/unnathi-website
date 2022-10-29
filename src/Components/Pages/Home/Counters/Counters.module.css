@@ -34,3 +34,20 @@
   font-weight: bold;
   font-size: 50px;
 }
+
+@media (max-width: 576px) {
+  .CountersMainContainer {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .CountersMainContainer > div {
+    flex-basis: 100%;
+    border-right: none;
+    margin-top: 20px;
+  }
+}

@@ -33,3 +33,12 @@
 .DonationDesc span {
   color: red;
 }
+
+@media (max-width: 576px) {
+  .DonationTextContainer {
+    width: 90%;
+  }
+  .DonationDesc {
+    width: 90%;
+  }
+}

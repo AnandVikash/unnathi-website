@@ -52,6 +52,20 @@ export default function Index() {
             </div> */}
           </div>
         </div>
+        <div className={styles.visionContainer}>
+          <div className={styles.visionDesription}>
+            <div className={styles.visionTitle}>Vision</div>
+            <p className={styles.visionDesc}>
+              Unnathi Healing Foundation influences and transforms lives of
+              people it touches through ancient Indian Yogic healing practices
+              with inspiration from Grand Master Choa Kok Sui's teachings.
+              Unnathi is an instrument to bring in health, joy, happiness, peace
+              and abundance into people’s lives and facilitate individuals to
+              find one’s purpose of life. Unnathi contributes to the progress of
+              India and its people.{" "}
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );

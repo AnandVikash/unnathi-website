@@ -62,3 +62,10 @@
   margin: 5px 0px;
   font-weight: 500;
 }
+
+@media (max-width: 57px) {
+  .TestimonialContainer {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -28,7 +28,7 @@ export default function Index() {
 
               <p>
                 {" "}
-                <img src="https://andit.co/projects/html/jago-welfare/assets/img/icon/about.png" />
+                {/* <img src="https://andit.co/projects/html/jago-welfare/assets/img/icon/about.png" /> */}
                 Welcome To Unnathi
               </p>
             </div>

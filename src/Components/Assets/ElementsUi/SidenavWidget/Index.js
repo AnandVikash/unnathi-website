@@ -4,7 +4,7 @@ import { IoCallSharp } from "react-icons/io5";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 export default function Index() {
   let ref = useRef();
-  console.log(ref);
+
   return (
     <>
       <div id="mysidenav">

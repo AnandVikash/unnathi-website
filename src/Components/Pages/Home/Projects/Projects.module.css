@@ -116,3 +116,14 @@
   font-weight: 600;
   margin-bottom: 4px;
 }
+
+@media (max-width: 576px) {
+  .ProjectsItemsFlexContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ProjectsItemsFlexContainer > div {
+    flex-basis: 100%;
+  }
+}

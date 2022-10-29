@@ -178,3 +178,13 @@
   line-height: 25px;
   width: 90%;
 }
+
+@media (max-width: 576px) {
+  .EventItemsContainer {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .EventVerticalCard {
+    width: 95%;
+  }
+}
