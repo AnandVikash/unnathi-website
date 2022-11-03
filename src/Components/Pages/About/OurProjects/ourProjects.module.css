@@ -40,3 +40,19 @@
   width: 65%;
   border: none;
 }
+@media (max-width: 576px) {
+  .ourProjectsMainContainer {
+    background-color: #fce9e2;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 0 auto;
+    padding: 5% 0%;
+    text-align: center;
+  }
+  .ourProjectsText {
+    width: 90%;
+  }
+  .ourProjectsText h2 {
+    width: 100%;
+  }
+}

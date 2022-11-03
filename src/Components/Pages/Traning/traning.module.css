@@ -27,3 +27,13 @@
   line-height: 35px;
   text-align: justify;
 }
+
+@media (max-width: 576px) {
+  .TraningContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 100%;
+  }
+}

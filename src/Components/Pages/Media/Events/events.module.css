@@ -5,7 +5,6 @@
   width: 85%;
   padding: 10px;
   margin: 0 auto;
-
   display: flex;
 }
 .EventsContainer > div {
@@ -110,4 +109,19 @@
   font-size: 18px !important;
   font-weight: 600;
   margin-bottom: 4px;
+}
+
+@media (max-width: 576px) {
+  .EventsContainer {
+    width: 95%;
+    flex-direction: column;
+  }
+  .EventsContainer > div {
+    width: 100%;
+    margin-top: 30px;
+  }
+  /*
+  .EventsAddressItemContainer > div {
+    flex-basis: 100%;
+  } */
 }

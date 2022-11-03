@@ -50,3 +50,18 @@
 .ourCardsDesc p {
   margin-top: 7px;
 }
+@media (max-width: 576px) {
+  .ourTeamContent {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .ourTeamContent > div {
+    width: 100%;
+    padding: 20px;
+  }
+}

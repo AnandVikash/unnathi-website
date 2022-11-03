@@ -133,3 +133,37 @@ input:focus {
 .FormsContainer textarea:focus {
   background-color: #fff;
 }
+
+@media (max-width: 576px) {
+  .ContactContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ContactContainer > div {
+    flex-basis: 100%;
+  }
+
+  .AddressItemsContainers {
+    padding: 10px;
+  }
+
+  .AddressItemContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    min-height: 100%;
+  }
+  .FormsMainContainer {
+    padding: 5px;
+  }
+  .FormsContainer {
+    padding: 10px;
+  }
+  .FormSubmit input[type="submit"] {
+    width: fit-content;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

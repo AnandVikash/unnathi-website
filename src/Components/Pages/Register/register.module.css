@@ -68,3 +68,19 @@ input:focus {
 .FormsContainer textarea:focus {
   background-color: #fff;
 }
+
+@media (max-width: 576px) {
+  .RegisterContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 100%;
+  }
+  .FormsContainer {
+    padding: 15px;
+  }
+  .FormSubmit input[type="submit"] {
+    width: fit-content;
+  }
+}

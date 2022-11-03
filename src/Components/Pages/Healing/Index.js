@@ -1,10 +1,8 @@
 import React from "react";
 import styles from "./healing.module.css";
 import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
-import { Link } from "react-router-dom";
 import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 import { FaQuoteLeft } from "react-icons/fa";
-import img from "../../Assets/unnathi-png-logo.png";
 import HealingData from "../../Assets/Data/Healing/healing.json";
 export default function Index() {
   return (
@@ -13,7 +11,7 @@ export default function Index() {
         title="Healing"
         titleTag="h1"
         titleColor="#fff"
-        localImg="banner-5.jpg"
+        localImg="healing-banner.jpg"
         imgColor="696969"
       />
       {/* <div className={styles.HealingCardImg}>

@@ -78,3 +78,9 @@
   font-weight: 600;
   margin-bottom: 4px;
 }
+@media (max-width: 576px) {
+  .ProjectsItemsFlexContainer > div {
+    flex-basis: 100%;
+    padding: 15px;
+  }
+}

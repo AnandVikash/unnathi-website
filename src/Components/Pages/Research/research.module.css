@@ -37,3 +37,10 @@
 }
 .ResearchText img {
 }
+
+@media (max-width: 576px) {
+  .ResearchContainer {
+    width: 90%;
+    grid-template-columns: 100%;
+  }
+}

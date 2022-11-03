@@ -4,13 +4,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 2px solid red;
 }
 .MediaImageContainer > div {
   width: 33.33%;
   text-align: center;
   padding: 10px;
-  border: 2px solid red;
   /* height: 100px; */
 }
 .MediaImageItem {
@@ -20,4 +18,13 @@
 }
 .MediaImageItem img {
   width: 100%;
+}
+@media (max-width: 576px) {
+  .MediaImageContainer > div {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .MediaImageItem {
+    padding-bottom: 10px;
+  }
 }

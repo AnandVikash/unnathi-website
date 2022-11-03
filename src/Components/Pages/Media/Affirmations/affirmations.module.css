@@ -20,3 +20,9 @@
 .AffirmaionsImage img {
   width: 100%;
 }
+@media (max-width: 576px) {
+  .AffirmaionsImageContainer > div {
+    width: 100%;
+    padding: 10px;
+  }
+}

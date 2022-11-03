@@ -7,7 +7,7 @@ import { NavLink, Link } from "react-router-dom";
 import LogoImg from "../../../Assets/unnathi-png-logo.png";
 import { useLocation } from "react-router-dom";
 export default function Index() {
-  const [menuShow, setMenuShow] = useState(true);
+  const [menuShow, setMenuShow] = useState(false);
 
   const location = useLocation();
   useEffect(() => {
@@ -17,8 +17,10 @@ export default function Index() {
   const handleMenu = () => {
     setMenuShow(!menuShow);
   };
-  let menuWidth = menuShow ? "-55%" : "0%";
 
+  let menuWidth = menuShow ? "-55%" : "0";
+  let SidebarWidth = menuShow ? "0" : "55%";
+  console.log(menuWidth);
   return (
     <>
       {!menuShow && (
@@ -28,9 +30,12 @@ export default function Index() {
       )}
       <div className={styles.hamburgerMenuContainer}>
         <GiHamburgerMenu onClick={handleMenu} />
-        <div className={styles.sidebarContainer} style={{ right: menuWidth }}>
+        <div
+          className={styles.sidebarContainer}
+          style={{ right: menuWidth, width: SidebarWidth }}
+        >
           {/* {!menuShow && <img src={LogoImg} />} */}
-
+          {/* <div className={styles.sidebarContainer} style={{ right: menuWidth }}></div> */}
           <div>
             <ul>
               {menuItems.map((item, index) => {

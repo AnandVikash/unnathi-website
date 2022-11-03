@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./traning.module.css";
 import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
-import { Link } from "react-router-dom";
 import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 export default function Index() {
   return (

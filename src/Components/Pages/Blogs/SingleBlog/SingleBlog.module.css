@@ -160,3 +160,11 @@
   display: block;
   margin: 7px 0px;
 }
+
+@media (max-width: 576px) {
+  .blogContentContainer {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}

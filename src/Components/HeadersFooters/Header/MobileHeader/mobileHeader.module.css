@@ -1,22 +1,16 @@
 .hamburgerMenuContainer {
-  /* border: 2px solid red; */
+}
+.sidebarContainer {
 }
 .sidebarBackground {
-  /* position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  border: 2px solid red;
-  z-index: -1; */
 }
 .hamburgerMenuContainer svg:hover {
   cursor: pointer;
 }
 .sidebarContainer {
   position: fixed;
-  width: 55%;
+  width: 0;
   top: 0;
-  right: -55%;
   height: 100%;
   z-index: 999999;
   overflow-y: scroll;
@@ -25,6 +19,7 @@
   display: grid;
   padding: 20px 0px;
   grid-template-columns: 80% 20%;
+  /* opacity: 0; */
 }
 .sidebarNavLinks {
   padding: 10px 15px;

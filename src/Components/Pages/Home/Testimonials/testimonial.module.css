@@ -63,7 +63,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 57px) {
+@media (max-width: 576px) {
   .TestimonialContainer {
     width: 80%;
     margin: 0 auto;
