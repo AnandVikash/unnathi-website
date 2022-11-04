@@ -89,7 +89,6 @@ function Navbar() {
                   href="https://instagram.com/unnathihealing_foundation?igshid=eauotystejn9"
                   target="_blank"
                 >
-                  {" "}
                   <FaInstagram />
                 </a>
               </li>

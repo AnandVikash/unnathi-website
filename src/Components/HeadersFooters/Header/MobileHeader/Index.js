@@ -10,8 +10,12 @@ export default function Index() {
   const [menuShow, setMenuShow] = useState(false);
 
   const location = useLocation();
+  const key = useLocation();
+
   useEffect(() => {
-    setMenuShow(!menuShow);
+    if (!(location.key == "default")) {
+      setMenuShow(!menuShow);
+    }
   }, [location]);
 
   const handleMenu = () => {
@@ -20,7 +24,6 @@ export default function Index() {
 
   let menuWidth = menuShow ? "-55%" : "0";
   let SidebarWidth = menuShow ? "0" : "55%";
-  console.log(menuWidth);
   return (
     <>
       {!menuShow && (
