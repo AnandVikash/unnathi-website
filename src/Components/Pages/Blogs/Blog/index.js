@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./blog.module.css";
 import data from "../../../Assets/Blog/Data/blog.json";
 import { Link } from "react-router-dom";
+import img from "../../../Assets/Blog/Images/blog-1.jpg";
 export default function Blog() {
   const Newdata = data.reverse();
   return (
@@ -9,13 +10,13 @@ export default function Blog() {
       <div className={styles.blogMainContainer}>
         <div className={styles.blogContainer}>
           {Newdata.map((items) => {
-            const { id, title, urlIndex, excerpt, content, publishDate } =
+            const { id, title, urlIndex, excerpt, content, publishDate, img } =
               items;
             return (
               <>
                 <div className={styles.blogItemContainer} key={id}>
                   <div className={styles.blogItem}>
-                    <img src="https://demo.phlox.pro/corporate-pro/wp-content/uploads/sites/150/2020/02/inspired-woman-NEARSKQ@2x-768x531.jpg" />
+                    <img src={require(`../../../Assets/Blog/Images/${img}`)} />
                     <div className={styles.blogTextContainer}>
                       <div className={styles.blogText}>
                         <h3>{title.substring(0, 50)}...</h3>

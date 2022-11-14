@@ -4,14 +4,16 @@
 .MediaImageContainer {
   width: 90%;
   margin: 0 auto;
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
+  column-count: 3;
+  column-gap: 0;
 }
 .MediaImageContainer > div {
-  width: 33.33%;
+  width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   /* height: 100px; */
 }
 .MediaImageItem {
@@ -25,8 +27,13 @@
 .MediaImageItem img {
   width: 100%;
 }
+.MediaImageItem p {
+  font-weight: 700;
+}
 @media (max-width: 576px) {
   .MediaImageContainer {
+    column-count: 1;
+    column-gap: 0;
   }
   .MediaImageContainer > div {
     width: 100%;

@@ -6,11 +6,14 @@
   padding: 8%;
   display: grid;
   grid-template-columns: 50% 50%;
-  align-items: center;
+  /* align-items: center; */
   margin: 0 auto;
   background-color: #fce9e2;
 }
-
+.welcomeItemImg {
+  position: sticky;
+  top: 10%;
+}
 .welcomeItem img {
   width: 95%;
 }
@@ -63,14 +66,18 @@ button {
 
 .visionContainer {
   background-image: url("../../../Assets/AboutUs/vision/flower-background.jpg");
+  background-position: center;
   width: 100%;
   height: 500px;
+  display: flex;
+}
+.visionContainer > div {
+  width: 35%;
 }
 .visionDesription {
-  width: 40%;
   height: 100%;
   margin: 0 auto;
-  background: linear-gradient(0deg, #202c26, #202c26);
+  background: linear-gradient(100deg, rgb(32 44 38/0.8), rgb(32 44 38/0.5));
   opacity: 0.8;
   padding: 30px;
   display: flex;
@@ -110,10 +117,18 @@ button {
   }
   .visionContainer {
     background-image: url("../../../Assets/AboutUs/vision/flower-background.jpg");
+    background-size: cover;
     width: 100%;
     height: 100%;
   }
   .visionDesription {
     width: 90%;
+  }
+  .visionContainer {
+    flex-direction: column;
+  }
+  .visionContainer > div {
+    width: 95%;
+    margin-top: 30px;
   }
 }

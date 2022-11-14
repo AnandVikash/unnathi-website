@@ -8,7 +8,7 @@ export default function Index() {
   let { blogid } = useParams();
 
   let filteredBlog = blogData.filter((item) => item.id == blogid);
-  let { title, content, author } = filteredBlog[0];
+  let { title, content, author, img } = filteredBlog[0];
 
   return (
     <>
@@ -24,7 +24,7 @@ export default function Index() {
         <div className={styles.blogContentContainer}>
           <div className={styles.blogContent}>
             <div className={styles.blogFeatureImage}>
-              <img src="https://andit.co/projects/html/jago-welfare/assets/img/causes/details-big.png" />
+              <img src={require(`../../../Assets/Blog/Images/${img}`)} />
             </div>
             <p className={styles.blogFeatureTitle}> {title}</p>
             <div

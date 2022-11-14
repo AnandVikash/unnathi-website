@@ -6,6 +6,9 @@ marquee a {
   color: var(--primary-color);
   text-decoration: none;
 }
+.slick-slide img {
+  width: 100%;
+}
 .BannerAlphaContainer {
   margin-bottom: 30px;
 }
@@ -18,9 +21,7 @@ marquee a {
   position: relative;
 }
 .BannerSliderContainer img {
-  /* width: 100%;
   height: 100%;
-  opacity: 0.9; */
 }
 
 .BannerSliderContent {

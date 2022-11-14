@@ -5,7 +5,12 @@ import styles from "./contact.module.css";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaEnvelope } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
-export default function index() {
+import { useParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+export default function Index() {
+  const [searchParams] = useSearchParams();
+  let successparas = searchParams.get("message");
+  console.log(successparas == null);
   return (
     <>
       <BannerTitle
@@ -78,18 +83,36 @@ export default function index() {
               data-aos-duration="500"
             >
               <h3>Leave us a message</h3>
-              <form>
+              <form
+                method="POST"
+                action="https://digikit.in/forms/unnathi-healing-foundation/contact.php"
+              >
                 <div>
-                  <input type="text" placeholder="Your Full Name" />
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Full Name"
+                    required
+                  />
                 </div>
                 <div>
-                  <input type="email" placeholder="Your Your Email" />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Your Email"
+                    required
+                  />
                 </div>
                 <div>
-                  <input type="text" placeholder="Subject" />
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
                 </div>
                 <div>
-                  <select name="franchise" id="franchise">
+                  <select name="franchise" id="franchise" required>
                     <option value="" disabled selected hidden>
                       Select your Franchise
                     </option>
@@ -100,11 +123,19 @@ export default function index() {
                   </select>
                 </div>
                 <div>
-                  <textarea rows="10" placeholder="Message" />
+                  <textarea rows="10" name="message" placeholder="Message" />
                 </div>
                 <div className={styles.FormSubmit}>
                   <input type="submit" value="Send Message" />
                 </div>
+
+                {!(successparas == null) && (
+                  <>
+                    <p className={styles.successMessage}>
+                      Thank You For Contacting, Will get in Touch with u shortly
+                    </p>
+                  </>
+                )}
               </form>
             </div>
           </div>
@@ -121,9 +152,9 @@ export default function index() {
           width="100%"
           height="450"
           style={{ border: 0 }}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </>

@@ -63,6 +63,23 @@
   font-weight: 700;
   margin-top: 10px;
 }
+.healingAboutUs {
+  width: 80%;
+  margin: 20px auto 0px auto;
+}
+.healingAboutUs p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.healingAboutUs p:first-child::first-letter {
+  color: var(--primary-color) !important;
+  font-size: 28px;
+  font-weight: bold;
+}
 @media (max-width: 576px) {
   .HealingContainer {
     width: 90%;

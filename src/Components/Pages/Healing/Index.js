@@ -18,6 +18,20 @@ export default function Index() {
                 {" "}
                 <img src={img} />
               </div> */}
+      <div className={styles.healingAboutUs}>
+        <p>
+          From the beginning of birth to death, a baby’s first cry to the last
+          gasp of a dying person, breath is a crucial element for life. When
+          this life giving breath is utilized properly, complete recovery is
+          possible. Many religions talk about methods to achieving this and
+          Unnathi emphasizes more on the practical and technical approach.
+          Healing is the inner recovery process which is inbuilt in every
+          individual. Every person’s healing needs are different based on the
+          energy levels, chakral energy condition and health condition.
+          Therefore, each individual has to be analysed and treated accordingly.
+        </p>
+        <p>Yogic healing is therefore a necessity to make our life whole.</p>
+      </div>
       <div className={styles.HealingMainContainer}>
         <div className={styles.HealingContainer}>
           <div

@@ -3,7 +3,12 @@ import styles from "./register.module.css";
 import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import { Link } from "react-router-dom";
 import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+import { useSearchParams } from "react-router-dom";
+
 export default function Index() {
+  const [searchParams] = useSearchParams();
+  let successparas = searchParams.get("message");
+  console.log(successparas == null);
   return (
     <>
       <BannerTitle
@@ -23,15 +28,22 @@ export default function Index() {
           >
             <div className={styles.FormsContainer}>
               <h3>Leave us a message</h3>
-              <form>
+              <form
+                method="POST"
+                action="https://digikit.in/forms/unnathi-healing-foundation/register.php"
+              >
                 <div>
-                  <input type="text" placeholder="Your Full Name" />
+                  <input type="text" name="name" placeholder="Your Full Name" />
                 </div>
                 <div>
-                  <input type="email" placeholder="Your Your Email" />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Your Email"
+                  />
                 </div>
                 <div>
-                  <input type="text" placeholder="Subject" />
+                  <input type="text" name="subject" placeholder="Subject" />
                 </div>
 
                 <div>
@@ -48,12 +60,19 @@ export default function Index() {
                 </div>
 
                 <div>
-                  <textarea rows="10" placeholder="Message" />
+                  <textarea rows="10" name="message" placeholder="Message" />
                 </div>
 
                 <div className={styles.FormSubmit}>
                   <input type="submit" value="Send Message" />
                 </div>
+                {!(successparas == null) && (
+                  <>
+                    <p className={styles.successMessage}>
+                      Thank You For Contacting, Will get in Touch with u shortly
+                    </p>
+                  </>
+                )}
               </form>
             </div>
           </div>

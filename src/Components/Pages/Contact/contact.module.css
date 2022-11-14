@@ -167,3 +167,8 @@ input:focus {
     font-weight: 600;
   }
 }
+.successMessage {
+  font-weight: 600;
+  margin: 50px 0px 20px;
+  font-size: 18px;
+}

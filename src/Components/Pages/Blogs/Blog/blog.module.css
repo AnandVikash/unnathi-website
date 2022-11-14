@@ -17,7 +17,7 @@
 .blogItem {
   transition: 0.5s;
   box-shadow: 2px 2px 6px -3px rgb(0 0 0 / 77%);
-  min-height: 520px;
+  /* min-height: 520px; */
 }
 .blogItem:hover {
   margin-top: -10px;

@@ -28,7 +28,20 @@ export default function Index() {
           textTag="p"
           textColor="#000"
         />
-
+        <div className={styles.projectAboutUs}>
+          <p>
+            India is a country with the greatest number of people under the age
+            of 18 years in the world. And it is a goldmine of human resource for
+            the future. But the goldmine is becoming more and more difficult to
+            reach due to many problems plaguing the youth of the country.
+            Problems like suicidal tendencies, depression, drug addiction,
+            relationship issues are unfortunately on the rise. The best way we
+            can stop this epidemic is to reach out to youngsters on a more
+            personal level and to guide them the right way. Unnathi has projects
+            to address these challenges through Build India Movement, Faculty
+            development programme, Skill Development programme.
+          </p>
+        </div>
         <div className={styles.ProjectsContainer}>
           <div className={styles.ProjectsItemsFlexContainer}>
             {ProjectData.map((item) => {
