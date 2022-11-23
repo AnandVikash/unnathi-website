@@ -1,0 +1,95 @@
+.DoctorContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.DoctorAboutContainer {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.DoctorImage {
+  position: relative;
+  text-align: center;
+}
+.DoctorImage img {
+  width: 100%;
+}
+.DoctorTitle {
+  background-color: #5cdb95;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0px 60px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    77% 100%,
+    50% 75%,
+    0% 75%
+  );
+  border-radius: 20px;
+  margin-top: -30px;
+}
+.DoctorTitle section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.DoctorTitle p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.DoctorTitle p:first-child {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.DoctorAboutContainer > article {
+  padding: 10px;
+}
+.DoctorDesc p {
+  font-size: 19px;
+  line-height: 35px;
+  text-align: justify;
+  margin: 20px 0px;
+  font-weight: 600;
+}
+
+.DoctorSpecialitiesContainer {
+  margin: 40px 0px 10px;
+  background-color: #5cdb95;
+
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  padding: 3% 1% 3% 1%;
+  justify-content: center;
+}
+.DoctorSpecialitiesContainer > article {
+  width: 33.33%;
+  margin: 10px;
+  padding-left: 2%;
+  border-right: 1px solid #fff;
+}
+.DoctorSpecialitiesContainer article:last-child {
+  border: none !important;
+}
+.DoctorSpecialitiesContainer > article svg {
+  color: #fff;
+  font-size: 50px;
+
+  font-weight: bold;
+}
+.DoctorSpecialitiesContainer > article h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin: 20px 0px;
+}
+.DoctorSpecialitiesContainer > article p {
+  font-size: 17px;
+  color: #fff;
+  line-height: 23px;
+}

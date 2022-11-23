@@ -26,6 +26,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ScrollToTop from "./Components/Assets/ScrollToTop";
 import Sidenavwidget from "./Components/Assets/ElementsUi/SidenavWidget/Index";
+import Checker from "./Components/Pages/Checker";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Sidenavwidget />
         <Routes>
           <Route path="/" element={<Home />} />
+
           <Route path="/about-us" element={<About />} />
           <Route path="/our-team/:teamName/:teamId" element={<OurTeam />} />
           <Route path="/training" element={<Traning />} />
@@ -60,6 +62,7 @@ function App() {
           <Route path="/donate-us" element={<Donate />} />
           <Route path="/register" element={<Register />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/checker" element={<Checker />} />
         </Routes>
         <Footer />
       </BrowserRouter>

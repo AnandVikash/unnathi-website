@@ -2,7 +2,18 @@ import React from "react";
 import styles from "./traning.module.css";
 import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+import Slider from "react-slick";
+import img1 from "../../Assets/Training/TrainingChildren/traning-children-1.jpg";
+import img2 from "../../Assets/Training/TrainingChildren/traning-children-2.jpg";
+import img3 from "../../Assets/Training/TrainingChildren/traning-children-3.jpg";
 export default function Index() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <>
       <BannerTitle
@@ -63,6 +74,20 @@ export default function Index() {
               Those who have completed Foundation Course are informed to be in
               touch with Unnathi to join advanced courses of Yogic healing.
             </p>
+
+            <div className={styles.TraningSlider}>
+              <Slider {...settings} {...settingsWithModules}>
+                <div>
+                  <img src={img1} />
+                </div>
+                <div>
+                  <img src={img2} />
+                </div>
+                <div>
+                  <img src={img3} />
+                </div>
+              </Slider>
+            </div>
           </div>
           <div
             className={styles.TraningSidebar}
@@ -77,3 +102,6 @@ export default function Index() {
     </>
   );
 }
+const settingsWithModules = {
+  arrowClass: styles.TraningSlider,
+};
