@@ -18,7 +18,7 @@ export default function Index() {
       <Welcome />
       <OurTeam />
       <Associates />
-      <OurProjects />
+      {/* <OurProjects /> */}
       {/* <OurPartners /> */}
     </>
   );
