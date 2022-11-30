@@ -62,11 +62,10 @@ export default function Index() {
 
                 <div className="BannerSliderContent">
                   <p className="BannerSliderTitle">
-                    Physical, Emotional and Mental wellness.
+                    Unnathi’s Build India Movement:
                   </p>
                   <p className="BannerSliderDesc">
-                    It is important to keep ourselves fit to see the beautiful
-                    creations of God and to contribute our best to this planet.
+                    Counseling session in progress
                   </p>
                 </div>
               </div>
@@ -75,12 +74,9 @@ export default function Index() {
               <div className="BannerSliderContainer">
                 <img src={banner2} />
                 <div className="BannerSliderContent">
-                  <p className="BannerSliderTitle">
-                    Success is wrapped in failures, unwrap it!
-                  </p>
+                  <p className="BannerSliderTitle">Yogic Healing</p>
                   <p className="BannerSliderDesc">
-                    Our kind words may heal the pain of an individual and
-                    motivate to explore life.
+                    Healing services to provide relief
                   </p>
                 </div>
               </div>
@@ -89,13 +85,8 @@ export default function Index() {
               <div className="BannerSliderContainer">
                 <img src={banner3} />
                 <div className="BannerSliderContent">
-                  <p className="BannerSliderTitle">
-                    Yogic healing is a powerful tool to heal oneself and others.
-                  </p>
-                  <p className="BannerSliderDesc">
-                    Be a healer to create a positive vibration in the
-                    individual. Be an instrument for healing energy.
-                  </p>
+                  <p className="BannerSliderTitle">Training</p>
+                  <p className="BannerSliderDesc">Unnathi trains to empower</p>
                 </div>
               </div>
             </div>

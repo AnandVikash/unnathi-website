@@ -9,6 +9,9 @@ export const menuItems = [
     id: "3",
     title: "Healing",
     url: "/healing",
+    submenu: [
+      { id: "3.1", title: "Affirmations", url: "/about/positive-affirmations" },
+    ],
   },
   {
     id: "4",
@@ -26,7 +29,6 @@ export const menuItems = [
       { id: "6.3", title: "News", url: "/media/news" },
       { id: "6.4", title: "Blogs ", url: "/media/blogs" },
       { id: "6.5", title: "Youtube links ", url: "/media/youtube-links" },
-      { id: "6.6", title: "Affirmations", url: "/media/positive-affirmations" },
     ],
   },
   {

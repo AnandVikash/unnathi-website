@@ -6,10 +6,13 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .AffirmaionsImageContainer > div {
   width: 50%;
   padding: 10px;
+  text-align: center;
 }
 .AffirmaionsImage {
   text-align: center;

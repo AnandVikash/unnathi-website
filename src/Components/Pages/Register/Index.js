@@ -7,8 +7,10 @@ import { useSearchParams } from "react-router-dom";
 
 export default function Index() {
   const [searchParams] = useSearchParams();
+
   let successparas = searchParams.get("message");
   console.log(successparas == null);
+
   return (
     <>
       <BannerTitle

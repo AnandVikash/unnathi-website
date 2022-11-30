@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./affirmations.module.css";
 import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 import AffirmaionsImage from "../../../Assets/Data/Media/affirmations.json";
 import { FaHandPointRight } from "react-icons/fa";
 export default function Index() {
+  const [show, setShow] = useState(false);
+
+  const AffirmaionsImageArray = show
+    ? AffirmaionsImage
+    : AffirmaionsImage.slice(0, 2);
+  console.log(AffirmaionsImageArray);
+  function showRemainingArray(id) {
+    if (id === 2) {
+      setShow(!show);
+    }
+  }
   return (
     <>
       <BannerTitle
@@ -15,7 +26,7 @@ export default function Index() {
       />
       <div className={styles.AffirmationsContainer}>
         <div className={styles.AffirmaionsImageContainer}>
-          {AffirmaionsImage.map((item) => {
+          {AffirmaionsImageArray.map((item) => {
             return (
               <>
                 <div key={item.id}>
@@ -26,10 +37,17 @@ export default function Index() {
                     />
                     <p>{item.imgTitle}</p>
                   </div>
+
+                  {/* onClick={() => showRemainingArray(item.id)} */}
                 </div>
               </>
             );
           })}
+          {!show && (
+            <div>
+              <button onClick={() => showRemainingArray(2)}>Show More</button>
+            </div>
+          )}
         </div>
       </div>
     </>

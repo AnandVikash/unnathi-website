@@ -80,7 +80,6 @@ function Navbar() {
                   href="https://twitter.com/UnnathiF/with_replies"
                   target="_blank"
                 >
-                  {" "}
                   <FaTwitter />
                 </a>
               </li>

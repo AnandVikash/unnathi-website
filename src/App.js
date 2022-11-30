@@ -53,7 +53,7 @@ function App() {
           <Route path="/media/youtube-links" element={<Youtube />} />
           <Route path="/media/news" element={<News />} />
           <Route
-            path="/media/positive-affirmations"
+            path="/about/positive-affirmations"
             element={<Affirmations />}
           />
           <Route path="/projects" element={<Projects />} />
