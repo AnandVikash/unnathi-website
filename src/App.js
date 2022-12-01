@@ -17,7 +17,6 @@ import Events from "./Components/Pages/Media/Events/Index";
 import Youtube from "./Components/Pages/Media/youtubeLinks/Index";
 import Projects from "./Components/Pages/Projects/Index";
 import ProjectsSingle from "./Components/Pages/Projects/SingleProject/Index";
-import Research from "./Components/Pages/Research/Index";
 import Contact from "./Components/Pages/Contact/Index";
 import Donate from "./Components/Pages/DonateUs/Index";
 import Register from "./Components/Pages/Register/Index";
@@ -27,6 +26,15 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import ScrollToTop from "./Components/Assets/ScrollToTop";
 import Sidenavwidget from "./Components/Assets/ElementsUi/SidenavWidget/Index";
 import Checker from "./Components/Pages/Checker";
+
+// Research
+import Research from "./Components/Pages/Research/Index";
+import ResearchAtUnnathi from "./Components/Pages/Research/ResearchPages/ResearchAtUnnathi/Index";
+import OurResearchTeam from "./Components/Pages/Research/ResearchPages/OurResearchTeam/Index";
+import Publications from "./Components/Pages/Research/ResearchPages/Publications/Index";
+import Collaborate from "./Components/Pages/Research/ResearchPages/RegisterToCollaborate/Index";
+import OngoingProjects from "./Components/Pages/Research/ResearchPages/OngoingResearchprojects/Index";
+import Completedrojects from "./Components/Pages/Research/ResearchPages/CompletedResearchProjects/Index";
 
 function App() {
   return (
@@ -57,8 +65,32 @@ function App() {
             element={<Affirmations />}
           />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/projects-single" element={<ProjectsSingle />} />
+          <Route
+            path="/projects/:projectname/:projectid"
+            element={<ProjectsSingle />}
+          />
           <Route path="/research" element={<Research />} />
+          <Route
+            path="/research/research-at-unnathi"
+            element={<ResearchAtUnnathi />}
+          />
+          <Route
+            path="/research/our-research-team"
+            element={<OurResearchTeam />}
+          />
+          <Route path="/research/publications" element={<Publications />} />
+          <Route
+            path="/research/register-to-Collaborate"
+            element={<Collaborate />}
+          />
+          <Route
+            path="/research/ongoing-research-projects"
+            element={<OngoingProjects />}
+          />
+          <Route
+            path="/research/completed-research-projects"
+            element={<Completedrojects />}
+          />
           <Route path="/donate-us" element={<Donate />} />
           <Route path="/register" element={<Register />} />
           <Route path="/contact" element={<Contact />} />

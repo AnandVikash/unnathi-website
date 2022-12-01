@@ -88,7 +88,7 @@ export default function Index() {
             data-aos-duration="500"
           >
             <div className={styles.FormsContainer}>
-              <h3>Leave us a message</h3>
+              <h3>Donate Here</h3>
               {/* onSubmit={handleSubmit} */}
               <form>
                 <div>

@@ -8,13 +8,19 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
 } from "react-icons/ai";
-
+import { useParams } from "react-router-dom";
+import projectsJson from "../../../Assets/Data/Projects/projects.json";
 export default function Index() {
+  const { projectid } = useParams();
+  const filteredProject = projectsJson.filter(
+    (item) => item.id === Number(projectid)
+  );
+  const { id, title, desc, organiser, location, image } = filteredProject[0];
   return (
     <>
       <div>
         <BannerTitle
-          title="Project Title"
+          title={`${title}`}
           titleTag="h1"
           titleColor="#fff"
           localImg="banner-4.jpg"
@@ -26,51 +32,8 @@ export default function Index() {
               <img src="https://andit.co/projects/html/jago-welfare/assets/img/causes/details-big.png" />
             </div>
             <div className={styles.SingleProjectContentDesc}>
-              <h3>Give children a good education and a better life</h3>
-              <p>
-                Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
-                phaedrum. There are many variations of passages of Lorem Ipsum
-                available but the majority.
-              </p>
-              <p>
-                If you are going to use a passage of Lorem Ipsum, you need to be
-                sure there isn't anything embarrang hidden in the middle of
-                text. All the Lorem Ipsum generators on the Internet tend to
-                repeat predefined chunks as necessary, making this the first
-                true.
-              </p>
-              <p className={styles.SingleProjectTitle}>
-                We want to ensure the education for the kids.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
-                phaedrum. There are many variations of passages of Lorem Ipsum
-                available, but the majority have alteration in some injected or
-                words which don't look even slightly believable.
-              </p>
-              <p>
-                <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
-                    phaedrum.
-                  </li>
-                  <li>There are many variations of passages of Lorem Ipsum.</li>
-                  <li>
-                    Available but the majority have alteration in some injected
-                    or words.
-                  </li>
-                  <li>
-                    There are many variations of passages of Lorem Ipsum which
-                    don't look even slightly believable.
-                  </li>
-                </ul>
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, cibo mundi ea duo, vim exerci
-                phaedrum. There are many variations of passages of Lorem Ipsum
-                available, but the majority have alteration in some injected or
-                words which don't look even slightly believable.
-              </p>
+              <h3>{title}</h3>
+              <div dangerouslySetInnerHTML={{ __html: desc }}></div>
             </div>
           </div>
           <div className={styles.SingleProjectDetails}>
@@ -82,11 +45,9 @@ export default function Index() {
                 <p className={styles.SingleProjectOrganizerHeading}>
                   Project organizer:
                 </p>
-                <p className={styles.SingleProjectOrganizerName}>
-                  Polin sarika
-                </p>
+                <p className={styles.SingleProjectOrganizerName}>Unnathi</p>
                 <p className={styles.SingleProjectOrganizerCompany}>
-                  Manager at ABC company
+                  Unnathi Healing Foundation
                 </p>
                 <div className={styles.SingleProjectOrganizerContact}>
                   <div className={styles.SingleProjectContactItem}>
@@ -94,7 +55,7 @@ export default function Index() {
                       <BsTelephone />
                     </div>
                     <div className={styles.SingleProjectContactItemDetails}>
-                      1234567890
+                      +91 9845426049
                     </div>
                   </div>
                   <div className={styles.SingleProjectContactItem}>
@@ -102,13 +63,13 @@ export default function Index() {
                       <BsEnvelope />
                     </div>
                     <div className={styles.SingleProjectContactItemDetails}>
-                      1234567890
+                      unnathi.org@gmail.com
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className={styles.SingleRecentContainer}>
+            {/* <div className={styles.SingleRecentContainer}>
               <h3>Recent causes</h3>
               <div className={styles.SingleRecentProjectsItem}>
                 <div className={styles.SingleRecentProjectsItemImg}>
@@ -143,8 +104,8 @@ export default function Index() {
                   </p>
                 </div>
               </div>
-            </div>
-
+            </div> */}
+            {/* 
             <div className={styles.SingeMapContainer}>
               <h3>Location</h3>
 
@@ -156,7 +117,7 @@ export default function Index() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
-            </div>
+            </div> */}
             {/* <div className={styles.SingleShareCoursesContainer}>
               <h3>Share causes</h3>
               <div className={styles.SingleShareCoursesSocial}>

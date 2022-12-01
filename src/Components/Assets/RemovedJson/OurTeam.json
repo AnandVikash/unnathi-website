@@ -1,0 +1,52 @@
+[
+  {
+    "id": 8,
+    "name": "Mrs. Padmavathi",
+    "link": "mrs-padmavathi",
+    "designation": "Director - Operations",
+    "qualfication": "B.Com",
+    "content": "<p>She is a multifaceted and multitasking individual working as Head of Operations since 2016. She has been actively involved in different activities of Unnathi such as healing, training, counselling, and event management.</p><p>She brings a rich experience of over two decades working with different organisations in the administrative department and quality assurance.</p><p>She was involved in the conceptualization and implementation of the Build India Movement since 2016. She has travelled widely across Karnataka carrying out Unnathi’s activities, networking for Build India Movement. She is the nerve center at Unnathi coordinating Build India Movement, yogic healing, adolescent counselling. She has served extensively as a liaison with the Government of Karnataka, Medical Colleges, Schools, Education Department and Rajiv Gandhi University of Health Sciences in Build India Movement a reality.</p>",
+    "img": "new-img/padmavathi-s.jpg",
+    "positionType": "member"
+  },
+  {
+    "id": 9,
+    "name": "Mrs. Arathi S",
+    "link": "mrs-arathi-s",
+    "designation": "Trainer",
+    "qualfication": "B.Sc, MA(English), MS-CP",
+    "content": "<p>Knowledgeable Soft-skill trainer has a sound understanding of necessary traits for work place success and a strong ability to train employees in improving those characteristics. Has Master’s degrees in English and Counselling & Psychotherapy, and has a rich experience of over twelve years in teaching and over six years in training new recruits of IT / ITES companies.</p><p>A mature professional having grown working with different levels of learners. Currently a freelancer for soft-skill training, NLP practitioner, General Counsellor and a Yogic healer.</p>",
+    "img": "arathi-s.png",
+    "positionType": "member"
+  },
+  {
+    "id": 10,
+    "name": "Mrs. Vijayalakshmi",
+    "link": "mrs-vijayalakshmi",
+    "designation": "HoD - Healing Department ",
+    "qualfication": "B.Com",
+    "content": "<p>She is a senior healer at Unnathi Healing Foundation. She has completed and excelled in her advanced healing courses and has experience of over 10 years. She has transformed the lives of many with her soft-spoken attitude, patience, empathy and a giving heart. No disease is too small or big for her healing abilities. Adolescents, youth, families, accident victims, cancer patients, and the old and the infirm have benefitted from her angelic touch.</p><p>Her areas of expertise are; old-age related health challenges, complications of life-style diseases such as diabetes, blood pressure, addictions, depression. She has also supported pregnant women during their critical phases. Young children with behavioral issues and hyperactivity have been charmed by her quiet and soothing touch. She has dealt with very sensitive and difficult recovery skin related ailments. Healing eye related disorders has been her forte. She has contributed to the success of the Build India Movement in addition to her successful healings.</p>",
+    "img": "new-img/vijayalakshmi.jpg",
+    "positionType": "member"
+  },
+  {
+    "id": 11,
+    "name": "Mrs Meena ",
+    "link": "mrs-meena",
+    "designation": "Director - Projects ",
+    "qualfication": "B.Com",
+    "content": "<p></p>",
+    "img": "meena.png",
+    "positionType": "member"
+  },
+  {
+    "id": 5,
+    "name": "Mr. Goverdhan P. V",
+    "link": "mr-goverdhan-p-v",
+    "designation": "Director - Academics",
+    "qualfication": "B,E, MS-SS, MS-CP",
+    "content": "<p> He is an academician with over 18 years of experience in teaching and training Engineering students at undergraduate and postgraduate level and over 15 years of experience in Administration. Developed Post Graduate Programme for professionals from IT / ITES Industry and offered through university. Board of studies member at Manipal University for BFSI Courses. Being Head of Examination Department and Deputy Registrar at MAHE, Bangalore Campus, he managed University exams and result processing for over a lakh students per year for over 10 years. </p><p>Engineer by graduation and with passion in counselling, Goverdhan has done MS in Counselling and Psychotherapy and helping the students and young minds through counselling and mentoring. </p>",
+    "img": "new-img/goverdhan.jpg",
+    "positionType": "member"
+  }
+]

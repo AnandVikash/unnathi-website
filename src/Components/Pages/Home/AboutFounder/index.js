@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./AboutFounder.module.css";
-import FounderImg from "../../../Assets/Home/Founder/founder.jpeg";
+import FounderImg from "../../../Assets/Home/Founder/founder-img.jpg";
 
 import Button from "../../../Assets/ElementsUi/Button";
 

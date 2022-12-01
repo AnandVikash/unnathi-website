@@ -22,8 +22,8 @@ export default function Index() {
     setMenuShow(!menuShow);
   };
 
-  let menuWidth = menuShow ? "-55%" : "0";
-  let SidebarWidth = menuShow ? "0" : "55%";
+  let menuWidth = menuShow ? "-60%" : "0";
+  let SidebarWidth = menuShow ? "0" : "60%";
   return (
     <>
       {!menuShow && (

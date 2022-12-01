@@ -72,3 +72,17 @@
   line-height: 30px;
   text-align: justify;
 }
+
+@media (max-width: 600px) {
+  .SingleTeamContentContainer {
+    grid-template-columns: 100%;
+  }
+  .SingleTeamNameContainer {
+    height: 35%;
+    top: 80%;
+    text-align: center;
+  }
+  .SingleTeamNameContainer h1 {
+    font-size: 25px;
+  }
+}

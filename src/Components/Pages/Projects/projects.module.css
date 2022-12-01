@@ -46,6 +46,15 @@
   font-size: 1.25rem;
   /* calc(0.75rem + 1vmin); */
 }
+.ProjectsItemContent > a {
+  line-height: 25px;
+  display: block;
+  min-height: 50px;
+  font-size: 19px;
+  color: #000;
+  text-decoration: none;
+  /* calc(0.75rem + 1vmin); */
+}
 .ProjectsItemContent > p {
   font-size: 18px;
   margin: 20px 0px;

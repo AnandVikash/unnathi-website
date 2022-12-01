@@ -1,0 +1,59 @@
+.ourTeamContent {
+  width: 80%;
+
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: center;
+}
+
+.ourTeamContent > div {
+  width: 30%;
+  text-align: center;
+  margin: 30px 0px;
+}
+.ourCards {
+  background: #bccede;
+  background: -webkit-linear-gradient(to right, #fffde4, #bccede);
+  background: linear-gradient(to right, #fffde4, #bccede);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 4px rgba(168, 168, 168, 0.75);
+  padding: 10px 0px;
+}
+.ourCards img {
+  width: 80%;
+  height: 230px;
+  border-radius: 50%;
+}
+
+.ourCards h3 {
+  color: #2a283e;
+  font-size: 20px;
+}
+
+.ourCards p {
+  color: #918090;
+  font-size: 17px;
+}
+.ourCardsDesc {
+  padding: 10px 0px;
+}
+.ourCardsDesc a {
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .ourTeamContent {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+  }
+  .ourTeamContent > div {
+    width: 100%;
+  }
+}

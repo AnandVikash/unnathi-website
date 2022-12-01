@@ -7,6 +7,7 @@ import buildIndiaMovement1 from "../../Assets/Home/Projects/build-india-movement
 import buildIndiaMovement from "../../Assets/Projects/adoloscent-children-2.jpg";
 import { IoLocationSharp } from "react-icons/io5";
 import { VscOrganization } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 export default function Index() {
   let filteredProject = ProjectData.filter((item) => item.homeId == 1);
 
@@ -21,7 +22,7 @@ export default function Index() {
       />
       <div className={styles.projectsMainContainer}>
         <SecTitle
-          title="Our Projects"
+          title="Active Projects"
           titleTag="p"
           titleColor="#808080"
           text="We are always where other people need help"
@@ -56,7 +57,9 @@ export default function Index() {
                         />
                       </div>
                       <div className={styles.ProjectsItemContent}>
-                        <h3>{item.title.substring(0, 38)} ......</h3>
+                        <Link to={`/projects/${item.link}/${item.id}`}>
+                          <h3>{item.title.substring(0, 38)} ......</h3>
+                        </Link>
                         <p>{item.excerpt.substring(0, 90)} .....</p>
                         <div className={styles.ProjectsAddressItemContainer}>
                           <div className={styles.ProjectsAddressItem}>

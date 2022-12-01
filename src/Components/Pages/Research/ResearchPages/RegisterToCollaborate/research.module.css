@@ -1,0 +1,39 @@
+.ReasearchContainer {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: 65% 35%;
+  margin-top: 50px;
+}
+.ReasearchContainer > article {
+  padding: 20px 30px;
+}
+.ReasearchTextContainer p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.ReasearchTextContainer p:first-child::first-letter {
+  color: var(--primary-color) !important;
+  font-size: 28px;
+  font-weight: bold;
+}
+.ReasearchTextContainer a {
+  text-align: center;
+  display: block;
+  width: fit-content;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 1s;
+  box-shadow: inset -0.6em -0.6em 1em #4f4f4f,
+    inset 0.4em 0.4em 0.5em rgb(245 230 221 / 60%), 0.8em 0.8em 1em #e5ac97;
+  margin: 20px 0px;
+}

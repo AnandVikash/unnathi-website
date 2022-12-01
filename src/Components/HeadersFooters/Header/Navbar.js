@@ -35,7 +35,41 @@ export const menuItems = [
     id: "7",
     title: "Research",
     url: "/research",
+    submenu: [
+      {
+        id: "7.1",
+        title: "Research at Unnathi",
+        url: "/research/research-at-unnathi",
+      },
+      {
+        id: "7.2",
+        title: "Our Research Team",
+        url: "/research/our-research-team",
+      },
+      {
+        id: "7.3",
+        title: "Research documents",
+        url: "/research/research-documents",
+      },
+      { id: "7.4", title: "Publications", url: "/research/publications" },
+      {
+        id: "7.5",
+        title: "Register to Collaborate",
+        url: "/research/register-to-Collaborate",
+      },
+      {
+        id: "7.6",
+        title: "Ongoing Research Projects",
+        url: "/research/ongoing-research-projects",
+      },
+      {
+        id: "7.7",
+        title: "Completed Research Projects",
+        url: "/research/completed-research-projects",
+      },
+    ],
   },
+
   {
     id: "8",
     title: "Contact",

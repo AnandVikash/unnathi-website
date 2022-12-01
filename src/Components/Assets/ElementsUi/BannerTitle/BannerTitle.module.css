@@ -31,3 +31,27 @@
   background-color: #000000;
   opacity: 0.4;
 }
+
+@media (max-width: 600px) {
+  .BannerTitleContainer {
+  }
+  .LocalBannerImg {
+    width: 100%;
+    height: 250px !important;
+  }
+  .BannerTitleTag {
+    font-size: 28px;
+    text-align: center;
+    /* padding-bottom: 30px; */
+  }
+  .BannerTitle {
+    left: 0%;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
