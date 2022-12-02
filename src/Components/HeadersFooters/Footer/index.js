@@ -16,7 +16,7 @@ export default function index() {
     <>
       <div className={styles.footerMainContainer}>
         <div className={styles.footerContainer}>
-          <div className={styles.footerFormContentContainer}>
+          {/* <div className={styles.footerFormContentContainer}>
             <div className={styles.footerFormContent}>
               <p className={styles.footerFormTitle}>Newsletter</p>
               <p className={styles.footerFormDesc}>
@@ -32,7 +32,7 @@ export default function index() {
                 </div>
               </form>
             </div>
-          </div>
+          </div> */}
           <div className={styles.footerContentContainer}>
             <div className={styles.footerContentItem}>
               <img src="https://www.unnathi.org/images/logonew.jpg" alt="" />

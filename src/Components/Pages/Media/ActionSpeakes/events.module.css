@@ -1,0 +1,136 @@
+.EventsMainContainer {
+  margin: 20px 0px;
+}
+.EventsContainer {
+  width: 85%;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.EventsContainer > div {
+  width: 33.33%;
+  margin-top: 30px;
+}
+
+.EventVerticalCard {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: -1px 0px 5px 2px rgba(133, 120, 120, 0.75);
+  transition: 0.5s;
+}
+.EventVerticalCard:hover {
+  /* margin-top: -5px; */
+}
+.EventVerticalCard hr {
+  margin: 10px 0px;
+}
+
+.EventVerticalCardImg {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.EventVerticalCard img {
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.5s;
+  height: 250px;
+}
+.EventVerticalCard img:hover {
+  transform: scale(1.5);
+}
+.EventVerticleContent {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin-top: 10px;
+}
+.EventVerticalTags {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.EventVerticleDesc p {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 7px;
+  line-height: 25px;
+  min-height: 50px;
+  color: #000;
+  text-decoration: none;
+}
+.EventVerticleDesc a {
+  text-decoration: none;
+}
+.EventVerticleDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EventVerticleCircleDate {
+  background-color: #09324c;
+  clip-path: ellipse(50% 40% at 50% 50%);
+  font-weight: 600;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 30%;
+  justify-content: center;
+  text-align: center;
+}
+
+.EventsVerticleCardDesc {
+  color: rgb(137, 137, 137);
+  margin: 10px 0px;
+  font-size: 17px;
+  line-height: 25px;
+  width: 90%;
+}
+
+.EventsAddressItemContainer {
+  display: flex;
+}
+
+.EventsAddressItemContainer > div {
+  flex-basis: 50%;
+}
+
+.EventsAddressItem {
+  display: flex;
+  gap: 5%;
+}
+
+.EventsAddresIcon svg {
+  font-size: 25px;
+}
+.EventsAddresDesc p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.EventsAddresDesc p:first-child {
+  font-size: 18px !important;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 576px) {
+  .EventsContainer {
+    width: 95%;
+    flex-direction: column;
+  }
+  .EventsContainer > div {
+    width: 100%;
+    margin-top: 30px;
+  }
+  /*
+  .EventsAddressItemContainer > div {
+    flex-basis: 100%;
+  } */
+}

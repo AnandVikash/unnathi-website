@@ -1,0 +1,23 @@
+.action-author-container {
+  margin: 40px 0px;
+}
+.action-author {
+  color: var(--primary-color) !important;
+  font-weight: bold !important;
+  font-size: 22px !important;
+  margin: 10px 0px 0px !important;
+}
+.action-position {
+  color: rgb(105, 105, 105) !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  margin: 5px 0px !important;
+  padding: 0px !important;
+}
+.action-qualification {
+  color: rgb(143, 143, 143) !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  margin: 5px 0px !important;
+  padding: 0px !important;
+}

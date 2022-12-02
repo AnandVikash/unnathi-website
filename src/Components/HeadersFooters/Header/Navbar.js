@@ -24,10 +24,10 @@ export const menuItems = [
     title: "Media",
     url: "/media",
     submenu: [
-      { id: "6.1", title: "Events", url: "/media/events" },
+      // { id: "6.1", title: "Events", url: "/media/events" },
       { id: "6.2", title: "Gallery", url: "/media/gallery" },
       { id: "6.3", title: "News", url: "/media/news" },
-      { id: "6.4", title: "Blogs ", url: "/media/blogs" },
+      // { id: "6.4", title: "Blogs ", url: "/media/blogs" },
       { id: "6.5", title: "Youtube links ", url: "/media/youtube-links" },
     ],
   },

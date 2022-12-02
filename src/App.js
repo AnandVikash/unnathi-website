@@ -14,6 +14,8 @@ import News from "./Components/Pages/Media/News/Index";
 import Blogs from "./Components/Pages/Blogs";
 import SingleBlogs from "./Components/Pages/Blogs/SingleBlog/Index";
 import Events from "./Components/Pages/Media/Events/Index";
+import ActionSpeakes from "./Components/Pages/Media/ActionSpeakes/Index";
+import ActionSpeakesSingle from "./Components/Pages/Media/ActionSpeakes/SingleAction/Index";
 import Youtube from "./Components/Pages/Media/youtubeLinks/Index";
 import Projects from "./Components/Pages/Projects/Index";
 import ProjectsSingle from "./Components/Pages/Projects/SingleProject/Index";
@@ -58,6 +60,14 @@ function App() {
             element={<SingleBlogs />}
           />
           <Route path="/media/events" element={<Events />} />
+          <Route
+            path="/media/action-that-speakes-about-us"
+            element={<ActionSpeakes />}
+          />
+          <Route
+            path="/media/action-that-speakes-about-us/:actionname/:actionid"
+            element={<ActionSpeakesSingle />}
+          />
           <Route path="/media/youtube-links" element={<Youtube />} />
           <Route path="/media/news" element={<News />} />
           <Route

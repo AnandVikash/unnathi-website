@@ -42,6 +42,7 @@ export default function Index() {
       document.body.appendChild(script);
     });
   };
+
   const displayRazorpay = async (amount) => {
     const res = await loadScript(
       "https://checkout.razorpay.com/v1/checkout.js"
@@ -53,14 +54,14 @@ export default function Index() {
     }
 
     const options = {
-      key: "rzp_test_C72Sv4nEj0YmsA",
+      key: "rzp_live_qthS6JwQNuJscL",
       // also remove TEST from line no. 118
       currency: "INR",
       amount: amount * 100,
-      name: "Sphoorti",
+      name: "Unnathi Healing Solution",
       description: "Thanks for Purchasing",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Test-Logo.svg/1280px-Test-Logo.svg.png",
+        "https://unnathi.org/images/logonew.jpg",
 
       // handler: function (response) {
       //   handlePaymentSuccess(response);
@@ -90,7 +91,7 @@ export default function Index() {
             <div className={styles.FormsContainer}>
               <h3>Donate Here</h3>
               {/* onSubmit={handleSubmit} */}
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div>
                   <input
                     type="text"
