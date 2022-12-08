@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "./Events.module.css";
 import SecTitle from "../../../Assets/ElementsUi/SecTitle";
 
-import events from "../../../Assets/Home/Events/events.jpeg";
+import events from "../../../Assets/Media/actionSpeakes/kriya-shakthi.jpg";
 import { IoLocationSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
@@ -34,9 +34,9 @@ export default function Index() {
                     <p>Kriyashakti...</p>
                   </div>
                   <div className={styles.EventVerticleDate}>
-                    <div className={styles.EventVerticleCircleDate}>
+                    {/* <div className={styles.EventVerticleCircleDate}>
                       9th <br /> Oct
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -91,10 +91,10 @@ export default function Index() {
                         <p>Faculty Development Program – BNU...</p>
                       </div>
                       <div className={styles.EventHorizontalDate}>
-                        <div className={styles.EventHorizontalCircleDate}>
+                        {/* <div className={styles.EventHorizontalCircleDate}>
                           15th <br />
                           Oct 2022
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <p className={styles.EventsHorizontalCardDesc}>
@@ -140,11 +140,11 @@ export default function Index() {
                         <p>Build India Movement (BIM)...</p>
                       </div>
                       <div className={styles.EventHorizontalDate}>
-                        <div className={styles.EventHorizontalCircleDate}>
+                        {/* <div className={styles.EventHorizontalCircleDate}>
                           8th Nov
                           <br />
                           2022
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <p className={styles.EventsHorizontalCardDesc}>

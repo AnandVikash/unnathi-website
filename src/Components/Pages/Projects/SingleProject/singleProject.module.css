@@ -9,8 +9,7 @@
   padding: 10px;
 }
 .SingleProjectContentImg {
-  width: 100%;
-  margin: 0 auto;
+  width: 80%;
   overflow: hidden;
 }
 .SingleProjectContentImg img {
@@ -83,6 +82,9 @@ Project
 }
 .SingleProjectDetailsOrganizer > div {
   padding: 5px;
+}
+.SingleProjectOrganizerImg img {
+  width: 100%;
 }
 .SingleProjectOrganizerContact > div {
   padding: 5px;

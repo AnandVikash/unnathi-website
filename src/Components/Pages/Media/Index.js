@@ -10,8 +10,8 @@ export default function Index() {
       <BannerTitle
         title="Media"
         titleTag="h1"
-        titleColor="#fff"
-        localImg="gallery-1.jpg"
+        titleColor="rgb(9, 50, 76)"
+        localImg="media.jpg"
         imgColor="696969"
       />
       <div className={styles.mediaAboutUs}>

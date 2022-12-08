@@ -17,7 +17,7 @@ export default function Index() {
             title="Our Team"
             titleTag="h1"
             titleColor="#fff"
-            localImg="banner-4.jpg"
+            localImg="healing-banner-2.jpg"
             imgColor="696969"
           />
           <div className={styles.SingleTeamNameContainer}>

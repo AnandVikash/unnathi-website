@@ -6,6 +6,21 @@
   width: 100%;
   height: 400px;
   position: relative;
+  background: linear-gradient(
+    to left top,
+    #29af8a,
+    #44be9b,
+    #5acdac,
+    #70dcbd,
+    #84ebce,
+    #84ebce,
+    #84ebce,
+    #84ebce,
+    #70dcbd,
+    #5acdac,
+    #44be9b,
+    #29af8a
+  );
 }
 
 .blogBannerContainer img {
@@ -47,10 +62,12 @@
 .blogFeatureImage {
   overflow: hidden;
   margin-bottom: 15px;
+  width: 70%;
 }
 
 .blogFeatureImage img {
   transition: 0.5s;
+  width: 100%;
 }
 
 .blogFeatureImage img:hover {

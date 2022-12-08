@@ -1,5 +1,15 @@
 [
   {
+    "id": 8,
+    "name": "Aravindan",
+    "link": "aravindan",
+    "designation": "Trustee",
+    "qualfication": "",
+    "content": "<p></p>",
+    "img": "new-img/aravindan.jpg",
+    "positionType": "founder"
+  },
+  {
     "id": 1,
     "name": "Acharya Dr. Saraswathi Hegde",
     "link": "acharya-dr-saraswathi-hegde",
@@ -18,7 +28,8 @@
     "content": "<p><ul> <li>Former Chancellor of Sri Devaraj Urs Academy of Higher Education & Research, Kolar served 5 years. </li> <li> Head Academics & Content Development, Educational Rating & Assessment Foundation of India since 8 year</li> <li>Executive Secretary COMED K (Consortium of Medical. Engineering & Dental Colleges) since 16 years.</li> <li>Secretary CODEUNIK (Consortium of deemed Universities in Karnataka) since 7 years. </li> <li>Served as President - Medical Education at Gokula Education Foundation - Health Sciences, the promoters of M.S. Ramaiah group for 3 years after serving as Principal & Dean at M.S. Ramaiah Medical College and Hospitals for 7 years. Relieved from the MSR group after 34 years’ experience in Medical Education. </li> <li>Trustee of ‘SPANDANA’ resource centre for differently-abled children in rural areas serving 36 villages, since 15 years. </li> <li>Total 3 years of Research experience with Indian Council of Medical Research. </li> <li>Received ‘Award for Excellence in Service to Community in 2005 -2006 from Rotary Bangalore North west & Lions Club (North). </li> <li>Awarded “Outstanding Alumni Award from Bangalore Medical College in 2016.</li></ul></p>",
     "img": "s-kumar.png",
     "positionType": "second",
-    "research": true
+    "research": true,
+    "researchType": "head"
   },
   {
     "id": 3,
@@ -27,7 +38,7 @@
     "designation": "Director",
     "qualfication": "B. Sc (Mechanical Engineering)",
     "content": "<p>Successfully built the companies, Created and managed efficient Supply chain activities, Project management, R&D and Technical functions effectively integrated to deliver superior results, successfully deployed: Kaizen, TPM, Lean practices, Safety culture, BPR, Proficient and Dexterity in IR/HR initiatives </p><p> <ul> <li>Strategized to deter militant R situation that led to 18 months strike without loss of production. Initiated process to make workers and Management work together on vital issues.</li> <li>Designed and implemented a novel and effective GET/DET scheme to augment needs of growing company.</li> </ul></p><p>International working / Exposure:</p><p> <ul> <li>Worked in Corning, Inc USA for more than 1.5 years.</li> <li>Worked with Samsung Corning, S. Korea.</li> <li>Extensively travelled to Asia, Europe and North America</li> </ul></p><p>Have deep understanding various states of India as he worked in all parts of India. </p>",
-    "img": "y-srinivasa-rao.png",
+    "img": "new-img/mr-rao-main-image.jpg",
     "positionType": "second"
   },
   {
@@ -39,20 +50,10 @@
     "content": "<p>He is a Senior Research Scientist, who was inspired by research on natural molecules in prevention of chronic diseases during his graduation. With self-motivation, he went to CSIR-CFTRI to pursue research work for Masters in Pharmacy. The research culture and environment there made him understand the significance of translational research and its impact. Based on this, he took a sporadic route to obtain PhD in Nutraceutical Biotechnology from CSIR-CFTRI. Later his postdoctoral training and research at the USA, gave him first-hand experience of high impact original research in the area of molecular nutrition and toxicology. He has also learnt the art and science of research, collaboration, grant and scientific writing. Working with excellent mentors, who gave him freedom to think and take the research independently was great blessing in his research career. Later his association with one of the finest medical college and hospitals in India has helped him to get direct experience on clinical research challenges and opportunities especially in the area of nutrition and prophylactic. His transdisciplinary expertise was looking rare and unusual in India until recent years, the shift in higher education in India towards integrated learning and training has made him most suitable candidate for future higher education system in our country, especially in the area of health sciences.  </p><p>His work experiences include 12 Years in India, 5 Years in the USA.</p>",
     "img": "new-img/chidambara-murthy.jpg",
     "positionType": "second",
-    "research": true
+    "research": true,
+    "researchType": "head"
   },
 
-  {
-    "id": 6,
-    "name": "Dr. Bharathi Anjanappa",
-    "link": "dr-bharathi-anjanappa",
-    "designation": "Research Consultant",
-    "qualfication": "MBBS, DGO, MS-OBG",
-    "content": "<p> She is a Specialist in Obstetrics & Gynaecology, currently Medical officer in ESIC Hospital, Bengaluru.  Dr Bharathi is a Member of Fogsi Quiz Committee South Zone 2015, Reviewer for JCDR journal. Permanent member of BSOG, FOGSI and ICOG, Awarded ICOG fellowship in 2016, Member of Indian association for adolescent health. Published over 14 research papers in National & International journals (JCDR, SAFOG, BJOG, IJRCOG), Conferences (RCOG-2014, AICOG 2015,2020), Faculty in AICOG 2016.</p>",
-    "img": "new-img/dr-bharathi-a.jpg",
-    "positionType": "member",
-    "research": true
-  },
   {
     "id": 7,
     "name": "Dr. Sharath Kote G. S",
@@ -65,23 +66,25 @@
     "research": true
   },
   {
-    "id": 8,
-    "name": "Aravindan",
-    "link": "aravindan",
-    "designation": "Trustee",
-    "qualfication": "",
-    "content": "<p></p>",
-    "img": "new-img/aravindan.jpg",
-    "positionType": "founder"
-  },
-  {
     "id": 9,
     "name": "Dr. Nisarg Aravindan",
     "link": "dr-nisarg-aravindan",
     "designation": "Research Collaborator",
     "qualfication": "Junior Resident,Department of Community and Family Medicine, AIIMS Rishikesh",
     "content": "<p></p>",
-    "img": "sample-account.jpg",
+    "img": "new-img/dr-nisarg-aravindan.jpg",
+    "research": true
+  },
+
+  {
+    "id": 6,
+    "name": "Dr. Bharathi Anjanappa",
+    "link": "dr-bharathi-anjanappa",
+    "designation": "Research Consultant",
+    "qualfication": "MBBS, DGO, MS-OBG",
+    "content": "<p> She is a Specialist in Obstetrics & Gynaecology, currently Medical officer in ESIC Hospital, Bengaluru.  Dr Bharathi is a Member of Fogsi Quiz Committee South Zone 2015, Reviewer for JCDR journal. Permanent member of BSOG, FOGSI and ICOG, Awarded ICOG fellowship in 2016, Member of Indian association for adolescent health. Published over 14 research papers in National & International journals (JCDR, SAFOG, BJOG, IJRCOG), Conferences (RCOG-2014, AICOG 2015,2020), Faculty in AICOG 2016.</p>",
+    "img": "new-img/dr-bharathi-a.jpg",
+    "positionType": "member",
     "research": true
   }
 ]

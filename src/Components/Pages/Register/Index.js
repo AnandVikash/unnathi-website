@@ -17,7 +17,7 @@ export default function Index() {
         title="Register With Us"
         titleTag="h1"
         titleColor="#fff"
-        localImg="banner-5.jpg"
+        localImg="register.jpg"
         imgColor="696969"
       />
       <div className={styles.RegisterMainContainer}>

@@ -12,7 +12,7 @@ export default function Index() {
         title="Healing"
         titleTag="h1"
         titleColor="#fff"
-        localImg="healing-banner.jpg"
+        localImg="healing.jpg"
         imgColor="696969"
       />
       {/* <div className={styles.HealingCardImg}>

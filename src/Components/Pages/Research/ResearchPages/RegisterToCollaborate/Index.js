@@ -11,7 +11,7 @@ export default function Index() {
           titleTag="h1"
           titleColor="#fff"
           // img="090b2b.png"
-          localImg="banner-5.jpg"
+          localImg="researchBanners/research-collaborations.jpg"
           imgColor="696969"
         />
         <section className={styles.ReasearchContainer}>

@@ -11,11 +11,11 @@ export default function Index() {
     <>
       <main>
         <BannerTitle
-          title="Ongoing Research Projects          "
+          title="Completed Research Projects          "
           titleTag="h1"
-          titleColor="#fff"
+          titleColor="rgb(9, 50, 76)"
           // img="090b2b.png"
-          localImg="banner-5.jpg"
+          localImg="researchBanners/research-completed.jpg"
           imgColor="696969"
         />
         {/* <SecTitle

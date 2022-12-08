@@ -15,6 +15,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { NavLink, Link } from "react-router-dom";
 import { menuItems } from "../Navbar";
 import MobileMenu from "../MobileHeader/Index";
+import Logo from "../../../Assets/logonew.jpg";
 function Navbar() {
   const [scrollPosition, setScrollPosition] = useState(window.pageYOffset);
   const [resizePosition, setResizePosition] = useState(window.innerWidth);
@@ -105,7 +106,9 @@ function Navbar() {
         <div className={`${styles.navbarMenuAlphaContainer} ${stickyClasses}`}>
           <div className={styles.navbarMenuMainContainer}>
             <div className={styles.navbarlogoContainer}>
-              <img src="https://unnathi.org/images/logonew.jpg" />
+              <Link to="/">
+                <img src={Logo} />
+              </Link>
             </div>
             <div className={styles.navbarMenuContainer}>
               <div className={styles.navbarMenuBackgroundContainer}>

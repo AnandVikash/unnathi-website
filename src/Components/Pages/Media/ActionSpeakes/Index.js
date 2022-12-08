@@ -59,9 +59,9 @@ export default function Index() {
                         </Link>
                       </div>
                       <div className={styles.EventVerticleDate}>
-                        <div className={styles.EventVerticleCircleDate}>
+                        {/* <div className={styles.EventVerticleCircleDate}>
                           {date}
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     <p className={styles.EventsVerticleCardDesc}>

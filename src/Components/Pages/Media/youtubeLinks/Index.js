@@ -11,8 +11,8 @@ export default function Index() {
       <BannerTitle
         title="Youtube Links"
         titleTag="h1"
-        titleColor="#fff"
-        localImg="gallery-1.jpg"
+        titleColor="rgb(9, 50, 76)"
+        localImg="youtube.jpg"
         imgColor="696969"
       />
       <div className={styles.youtubeMainContainer}>

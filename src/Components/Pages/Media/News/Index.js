@@ -11,7 +11,7 @@ export default function Index() {
         title="News"
         titleTag="h1"
         titleColor="#fff"
-        localImg="gallery-1.jpg"
+        localImg="media.jpg"
         imgColor="696969"
       />
       <div className={styles.MediaContainer}>

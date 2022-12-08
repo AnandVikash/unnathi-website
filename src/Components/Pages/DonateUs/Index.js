@@ -9,6 +9,7 @@ export default function Index() {
     email: "",
     subject: "",
     message: "",
+    amount: "",
   });
 
   function fillForm(event) {
@@ -23,7 +24,7 @@ export default function Index() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log("raghu");
-    displayRazorpay(250);
+    displayRazorpay(form.amount);
   }
 
   const loadScript = (src) => {
@@ -60,8 +61,7 @@ export default function Index() {
       amount: amount * 100,
       name: "Unnathi Healing Solution",
       description: "Thanks for Purchasing",
-      image:
-        "https://unnathi.org/images/logonew.jpg",
+      image: "https://unnathi.org/images/logonew.jpg",
 
       // handler: function (response) {
       //   handlePaymentSuccess(response);
@@ -71,13 +71,21 @@ export default function Index() {
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
   };
+  const updateAmount = (amounts) => {
+    setForm((prevValue) => {
+      return {
+        ...prevValue,
+        amount: amounts,
+      };
+    });
+  };
   return (
     <>
       <BannerTitle
         title="Donate Us"
         titleTag="h1"
         titleColor="#fff"
-        localImg="banner-5.jpg"
+        localImg="donation.jpg"
         imgColor="696969"
       />
       <div className={styles.HealingMainContainer}>
@@ -119,7 +127,22 @@ export default function Index() {
                     onChange={fillForm}
                   />
                 </div>
+                <div>
+                  <input
+                    type="number"
+                    name="amount"
+                    placeholder="Enter Your Amount"
+                    value={form.amount}
+                    onChange={fillForm}
+                  />
+                </div>
+                <div className={styles.updateAmountButton}>
+                  <a onClick={() => updateAmount("1001")}>1001/-</a>
 
+                  <a onClick={() => updateAmount("2001")}>2001/-</a>
+
+                  <a onClick={() => updateAmount("3001")}>3001/-</a>
+                </div>
                 {/* <div>
                   <select name="franchise" id="franchise">
                     <option value="" disabled selected hidden>

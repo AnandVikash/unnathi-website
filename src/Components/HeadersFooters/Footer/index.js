@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 
 import { TwitterTimelineEmbed } from "react-twitter-embed";
+import Logo from "../../Assets/logonew.jpg";
 export default function index() {
   const data = `<a class="twitter-timeline" href="https://twitter.com/UnnathiF?ref_src=twsrc%5Etfw">Tweets by UnnathiF</a>`;
 
@@ -35,7 +36,7 @@ export default function index() {
           </div> */}
           <div className={styles.footerContentContainer}>
             <div className={styles.footerContentItem}>
-              <img src="https://www.unnathi.org/images/logonew.jpg" alt="" />
+              <img src={Logo} alt="" />
               <p>
                 Welcome to Unnathi Healing Foundation. Everyone wants to give to
                 society, and Unnathi provides platform to serve and be served.

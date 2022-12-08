@@ -9,9 +9,9 @@ export default function Index() {
         <BannerTitle
           title="Research At Unnathi"
           titleTag="h1"
-          titleColor="#fff"
+          titleColor="rgb(9, 50, 76)"
           // img="090b2b.png"
-          localImg="banner-5.jpg"
+          localImg="researchBanners/research-at-unnathi.jpg"
           imgColor="696969"
         />
         <section className={styles.ReasearchContainer}>

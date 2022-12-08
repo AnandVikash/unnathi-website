@@ -12,7 +12,7 @@ export default function Index() {
         title="About Us"
         titleTag="h1"
         titleColor="#fff"
-        localImg="banner-4.jpg"
+        localImg="healing-banner-2.jpg"
         imgColor="696969"
       />
       <Welcome />

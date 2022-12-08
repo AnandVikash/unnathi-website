@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "./banner.css";
 import Slider from "react-slick";
-import banner1 from "../../../Assets/Home/Banner/new-500.jpg";
-import banner2 from "../../../Assets/Home/Banner/live-banner/home-banner-1.jpg";
-import banner3 from "../../../Assets/Home/Banner/live-banner/home-banner-2.jpg";
+import banner1 from "../../../Assets/Home/Banner/live-banner/build-india.jpg";
+import banner2 from "../../../Assets/Home/Banner/live-banner/healing.jpg";
+import banner3 from "../../../Assets/Home/Banner/live-banner/traning-banner.jpg";
 import banner4 from "../../../Assets/Home/Banner/live-banner/home-banner-3.jpg";
 
 // import banner11 from "../../../Assets/Home/Banner/1520x500-1.jpg";
@@ -21,7 +21,8 @@ export default function Index() {
     dots: false,
     arrows: true,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
+    pauseOnHover: false,
     speed: 2000,
     autoplaySpeed: 4000,
     speed: 500,
@@ -90,7 +91,7 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div>
+            {/* <div>
               <div className="BannerSliderContainer">
                 <img src={banner4} />
 
@@ -104,7 +105,7 @@ export default function Index() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* <div>
               <div className="BannerSliderContainer">

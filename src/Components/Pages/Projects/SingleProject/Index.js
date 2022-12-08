@@ -23,13 +23,16 @@ export default function Index() {
           title={`${title}`}
           titleTag="h1"
           titleColor="#fff"
-          localImg="banner-4.jpg"
+          // localImg={`projectsBanners/${image}`}
+          linearGradient="linear-gradient(to left bottom, #29af8a, #43be9a, #59cdab, #6edcbc, #82ebcd, #8aefd2, #91f2d8, #99f6dd, #97f0d8, #95e9d2, #92e3cd, #90ddc8);"
           imgColor="696969"
         />
         <div className={styles.SingleProjectContainer}>
           <div className={styles.SingleProjectContent}>
             <div className={styles.SingleProjectContentImg}>
-              <img src="https://andit.co/projects/html/jago-welfare/assets/img/causes/details-big.png" />
+              <img
+                src={require(`../../../Assets/Projects/new-projects/${image}`)}
+              />
             </div>
             <div className={styles.SingleProjectContentDesc}>
               <h3>{title}</h3>
@@ -39,7 +42,7 @@ export default function Index() {
           <div className={styles.SingleProjectDetails}>
             <div className={styles.SingleProjectDetailsOrganizer}>
               <div className={styles.SingleProjectOrganizerImg}>
-                <img src="https://andit.co/projects/html/jago-welfare/assets/img/sidebar/project_organizer.png" />
+                <img src="https://unnathi.org/images/logonew.jpg" />
               </div>
               <div className={styles.SingleProjectOrganizerImgContent}>
                 <p className={styles.SingleProjectOrganizerHeading}>

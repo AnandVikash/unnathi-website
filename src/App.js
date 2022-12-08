@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/HeadersFooters/Header/Navbar/Navbar";
 import Footer from "./Components/HeadersFooters/Footer";
@@ -24,7 +25,7 @@ import Donate from "./Components/Pages/DonateUs/Index";
 import Register from "./Components/Pages/Register/Index";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 import ScrollToTop from "./Components/Assets/ScrollToTop";
 import Sidenavwidget from "./Components/Assets/ElementsUi/SidenavWidget/Index";
 import Checker from "./Components/Pages/Checker";

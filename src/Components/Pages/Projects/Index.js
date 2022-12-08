@@ -16,7 +16,7 @@ export default function Index() {
       <BannerTitle
         title="Projects"
         titleTag="h1"
-        titleColor="#fff"
+        titleColor="rgb(9, 50, 76)"
         localImg="projects.jpg"
         imgColor="696969"
       />

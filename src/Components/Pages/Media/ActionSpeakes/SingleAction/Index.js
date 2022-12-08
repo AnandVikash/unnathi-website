@@ -9,7 +9,7 @@ export default function Index() {
   let { actionid } = useParams();
 
   let filteredBlog = actionData.filter((item) => item.id == actionid);
-  const { title, content, author, readmore } = filteredBlog[0];
+  const { title, content, author, readmore, bannerCustomImg } = filteredBlog[0];
 
   return (
     <>
@@ -19,13 +19,18 @@ export default function Index() {
       <div className={styles.blogMainContainer}>
         <div className={styles.blogBannerContainer}>
           <div className={styles.blogBannerBackground}></div>
-          <img src="https://unnathi-test-website.web.app/static/media/blogs.cb86ba59557460ffdba6.jpg" />
+          {/* <img
+            src={require(`../../../../Assets/Media/actionSpeakes/${bannerCustomImg}`)}
+          /> */}
+          {/* "https://unnathi-test-website.web.app/static/media/blogs.cb86ba59557460ffdba6.jpg" */}
           <h1>{title}</h1>
         </div>
         <div className={styles.blogContentContainer}>
           <div className={styles.blogContent}>
             <div className={styles.blogFeatureImage}>
-              {/* <img src={require(`../../../Assets/Blog/Images/${img}`)} /> */}
+              <img
+                src={require(`../../../../Assets/Media/actionSpeakes/${bannerCustomImg}`)}
+              />
             </div>
             <p className={styles.blogFeatureTitle}> {title}</p>
             <div

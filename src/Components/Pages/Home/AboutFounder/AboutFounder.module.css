@@ -9,7 +9,15 @@
   position: relative;
   padding-top: 5px;
 }
-
+.AboutImgContainer {
+  width: 90%;
+  margin: 20px auto;
+  position: relative;
+  padding-top: 5px;
+}
+.AboutImgContainer {
+  width: 100%;
+}
 .AboutFounderLogoContaier {
   display: grid;
   grid-template-columns: 20% 80%;
