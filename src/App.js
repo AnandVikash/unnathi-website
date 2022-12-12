@@ -20,7 +20,7 @@ import ActionSpeakesSingle from "./Components/Pages/Media/ActionSpeakes/SingleAc
 import Youtube from "./Components/Pages/Media/youtubeLinks/Index";
 import Projects from "./Components/Pages/Projects/Index";
 import ProjectsSingle from "./Components/Pages/Projects/SingleProject/Index";
-import Contact from "./Components/Pages/Contact/Index";
+import Contact from "./Components/Pages/ContactUs/Index";
 import Donate from "./Components/Pages/DonateUs/Index";
 import Register from "./Components/Pages/Register/Index";
 import "slick-carousel/slick/slick.css";

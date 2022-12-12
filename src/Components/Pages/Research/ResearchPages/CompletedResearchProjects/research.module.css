@@ -2,6 +2,13 @@
   width: 80%;
   margin: 0 auto;
   margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: center;
+}
+.ReasearchContainer > article {
+  width: 45%;
 }
 .publications {
   border-radius: 20px;

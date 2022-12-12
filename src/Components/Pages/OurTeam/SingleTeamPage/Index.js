@@ -20,9 +20,9 @@ export default function Index() {
             localImg="healing-banner-2.jpg"
             imgColor="696969"
           /> */}
-          <div className={styles.SingleTeamNameContainer}>
+          {/* <div className={styles.SingleTeamNameContainer}>
             <h1>{name}</h1>
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.SingleTeamContentContainer}>

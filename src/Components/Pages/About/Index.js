@@ -8,13 +8,13 @@ import Associates from "../../Assets/ElementsUi/Associates/Index";
 export default function Index() {
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="About Us"
         titleTag="h1"
         titleColor="#fff"
         localImg="healing-banner-2.jpg"
         imgColor="696969"
-      />
+      /> */}
       <Welcome />
       <OurTeam />
       <Associates />

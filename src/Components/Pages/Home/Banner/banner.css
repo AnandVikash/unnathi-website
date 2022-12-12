@@ -29,7 +29,7 @@ marquee a {
   bottom: 2%;
   width: 70%;
   left: 7%;
-  background-color: #cfb997;
+  background-color: var(--primary-color);
   opacity: 0.8;
   padding: 20px;
   border-radius: 10px;
@@ -39,12 +39,13 @@ marquee a {
   font-weight: 700;
   line-height: 40px;
   margin-bottom: 10px;
-  color: rgb(9, 50, 76);
+  color: #fff;
 }
 .BannerSliderDesc {
   font-size: 25px;
   font-weight: 500;
   line-height: 35px;
+  color: #fff;
 }
 .BannerContainer .slick-prev {
   left: 30px;
