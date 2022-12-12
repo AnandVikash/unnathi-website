@@ -1,19 +1,19 @@
 import React from "react";
 import styles from "./media.module.css";
-import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import { FaHandPointRight } from "react-icons/fa";
 import MediaImage from "../../Assets/Data/Media/media.json";
 export default function Index() {
   // console.log(MediaImage);
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Media"
         titleTag="h1"
         titleColor="rgb(9, 50, 76)"
         localImg="media.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.mediaAboutUs}>
         <p>We thank media and press for covering our good work extensively.</p>
       </div>

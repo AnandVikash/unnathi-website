@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./youtube.module.css";
-import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 import YouTubeData from "../../../Assets/Data/Media/youtube.json";
 // import AffirmaionsImage from "../../../Assets/Data/Media/affirmations.json";
 // import { FaHandPointRight } from "react-icons/fa";
@@ -8,13 +8,13 @@ export default function Index() {
   // console.log(YouTubeData);
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Youtube Links"
         titleTag="h1"
         titleColor="rgb(9, 50, 76)"
         localImg="youtube.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.youtubeMainContainer}>
         <div className={styles.youtubeAlphaConatiner}>
           {YouTubeData.map((item) => {

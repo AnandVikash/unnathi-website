@@ -1,19 +1,19 @@
 import React from "react";
 import styles from "./news.module.css";
-import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 import { FaHandPointRight } from "react-icons/fa";
 import MediaImage from "../../../Assets/Data/Media/media.json";
 export default function Index() {
   // console.log(MediaImage);
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="News"
         titleTag="h1"
         titleColor="#fff"
         localImg="media.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.MediaContainer}>
         <div className={styles.MediaImageContainer}>
           {MediaImage.map((item) => {

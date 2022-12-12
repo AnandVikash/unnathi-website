@@ -1,19 +1,19 @@
 import React from "react";
-import BannerTitle from "../../../../Assets/ElementsUi/BannerTitle/Index";
-import MainLinksSideBar from "../../../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+// import BannerTitle from "../../../../Assets/ElementsUi/BannerTitle/Index";
+// import MainLinksSideBar from "../../../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 import styles from "./research.module.css";
 export default function Index() {
   return (
     <>
       <main>
-        <BannerTitle
+        {/* <BannerTitle
           title="Research At Unnathi"
           titleTag="h1"
           titleColor="rgb(9, 50, 76)"
           // img="090b2b.png"
           localImg="researchBanners/research-at-unnathi.jpg"
           imgColor="696969"
-        />
+        /> */}
         <section className={styles.ReasearchContainer}>
           <article className={styles.ReasearchTextContainer}>
             <p>
@@ -30,9 +30,7 @@ export default function Index() {
               healing.
             </p>
           </article>
-          <article>
-            <MainLinksSideBar />
-          </article>
+          <article>{/* <MainLinksSideBar /> */}</article>
         </section>
       </main>
     </>

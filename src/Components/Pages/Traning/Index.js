@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./traning.module.css";
-import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
-import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
-import Slider from "react-slick";
+// import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+// import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+// import Slider from "react-slick";
 import img1 from "../../Assets/Training/TrainingChildren/traning-children-1.jpg";
 import img2 from "../../Assets/Training/TrainingChildren/traning-children-2.jpg";
 import img3 from "../../Assets/Training/TrainingChildren/traning-children-3.jpg";
@@ -16,14 +16,14 @@ export default function Index() {
   };
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Training"
         titleTag="h1"
         titleColor="#fff"
         // img="090b2b.png"
         localImg="traning-banner.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.TraningMainContainer}>
         <div className={styles.TraningContainer}>
           <div
@@ -75,7 +75,7 @@ export default function Index() {
               touch with Unnathi to join advanced courses of Yogic healing.
             </p>
 
-            <div className={styles.TraningSlider}>
+            {/* <div className={styles.TraningSlider}>
               <Slider {...settings} {...settingsWithModules}>
                 <div>
                   <img src={img1} />
@@ -87,7 +87,7 @@ export default function Index() {
                   <img src={img3} />
                 </div>
               </Slider>
-            </div>
+            </div> */}
           </div>
           <div
             className={styles.TraningSidebar}
@@ -95,7 +95,7 @@ export default function Index() {
             data-aos-delay="300"
             data-aos-duration="500"
           >
-            <MainLinksSideBar />
+            {/* <MainLinksSideBar /> */}
           </div>
         </div>
       </div>

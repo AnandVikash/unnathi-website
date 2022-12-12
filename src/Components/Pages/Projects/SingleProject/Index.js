@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./singleProject.module.css";
-import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 import { BsEnvelope, BsTelephone } from "react-icons/bs";
 import {
   AiFillFacebook,
@@ -19,14 +19,14 @@ export default function Index() {
   return (
     <>
       <div>
-        <BannerTitle
+        {/* <BannerTitle
           title={`${title}`}
           titleTag="h1"
           titleColor="#fff"
           // localImg={`projectsBanners/${image}`}
           linearGradient="linear-gradient(to left bottom, #29af8a, #43be9a, #59cdab, #6edcbc, #82ebcd, #8aefd2, #91f2d8, #99f6dd, #97f0d8, #95e9d2, #92e3cd, #90ddc8);"
           imgColor="696969"
-        />
+        /> */}
         <div className={styles.SingleProjectContainer}>
           <div className={styles.SingleProjectContent}>
             <div className={styles.SingleProjectContentImg}>

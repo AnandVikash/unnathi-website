@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import styles from "./healing.module.css";
-import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
-import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+// import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+// import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 import { FaQuoteLeft } from "react-icons/fa";
 import HealingData from "../../Assets/Data/Healing/healing.json";
 export default function Index() {
   const [readMore, setReadMore] = useState(false);
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Healing"
         titleTag="h1"
         titleColor="#fff"
         localImg="healing.jpg"
         imgColor="696969"
-      />
+      /> */}
       {/* <div className={styles.HealingCardImg}>
                 {" "}
                 <img src={img} />
@@ -116,7 +116,7 @@ export default function Index() {
             data-aos-delay="300"
             data-aos-duration="500"
           >
-            <MainLinksSideBar />
+            {/* <MainLinksSideBar /> */}
           </div>
         </div>
       </div>

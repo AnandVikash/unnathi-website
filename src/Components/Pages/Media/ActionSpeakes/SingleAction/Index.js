@@ -17,14 +17,14 @@ export default function Index() {
         {blogname},{blogid}
       </div> */}
       <div className={styles.blogMainContainer}>
-        <div className={styles.blogBannerContainer}>
+        {/* <div className={styles.blogBannerContainer}>
           <div className={styles.blogBannerBackground}></div>
-          {/* <img
+          <img
             src={require(`../../../../Assets/Media/actionSpeakes/${bannerCustomImg}`)}
-          /> */}
-          {/* "https://unnathi-test-website.web.app/static/media/blogs.cb86ba59557460ffdba6.jpg" */}
+          />
+          "https://unnathi-test-website.web.app/static/media/blogs.cb86ba59557460ffdba6.jpg"
           <h1>{title}</h1>
-        </div>
+        </div> */}
         <div className={styles.blogContentContainer}>
           <div className={styles.blogContent}>
             <div className={styles.blogFeatureImage}>

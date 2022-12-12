@@ -1,6 +1,6 @@
 import React from "react";
 import SecTitle from "../../../Assets/ElementsUi/SecTitle";
-import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 
 import styles from "./events.module.css";
 import { IoLocationSharp } from "react-icons/io5";
@@ -12,13 +12,13 @@ import { Link } from "react-router-dom";
 export default function Index() {
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="ACTION THAT SPEAKS ABOUT US "
         titleTag="h1"
         titleColor="#fff"
         localImg="events-banner.jpg"
         imgColor="696969"
-      />
+      /> */}
       <SecTitle
         title=""
         titleTag="p"

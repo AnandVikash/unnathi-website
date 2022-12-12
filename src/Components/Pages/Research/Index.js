@@ -1,19 +1,19 @@
 import React from "react";
 import styles from "./research.module.css";
-import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
-import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+// import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+// import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 import research from "../../Assets/Research/research.jpg";
 export default function Index() {
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Research"
         titleTag="h1"
         titleColor="rgb(9, 50, 76)"
         // img="090b2b.png"
         localImg="researchBanners/research-banner.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.ResearchMainContainer}>
         <div className={styles.ResearchContainer}>
           <div className={styles.ResearchText}>
@@ -90,7 +90,7 @@ export default function Index() {
             </p>
           </div>
           <div className={styles.ResearchSidebar}>
-            <MainLinksSideBar />
+            {/* <MainLinksSideBar /> */}
           </div>
         </div>
       </div>

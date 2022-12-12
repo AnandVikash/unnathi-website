@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./singleTeam.module.css";
 import { MdOutlineAccountCircle } from "react-icons/md";
-import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 import TeamData from "../../../Assets/Data/OurTeam/ourteam.json";
 import { useParams } from "react-router-dom";
 
@@ -13,13 +13,13 @@ export default function Index() {
     <>
       <div className={styles.SingleTeamMainContainer}>
         <div className={styles.SingleTeamBannerContainer}>
-          <BannerTitle
+          {/* <BannerTitle
             title="Our Team"
             titleTag="h1"
             titleColor="#fff"
             localImg="healing-banner-2.jpg"
             imgColor="696969"
-          />
+          /> */}
           <div className={styles.SingleTeamNameContainer}>
             <h1>{name}</h1>
           </div>

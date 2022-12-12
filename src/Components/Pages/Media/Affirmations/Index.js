@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./affirmations.module.css";
-import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 import AffirmaionsImage from "../../../Assets/Data/Media/affirmations.json";
 import { FaHandPointRight } from "react-icons/fa";
 export default function Index() {
@@ -17,13 +17,13 @@ export default function Index() {
   }
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Positive Affirmations"
         titleTag="h1"
         titleColor="#fff"
         localImg="gallery-1.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.AffirmationsContainer}>
         <div className={styles.AffirmaionsImageContainer}>
           {AffirmaionsImageArray.map((item) => {

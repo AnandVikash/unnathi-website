@@ -1,6 +1,6 @@
 import React from "react";
-import BannerTitle from "../../../../Assets/ElementsUi/BannerTitle/Index";
-import MainLinksSideBar from "../../../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+// import BannerTitle from "../../../../Assets/ElementsUi/BannerTitle/Index";
+// import MainLinksSideBar from "../../../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 import styles from "./research.module.css";
 import SecTitle from "../../../../Assets/ElementsUi/SecTitle";
 import Effect from "../../../../Assets/Research/publications/effect-of-yoga-based-biofield-intervention.pdf";
@@ -10,14 +10,14 @@ export default function Index() {
   return (
     <>
       <main>
-        <BannerTitle
+        {/* <BannerTitle
           title="Publications"
           titleTag="h1"
           titleColor="#fff"
           // img="090b2b.png"
           localImg="researchBanners/research-publications.jpg"
           imgColor="696969"
-        />
+        /> */}
         {/* <SecTitle
           title=""
           titleTag="p"

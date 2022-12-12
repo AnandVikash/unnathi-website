@@ -1,19 +1,19 @@
 import React from "react";
-import BannerTitle from "../../../../Assets/ElementsUi/BannerTitle/Index";
-import MainLinksSideBar from "../../../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+// import BannerTitle from "../../../../Assets/ElementsUi/BannerTitle/Index";
+// import MainLinksSideBar from "../../../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 import styles from "./research.module.css";
 export default function Index() {
   return (
     <>
       <main>
-        <BannerTitle
+        {/* <BannerTitle
           title="Register to Collaborate"
           titleTag="h1"
           titleColor="#fff"
           // img="090b2b.png"
           localImg="researchBanners/research-collaborations.jpg"
           imgColor="696969"
-        />
+        /> */}
         <section className={styles.ReasearchContainer}>
           <article className={styles.ReasearchTextContainer}>
             <p>
@@ -24,9 +24,7 @@ export default function Index() {
               </a>
             </p>
           </article>
-          <article>
-            <MainLinksSideBar />
-          </article>
+          <article>{/* <MainLinksSideBar /> */}</article>
         </section>
       </main>
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./projects.module.css";
-import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import SecTitle from "../../Assets/ElementsUi/SecTitle";
 import ProjectData from "../../Assets/Data/Projects/projects.json";
 import buildIndiaMovement1 from "../../Assets/Home/Projects/build-india-movement.jpeg";
@@ -13,13 +13,13 @@ export default function Index() {
 
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Projects"
         titleTag="h1"
         titleColor="rgb(9, 50, 76)"
         localImg="projects.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.projectsMainContainer}>
         <SecTitle
           title="Active Projects"

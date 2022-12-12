@@ -1,18 +1,18 @@
 import React from "react";
 import styles from "./gallery.module.css";
-import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../../Assets/ElementsUi/BannerTitle/Index";
 import GalleryData from "../../../Assets/Data/Media/gallery.json";
 import { FaHandPointRight } from "react-icons/fa";
 export default function Index() {
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Gallery"
         titleTag="h1"
         titleColor="#fff"
         localImg="gallery-1.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.GalleryMainContainer}>
         <div className={styles.GalleryContainer}>
           <div className={styles.GalleryButtonContainer}>

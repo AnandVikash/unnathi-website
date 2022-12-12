@@ -1,6 +1,6 @@
 import React from "react";
 import SecTitle from "../../Assets/ElementsUi/SecTitle";
-import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import styles from "./contact.module.css";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaEnvelope } from "react-icons/fa";
@@ -13,13 +13,13 @@ export default function Index() {
   console.log(successparas == null);
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Contact"
         titleTag="h1"
         titleColor="rgb(9, 50, 76)"
         localImg="contacts.jpg"
         imgColor="696969"
-      />
+      /> */}
       <SecTitle
         title="Contact With Us"
         titleTag="p"

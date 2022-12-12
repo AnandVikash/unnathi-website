@@ -1,6 +1,6 @@
 import React from "react";
-import BannerTitle from "../../../../Assets/ElementsUi/BannerTitle/Index";
-import MainLinksSideBar from "../../../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+// import BannerTitle from "../../../../Assets/ElementsUi/BannerTitle/Index";
+// import MainLinksSideBar from "../../../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 import styles from "./research.module.css";
 import researchTeam from "../../../../Assets/Data/OurTeam/ourteam.json";
 import { Link } from "react-router-dom";
@@ -15,14 +15,14 @@ export default function Index() {
   return (
     <>
       <main>
-        <BannerTitle
+        {/* <BannerTitle
           title="Our Research Team"
           titleTag="h1"
           titleColor="#fff"
           // img="090b2b.png"
           localImg="researchBanners/research-team.jpg"
           imgColor="696969"
-        />
+        /> */}
         <section className={styles.ReasearchContainer}>
           <div className={styles.ourTeamMembers}>
             <div className={styles.ourTeamContent}>

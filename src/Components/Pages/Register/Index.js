@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./register.module.css";
-import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
+// import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import { Link } from "react-router-dom";
 import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 import { useSearchParams } from "react-router-dom";
@@ -13,13 +13,13 @@ export default function Index() {
 
   return (
     <>
-      <BannerTitle
+      {/* <BannerTitle
         title="Register With Us"
         titleTag="h1"
         titleColor="#fff"
         localImg="register.jpg"
         imgColor="696969"
-      />
+      /> */}
       <div className={styles.RegisterMainContainer}>
         <div className={styles.RegisterContainer}>
           <div
