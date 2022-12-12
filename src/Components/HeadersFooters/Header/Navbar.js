@@ -46,11 +46,11 @@ export const menuItems = [
         title: "Our Research Team",
         url: "/research/our-research-team",
       },
-      {
-        id: "7.3",
-        title: "Research documents",
-        url: "/research/research-documents",
-      },
+      // {
+      //   id: "7.3",
+      //   title: "Research documents",
+      //   url: "/research/research-documents",
+      // },
       { id: "7.4", title: "Publications", url: "/research/publications" },
       {
         id: "7.5",

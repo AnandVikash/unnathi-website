@@ -17,7 +17,7 @@ export default function Index() {
   return (
     <>
       <BannerTitle
-        title="Traning"
+        title="Training"
         titleTag="h1"
         titleColor="#fff"
         // img="090b2b.png"

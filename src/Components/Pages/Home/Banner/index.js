@@ -16,6 +16,7 @@ import banner4 from "../../../Assets/Home/Banner/live-banner/home-banner-3.jpg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
+
 export default function Index() {
   const settings = {
     dots: false,
