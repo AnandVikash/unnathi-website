@@ -11,7 +11,7 @@ import Counters from "./Counters/index";
 import Testimonials from "./Testimonials/index";
 import Associates from "../../Assets/ElementsUi/Associates/Index";
 
-export default function index() {
+export default function Index() {
   return (
     <div>
       <Banner />

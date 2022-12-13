@@ -23,7 +23,7 @@ export default function Index() {
               title="Projects"
               titleTag="p"
               titleColor="#808080"
-              text="We are always where other people need help"
+              text=""
               textTag="p"
               textColor="#000"
             />

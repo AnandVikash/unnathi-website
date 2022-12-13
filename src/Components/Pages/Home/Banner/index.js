@@ -25,7 +25,7 @@ export default function Index() {
     autoplay: true,
     pauseOnHover: false,
     speed: 2000,
-    autoplaySpeed: 8000,
+    autoplaySpeed: 811111000,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -69,6 +69,7 @@ export default function Index() {
                   <p className="BannerSliderDesc">
                     Counseling session in progress
                   </p>
+                  <Link to="/projects/build-india-movement/1">Read More</Link>
                 </div>
               </div>
             </div>
@@ -80,6 +81,7 @@ export default function Index() {
                   <p className="BannerSliderDesc">
                     Healing services to provide relief
                   </p>
+                  <Link to="/healing">Read More</Link>
                 </div>
               </div>
             </div>
@@ -89,6 +91,7 @@ export default function Index() {
                 <div className="BannerSliderContent">
                   <p className="BannerSliderTitle">Training</p>
                   <p className="BannerSliderDesc">Unnathi trains to empower</p>
+                  <Link to="/training">Read More</Link>
                 </div>
               </div>
             </div>

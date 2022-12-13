@@ -4,6 +4,11 @@ export const menuItems = [
     title: "Home",
     url: "/",
   },
+  {
+    id: "4",
+    title: "About Us",
+    url: "/about-us",
+  },
   { id: "2", title: "Training", url: "/training" },
   {
     id: "3",
@@ -13,11 +18,7 @@ export const menuItems = [
       { id: "3.1", title: "Affirmations", url: "/about/positive-affirmations" },
     ],
   },
-  {
-    id: "4",
-    title: "About Us",
-    url: "/about-us",
-  },
+
   { id: "5", title: "Projects", url: "/projects" },
   {
     id: "6",

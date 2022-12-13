@@ -25,7 +25,7 @@ export default function Index() {
           title="Active Projects"
           titleTag="p"
           titleColor="#808080"
-          text="We are always where other people need help"
+          text=""
           textTag="p"
           textColor="#000"
         />
@@ -61,6 +61,9 @@ export default function Index() {
                           <h3>{item.title.substring(0, 38)} ......</h3>
                         </Link>
                         <p>{item.excerpt.substring(0, 90)} .....</p>
+                        <Link to={`/projects/${item.link}/${item.id}`}>
+                          Know More
+                        </Link>
                         <div className={styles.ProjectsAddressItemContainer}>
                           <div className={styles.ProjectsAddressItem}>
                             <div className={styles.ProjectsAddresIcon}>
