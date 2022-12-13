@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "./AboutFounder.module.css";
-import FounderImg from "../../../Assets/Home/Founder/founder-img.jpg";
+import ShHegde from "../../../Assets/Home/Founder/sh-hegde.jpg";
 import FounderImg1 from "../../../Assets/Home/Founder/unnathi-home-welcome.jpeg";
 import Button from "../../../Assets/ElementsUi/Button";
 
@@ -36,7 +36,7 @@ export default function Index() {
           </div>
           <div className={styles.AboutFounderContainer}>
             <div className={styles.AboutFounderImg}>
-              <img src={FounderImg} />
+              <img src={ShHegde} />
             </div>
             <div
               className={styles.AboutFounderInfo}
