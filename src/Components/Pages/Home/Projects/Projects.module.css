@@ -15,13 +15,13 @@
 }
 .ProjectsItemsFlexContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .ProjectsItemsFlexContainer > div {
-  flex-basis: 33.33%;
-  padding: 20px;
+  flex-basis: 31.33%;
+  /* padding: 20px; */
 }
 
 .ProjectsItems {
@@ -64,6 +64,7 @@
   font-weight: bold;
   margin-top: 20px;
   line-height: 27px;
+  text-align: justify;
 }
 .ProjectItemsHoverText a {
   background-color: #fff;

@@ -7,20 +7,21 @@
 }
 .ProjectsItemsFlexContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 2%;
   flex-wrap: wrap;
+  margin: 20px 0px;
 }
 
 .ProjectsItemsFlexContainer > div {
-  flex-basis: 33.33%;
-  padding: 15px;
+  flex-basis: 31.33%;
+  /* padding: 15px; */
 }
 .ProjectsItems {
   background: linear-gradient(
-      rgba(212, 212, 212, 0.972108) 100%,
-      rgba(255, 77, 0, 0.9317230310092783) 100%
-    ),
-    url(http://localhost:3000/static/media/jupiter.15f140aafda6659a1ab2.svg);
+    rgba(212, 212, 212, 0.972108) 100%,
+    rgba(255, 77, 0, 0.9317230310092783) 100%
+  );
   padding: 8px;
   z-index: -1;
   border-radius: 10px;
@@ -89,14 +90,14 @@
 }
 
 .projectAboutUs {
-  width: 80%;
+  width: 90%;
   margin: 20px auto 0px auto;
 }
 .projectAboutUs p {
   font-size: 20px;
   font-weight: 600;
   line-height: 33px;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 15px;
 }
 

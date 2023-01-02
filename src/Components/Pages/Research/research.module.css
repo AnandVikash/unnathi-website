@@ -3,11 +3,12 @@
 }
 
 .ResearchContainer {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   display: grid;
   grid-gap: 2%;
-  grid-template-columns: 70% 30%;
+  /* grid-template-columns: 70% 30%; */
+  grid-template-columns: 100%;
 }
 
 .ResearchText {
@@ -16,7 +17,7 @@
 
 .ResearchText img {
   width: 100%;
-  height: 350px;
+  /* height: 350px; */
 }
 
 .ResearchText p {

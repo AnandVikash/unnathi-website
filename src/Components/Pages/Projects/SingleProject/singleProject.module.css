@@ -9,7 +9,7 @@
   padding: 10px;
 }
 .SingleProjectContentImg {
-  width: 80%;
+  width: 100%;
   overflow: hidden;
 }
 .SingleProjectContentImg img {
@@ -50,7 +50,7 @@
   margin: 20px 30px 40px;
 }
 .SingleProjectContentDesc ul li {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 28px;
   color: #818090;
   font-weight: 500;

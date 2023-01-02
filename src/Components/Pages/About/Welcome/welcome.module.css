@@ -5,7 +5,10 @@
   width: 100%;
   padding: 8%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 55%;
+  gap: 5%;
+  /* grid-template-columns: 45% 50%;
+  */
   /* align-items: center; */
   margin: 0 auto;
   background-color: #fce9e2;
@@ -15,7 +18,7 @@
   top: 10%;
 }
 .welcomeItem img {
-  width: 95%;
+  width: 100%;
 }
 
 .welcomeItem p {
@@ -111,6 +114,7 @@ button {
     padding: 8%;
     display: grid;
     grid-template-columns: 100%;
+    gap: 0%;
     align-items: center;
     margin: 0 auto;
     background-color: #fce9e2;

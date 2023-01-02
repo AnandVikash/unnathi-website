@@ -1,8 +1,9 @@
 .ReasearchContainer {
   display: grid;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  grid-template-columns: 65% 35%;
+  /* grid-template-columns: 65% 35%; */
+  grid-template-columns: 100%;
   margin-top: 50px;
 }
 .ReasearchContainer > article {

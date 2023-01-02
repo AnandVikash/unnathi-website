@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./welcome.module.css";
 import SecTitle from "../../../Assets/ElementsUi/SecTitle";
-
+import belowBannerImg from "../../../Assets/AboutUs/about-feature-img-1.png";
 export default function Index() {
   return (
     <>
@@ -14,7 +14,7 @@ export default function Index() {
             // data-aos-duration="500"
           >
             <div className={styles.welcomeItemImg}>
-              <img src="https://andit.co/projects/html/jago-welfare/assets/img/common/about.png"></img>
+              <img src={belowBannerImg}></img>
             </div>
           </div>
           <div
