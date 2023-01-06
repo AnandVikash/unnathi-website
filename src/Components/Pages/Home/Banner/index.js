@@ -25,7 +25,7 @@ export default function Index() {
     autoplay: true,
     pauseOnHover: false,
     speed: 2000,
-    autoplaySpeed: 811111000,
+    autoplaySpeed: 5000,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

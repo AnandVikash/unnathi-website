@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./donate.module.css";
 // import BannerTitle from "../../Assets/ElementsUi/BannerTitle/Index";
 import { Link } from "react-router-dom";
-// import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
+import MainLinksSideBar from "../../Assets/ElementsUi/Sidebar/NavLinksSidebar/Index";
 export default function Index() {
   const [form, setForm] = useState({
     name: "",
@@ -177,7 +177,7 @@ export default function Index() {
             data-aos-delay="300"
             data-aos-duration="500"
           >
-            {/* <MainLinksSideBar /> */}
+            <MainLinksSideBar />
           </div>
         </div>
       </div>

@@ -10,6 +10,7 @@ import {
 
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import Logo from "../../Assets/logonew.jpg";
+import { Link } from "react-router-dom";
 export default function index() {
   const data = `<a class="twitter-timeline" href="https://twitter.com/UnnathiF?ref_src=twsrc%5Etfw">Tweets by UnnathiF</a>`;
 
@@ -59,11 +60,21 @@ export default function index() {
               <div className={styles.footerContentLinks}>
                 <p className={styles.footerContentLinksTitle}>Quick Likes</p>
                 <ul>
-                  <li>About us</li>
-                  <li>Services</li>
-                  <li>Projects</li>
-                  <li>News</li>
-                  <li>Career</li>
+                  <li>
+                    <Link to="/about">About us</Link>
+                  </li>
+                  <li>
+                    <Link to="/training">Training</Link>
+                  </li>
+                  <li>
+                    <Link to="/healing">Healing</Link>
+                  </li>
+                  <li>
+                    <Link to="/research">Research</Link>
+                  </li>
+                  <li>
+                    <Link to="/projects">Projects</Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -71,11 +82,18 @@ export default function index() {
               <div className={styles.footerContentLinks}>
                 <p className={styles.footerContentLinksTitle}>Support</p>
                 <ul>
-                  <li>Help & FAQ</li>
-                  <li>Causes</li>
-                  <li>Events</li>
-                  <li>Contact us</li>
-                  <li>Terms of services</li>
+                  <li>
+                    <Link to="/media/gallery">Gallery</Link>
+                  </li>
+                  <li>
+                    <Link to="/media/news">News</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact us</Link>
+                  </li>
+                  <li>
+                    <Link to="/donate-us">Donate Us</Link>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -108,6 +108,13 @@
   font-weight: bold;
   margin-bottom: 30px;
 }
+.footerContentLinks a {
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+}
 .footerContainerTwiteer {
   padding: 5px !important;
 }
