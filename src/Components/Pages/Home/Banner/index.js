@@ -24,8 +24,8 @@ export default function Index() {
     infinite: true,
     autoplay: true,
     pauseOnHover: false,
-    speed: 2000,
-    autoplaySpeed: 5000,
+    speed: 1000,
+    autoplaySpeed: 70000,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -62,7 +62,7 @@ export default function Index() {
               <div className="BannerSliderContainer">
                 <img src={banner1} />
 
-                <div className="BannerSliderContent">
+                <div className="BannerSliderContent" style={{backgroundColor:"#B8ABBD"}}>
                   <p className="BannerSliderTitle">
                     Unnathi’s Build India Movement:
                   </p>
@@ -74,9 +74,9 @@ export default function Index() {
               </div>
             </div>
             <div>
-              <div className="BannerSliderContainer">
+              <div className="BannerSliderContainer" >
                 <img src={banner2} />
-                <div className="BannerSliderContent">
+                <div className="BannerSliderContent" style={{backgroundColor:"#3F3D4A"}}>
                   <p className="BannerSliderTitle">Yogic Healing</p>
                   <p className="BannerSliderDesc">
                     Healing services to provide relief
@@ -88,7 +88,7 @@ export default function Index() {
             <div>
               <div className="BannerSliderContainer">
                 <img src={banner3} />
-                <div className="BannerSliderContent">
+                <div className="BannerSliderContent" style={{backgroundColor:"#DB7358"}}>
                   <p className="BannerSliderTitle">Training</p>
                   <p className="BannerSliderDesc">Unnathi trains to empower</p>
                   <Link to="/training">Read More</Link>

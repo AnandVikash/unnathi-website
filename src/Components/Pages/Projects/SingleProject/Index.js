@@ -18,7 +18,7 @@ export default function Index() {
   const { id, title, desc, organiser, location, image } = filteredProject[0];
   return (
     <>
-      <div>
+      <div className={styles.singleProjectAlpha}>
         {/* <BannerTitle
           title={`${title}`}
           titleTag="h1"

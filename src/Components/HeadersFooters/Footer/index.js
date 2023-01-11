@@ -61,7 +61,7 @@ export default function index() {
                 <p className={styles.footerContentLinksTitle}>Quick Likes</p>
                 <ul>
                   <li>
-                    <Link to="/about">About us</Link>
+                    <Link to="/about-us">About us</Link>
                   </li>
                   <li>
                     <Link to="/training">Training</Link>

@@ -1,3 +1,11 @@
+.youtubeMainContainer{
+  background: linear-gradient(
+    15deg,
+    rgba(243, 232, 226, 0.3) 46%,
+    rgba(243, 232, 226, 0.3) 85%
+  ),
+  url("../../../Assets/page-background.jpg");
+}
 .youtubeAlphaConatiner {
   width: 90%;
   margin: 0 auto;

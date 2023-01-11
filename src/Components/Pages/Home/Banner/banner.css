@@ -27,9 +27,9 @@ marquee a {
 .BannerSliderContent {
   position: absolute;
   bottom: 5%;
-  width: 70%;
+  width: 50%;
   left: 7%;
-  background-color: var(--primary-color);
+  
   opacity: 0.8;
   padding: 20px;
   border-radius: 10px;

@@ -61,8 +61,6 @@
 }
 .AboutFounderContainer {
   display: flex;
-  justify-content: space-between;
-  gap: 5%;
   position: relative;
 }
 .AboutFounderContainer > div {
@@ -75,7 +73,7 @@
   height: fit-content;
 }
 .AboutFounderImg img {
-  width: 100%;
+  width: 90%;
   /* box-shadow: 20px 40px 4px 0px rgba(153, 153, 153, 0.75); */
 }
 .AboutFounderInfo p {
@@ -130,9 +128,6 @@
   font-weight: bold;
   margin: 20px 0px;
   line-height: 30px;
-}
-.AboutFounderInfo img {
-  width: 100%;
 }
 /* clip-path: polygon(100% 0, 0 0, 0 100%); */
 
