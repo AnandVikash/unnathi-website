@@ -23,7 +23,7 @@ export default function Index() {
       {/* <Events /> */}
       <Donation />
       <Counters />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <TestimonialsNew />
       <Associates />
       {/* <Blogs /> */}
