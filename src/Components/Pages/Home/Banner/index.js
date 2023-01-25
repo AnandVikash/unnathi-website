@@ -95,6 +95,18 @@ export default function Index() {
                 </div>
               </div>
             </div>
+            <div>
+              <div className="BannerSliderContainer" >
+                <img src={banner2} />
+                <div className="BannerSliderContent" style={{backgroundColor:"#3F3D4A"}}>
+                  <p className="BannerSliderTitle">Yogic Healing</p>
+                  <p className="BannerSliderDesc">
+                    Healing services to provide relief
+                  </p>
+                  <Link to="/healing">Read More</Link>
+                </div>
+              </div>
+            </div>
             {/* <div>
               <div className="BannerSliderContainer">
                 <img src={banner4} />

@@ -9,6 +9,7 @@ import Blogs from "./Blogs/index";
 import Banner from "./Banner/index";
 import Counters from "./Counters/index";
 import Testimonials from "./Testimonials/index";
+import TestimonialsNew from "./TestimonialNew/TestimonialNew";
 import Associates from "../../Assets/ElementsUi/Associates/Index";
 
 export default function Index() {
@@ -23,6 +24,7 @@ export default function Index() {
       <Donation />
       <Counters />
       <Testimonials />
+      <TestimonialsNew />
       <Associates />
       {/* <Blogs /> */}
     </div>

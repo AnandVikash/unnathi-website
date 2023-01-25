@@ -19,6 +19,8 @@
 }
 .navbarTopAccounts > div {
   margin-left: 20px;
+  /* width: 100%; */
+  /* border: 2px solid red; */
 }
 
 .navbarTopEmail {
@@ -29,9 +31,15 @@
 }
 .navbarTopPhone {
   display: flex;
+  width: 100%;
 }
 .navbarTopPhone > div {
   margin-left: 10px;
+}
+
+.navbarTopNumber{
+  /* border: 2px solid red; */
+  width: 120%;
 }
 .navbarTopSocialAccounts {
   text-align: right;
@@ -129,9 +137,10 @@ menu
 .navbarMenuBackgroundContainer {
   box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
   display: grid;
-  grid-template-columns: 70% 25% 5%;
+  grid-template-columns: 40% 55% 5%;
   padding: 25px 0px 25px 5px;
   border-radius: 10px 0px 0px 10px;
+  /* border: 2px solid red; */
 }
 .navbarMenuItems {
   width: 96%;
@@ -161,7 +170,7 @@ menu
 }
 
 .navbarMenuButton {
-  text-align: center;
+  text-align:end;
 }
 .navbarMenuButton a {
   padding: 10px 20px;

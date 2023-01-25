@@ -63,15 +63,15 @@ export default function index() {
                   <li>
                     <Link to="/about-us">About us</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/training">Training</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/healing">Healing</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/research">Research</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="/projects">Projects</Link>
                   </li>
@@ -87,6 +87,9 @@ export default function index() {
                   </li>
                   <li>
                     <Link to="/media/news">News</Link>
+                  </li>
+                  <li>
+                    <Link to="/media/youtube-links">Youtube Links</Link>
                   </li>
                   <li>
                     <Link to="/contact">Contact us</Link>

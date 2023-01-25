@@ -9,6 +9,37 @@ export default function Index() {
 
   return (
     <>
+     <div className={styles.boxContainer}>
+        <div className={styles.cardsDetail}>
+          <div>
+            <h4>Measure your wellness </h4>
+            <div className={styles.cardsItemLink}>
+                  <Link to="">
+                    Read More
+                  </Link>
+                </div>
+            {/* <div>
+                <button className={styles.btn}>Know more</button>
+            </div> */}
+          </div>
+          <div>
+            <h4>Enhance your wellness at 75% off </h4>
+            <div className={styles.cardsItemLink}>
+                  <Link to="">
+                    Read More
+                  </Link>
+                </div>
+          </div>
+          <div>
+            <h4>Let us Build India together</h4>
+            <div className={styles.cardsItemLink}>
+                  <Link to="">
+                    Read More
+                  </Link>
+                </div>
+          </div>
+        </div>
+      </div>
       <div className={styles.AboutAlphaContainer}>
         <SecTitle
           title=""

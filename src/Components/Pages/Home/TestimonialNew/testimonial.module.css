@@ -1,0 +1,32 @@
+.TestimonialAlphaContainer {
+    margin: 30px 0px 0px;
+    padding: 100px 0px;
+    background: linear-gradient(
+        108deg,
+        rgba(255, 222, 209, 0.56561975131849616) 100%,
+        rgba(255, 77, 0, 0.09317230310092783) 100%
+      ),
+      url(../../../Assets/Home/Testimonials/wood-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .TestimonialContainer {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid red;
+  }
+  
+
+
+  .TestimonialSliderContainer div {
+    height: 100%;
+  }
+
+  @media (max-width: 576px) {
+    .TestimonialContainer {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  

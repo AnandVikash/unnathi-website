@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import SecTitle from "../SecTitle";
 import styles from "./associates.module.css";
-import associate1 from "../../../Assets/Associates/associate-1.png";
-import associate2 from "../../../Assets/Associates/associate-2.png";
-import associate3 from "../../../Assets/Associates/associate-3.png";
-import associate4 from "../../../Assets/Associates/associate-4.png";
-import associate5 from "../../../Assets/Associates/associate-5.png";
-import associate6 from "../../../Assets/Associates/associate-6.png";
+import associate1 from "../../../Assets/Associates/associate-1.jpg";
+import associate2 from "../../../Assets/Associates/associate-2.jpg";
+import associate3 from "../../../Assets/Associates/associate-3.jpg";
+import associate4 from "../../../Assets/Associates/associate-4.jpg";
+import associate5 from "../../../Assets/Associates/associate-5.jpg";
+import associate6 from "../../../Assets/Associates/associate-6.jpg";
 
 export default function Index() {
   const settings = {

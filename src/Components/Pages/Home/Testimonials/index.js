@@ -36,11 +36,12 @@ export default function index() {
 
   return (
     <>
+          {/* data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-duration="600" */}
       <div
         className={styles.TestimonialAlphaContainer}
-        data-aos="fade-up"
-        data-aos-delay="300"
-        data-aos-duration="600"
+  
       >
         <SecTitle
           title="Testimonials"

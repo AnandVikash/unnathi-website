@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./welcome.module.css";
 import SecTitle from "../../../Assets/ElementsUi/SecTitle";
 import belowBannerImg from "../../../Assets/AboutUs/about-feature-img-1.png";
+import ShHegde from "../../../Assets/Home/Founder/sh-hegde.jpg";
 export default function Index() {
   return (
     <>
@@ -100,6 +101,50 @@ export default function Index() {
             </div> */}
           </div>
         </div>
+
+        {/* founder */}
+        <div className={styles.AboutAlphaContainer}>
+        <div className={styles.AboutMainContainer}>
+          <div className={styles.AboutFounderLogoContaier}>
+            <div className={styles.AboutFounderLogo}>
+              <div className={styles.AboutMainBackground}></div>
+
+              {/* <div className={styles.AboutFounderLogoCircle}>
+                <img src="https://unnathi.org/images/logonew.jpg" />
+              </div> */}
+            </div>
+            <div
+              className={styles.AboutFounderLogoText}
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-duration="500"
+            >
+              {/* <div className={styles.AboutMainBackground}></div> */}
+
+              <p>
+                {" "}
+                {/* <img src="https://andit.co/projects/html/jago-welfare/assets/img/icon/about.png" /> */}
+                About founder
+              </p>
+            </div>
+          </div>
+          <div className={styles.AboutFounderContainer}>
+            <div className={styles.AboutFounderImg}>
+              <img src={ShHegde} />
+            </div>
+            <div
+              className={styles.AboutFounderInfo}
+              data-aos="fade-up-left"
+              data-aos-delay="300"
+              data-aos-duration="600"
+            >
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ". </p>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur ". </p>
+            </div>
+          </div>
+        </div>{" "}
+      </div>
+        {/* vision */}
         <div className={styles.visionContainer}>
           <div className={styles.visionDesription}>
             <div className={styles.visionTitle}>Vision</div>

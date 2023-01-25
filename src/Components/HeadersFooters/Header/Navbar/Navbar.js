@@ -50,59 +50,7 @@ function Navbar() {
   return (
     <>
       <div className={styles.navbarAlphaContainer}>
-        <div className={styles.navbarTopContainer}>
-          <div className={styles.navbarTopAccounts}>
-            <div className={styles.navbarTopEmail}>
-              <div>
-                <AiOutlineMail />
-              </div>
-              <div>unnathi.org@gmail.com </div>
-            </div>
-            <div className={styles.navbarTopPhone}>
-              <div>
-                <BsFillTelephoneFill />
-              </div>
-              <div>+91 9845426049</div>
-            </div>
-            <div className={styles.navbarTopFaq}></div>
-          </div>
-          <div className={styles.navbarTopSocialAccounts}>
-            <ul className={styles.navbarTopSocialMedia}>
-              <li>
-                <a
-                  href="https://www.facebook.com/unnathi.healing.5"
-                  target="_blank"
-                >
-                  <FaFacebookF />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/UnnathiF/with_replies"
-                  target="_blank"
-                >
-                  <FaTwitter />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://instagram.com/unnathihealing_foundation?igshid=eauotystejn9"
-                  target="_blank"
-                >
-                  <FaInstagram />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.quora.com/q/ugxhmonbnylydfda?invite_code=uc0zNnmcMc3SrFp5yi6H"
-                  target="_blank"
-                >
-                  <FaQuora />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+    
         <div className={`${styles.navbarMenuAlphaContainer} ${stickyClasses}`}>
           <div className={styles.navbarMenuMainContainer}>
             <div className={styles.navbarlogoContainer}>
@@ -161,15 +109,105 @@ function Navbar() {
                     <MobileMenu />
                   </div>
                 )}
-                {/* <div className={styles.navbarMenuSearch}>
-                  <FaSearch />
-                </div> */}
-                <div className={styles.navbarMenuButton}>
-                  <Link to="/donate-us">Donate Now</Link>
-                </div>
+                    <div className={styles.navbarTopSocialAccounts}>
+            <ul className={styles.navbarTopSocialMedia}>
+              <li>
+                <a
+                  href="https://www.facebook.com/unnathi.healing.5"
+                  target="_blank"
+                >
+                  <FaFacebookF />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/UnnathiF/with_replies"
+                  target="_blank"
+                >
+                  <FaTwitter />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/unnathihealing_foundation?igshid=eauotystejn9"
+                  target="_blank"
+                >
+                  <FaInstagram />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.quora.com/q/ugxhmonbnylydfda?invite_code=uc0zNnmcMc3SrFp5yi6H"
+                  target="_blank"
+                >
+                  <FaQuora />
+                </a>
+              </li>
+            </ul>
+          </div>
               </div>
             </div>
           </div>
+        </div>
+          <div className={styles.navbarTopContainer}>
+          <div className={styles.navbarTopAccounts}>
+            <div className={styles.navbarTopEmail}>
+              <div>
+                <AiOutlineMail />
+              </div>
+              <div>unnathi.org@gmail.com </div>
+            </div>
+            <div className={styles.navbarTopPhone}>
+              <div>
+                <BsFillTelephoneFill />
+              </div>
+              <div>+91 9845426049</div>
+            </div>
+            <div className={styles.navbarTopNumber}> 
+              <p> (MONDAY TO SATURDAY
+9:30 AM TO 6:30 P.M.)</p>
+            </div>
+            {/* <div className={styles.navbarTopFaq}></div> */}
+          </div>
+          <div className={styles.navbarMenuButton}>
+                  <Link to="/donate-us">Donate Now</Link>
+                </div>
+          {/* <div className={styles.navbarTopSocialAccounts}>
+            <ul className={styles.navbarTopSocialMedia}>
+              <li>
+                <a
+                  href="https://www.facebook.com/unnathi.healing.5"
+                  target="_blank"
+                >
+                  <FaFacebookF />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/UnnathiF/with_replies"
+                  target="_blank"
+                >
+                  <FaTwitter />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/unnathihealing_foundation?igshid=eauotystejn9"
+                  target="_blank"
+                >
+                  <FaInstagram />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.quora.com/q/ugxhmonbnylydfda?invite_code=uc0zNnmcMc3SrFp5yi6H"
+                  target="_blank"
+                >
+                  <FaQuora />
+                </a>
+              </li>
+            </ul>
+          </div> */}
         </div>
       </div>
     </>

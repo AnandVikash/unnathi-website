@@ -67,6 +67,17 @@ old[
     img: "new-img/acharya-saraswathi.jpg",
     positionType: "founder",
   },
+
+  {
+    "id": 1,
+    "name": "Acharya Dr. Saraswathi Hegde",
+    "link": "acharya-dr-saraswathi-hegde",
+    "designation": "Founder President",
+    "qualfication": "",
+    "content": "<p>She is a highly empowered, empathetic and spiritual individual with a concern for society and people. She has a doctoral degree in Pranic Healing and Stress Management from the Colombo University. Her thesis explored the multidisciplinary approach and helped her to discover her passion for the development of adolescents, using Pranic healing techniques to reduce stress and enhance academic achievement. She is a direct disciple of Grand Master Choa Kok Sui, a businessman and a chemist who gave the world a simple and practical way of Pranic Healing. He merged religion, yoga, science, and technology to reach everyone practically.  Her learning under his tutelage grew by leaps and bounds. She experienced personal growth and understood the Indian scriptures and the secrets of the Universe in a logical and scientific way. She was able to appreciate connection between spirituality, Indian philosophy, and the Indian way of life in general.</p> <p>She is a prolific writer in Kannada and has written for the prestigious Kannada dailies. She has conducted over 1500 Training sessions on Yogic Healing, Counselling, and family wellness.</p>",
+    "img": "new-img/acharya-saraswathi.jpg",
+    "positionType": "founder"
+  },
   {
     id: 8,
     name: "Aravindan",
